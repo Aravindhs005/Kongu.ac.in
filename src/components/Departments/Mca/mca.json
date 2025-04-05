@@ -1,0 +1,150 @@
+{
+  "image": "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png",
+  "about": "Master of Computer Applications (MCA) is a postgraduate degree that focuses on advanced computing, software development, and information technology. It integrates core concepts of programming, database management, networking, cloud computing, cybersecurity, and artificial intelligence to develop innovative IT solutions. MCA graduates work in diverse domains such as software development, data analytics, system architecture, and IT consulting, driving technological advancements across industries. With the rapid growth of digital transformation, the field continues to evolve, incorporating emerging technologies like blockchain, IoT, and machine learning. As the demand for skilled IT professionals increases, MCA plays a crucial role in shaping experts who design, develop, and optimize cutting-edge computing solutions for a technology-driven future.",
+  "dept-name": "Computer Applications (MCA)",
+  "hod_name": "Dr.A.Tamilarasi",
+  "intake": 120,
+  "staffs": 50,
+  "lab_count": 10,
+  "classrooms": 8,
+  "workshops": 5,
+  "research_centers": 2,
+  "patents_filed": 12,
+  "industry_mous": 15,
+  "vision": "To be a center of excellence for development and dissemination of knowledge in computer applications for the nation and beyond.",
+  "mission": [
+      "To empower individuals with a strong foundation in mathematics, programming logic and coding fundamentals with the necessary tools to effectively tackle the problem-solving challenges in various domains.",
+      "To promote research, innovation and critical thinking to address customer requirements to develop solutions to meet the broader global goals.",
+      "To educate students to be successful, ethical, effective problem-solvers and life-long learners who will contribute to the well-being of our nation."
+  ],
+  "objective": "To equip students with the necessary technical and managerial skills.",
+  "peo": [
+      "Apply computing and mathematical knowledge to identify, formulate, design, implement and develop software solutions for problems across a broad range of application domains.",
+      "Promote the art of effective communication, whether as an individual or as a leader, within diverse groups and multidisciplinary fields.",
+      "Develop the professional ethics in work and realize the role of self in the development of society with a strive for independent and life-long learning in the context of technological changes."
+  ],
+  "po": [
+    "Foundation Knowledge:  Apply knowledge of mathematics, programming logic and coding fundamentals for solution architecture and problem solving.",
+    "Problem Analysis:  Identify, review, formulate and analyse problems primarily focussing on customer requirements using critical thinking frameworks.",
+    "Design/Development of Solutions:  Design, develop and investigate problems with an innovative approach for solutions incorporating ESG/SDG goals.",
+    "Modern Tool usage:  Select, adapt and apply modern computational tools such as development of algorithms with an understanding of the limitations including human biases.",
+    "Individual and Teamwork:  Function and communicate effectively as an individual or a team leader in diverse and multidisciplinary groups. Use methodologies such as agile.",
+    "Project Management and Finance:  Use the principles of project management such as scheduling, work breakdown structure and be conversant with the principles of Finance for profitable project management.",
+    "Ethics:  Understand and commit to professional ethics and cyber regulations, responsibilities, and norms of professional computing practices.",
+    "Life-long learning:  Change management skills and the ability to learn, keep up with contemporary technologies and ways of working."
+  ],
+  "pso": [
+      ".",
+      " ."
+  ],
+  "highlights": {
+    "Placement & Internship": [
+      "Consistent improvement in Placement and Internship."
+    ],
+    "Funded Research Projects": [
+      "Completed 3 Funded Research Projects worth Rs. 23.01 lakh.",
+      "UGC Project: Rs. 5.02 lakh.",
+      "AICTE-RPS Project: Rs. 4.45 lakh.",
+      "ICMR Project: Rs. 13.54 lakh."
+    ],
+    "Funded Programs": [
+      "Organized funded seminars, FDP, STTP, and workshop programs worth Rs. 35.74 lakh."
+    ],
+    "Research Centre": [
+      "02 approved supervisors.",
+      "26 scholars completed Ph.D.",
+      "07 scholars pursuing Ph.D."
+    ],
+    "Faculty Achievements": [
+      "Number of Faculty completed Ph.D: 09.",
+      "Books publications by the faculty: 16.",
+      "Publications by faculty in Journals and Conferences: 477."
+    ],
+    "Conferences & Sponsorships": [
+      "Funded and Self-supporting National & International Conferences organized.",
+      "IIT Bombay Sponsored Rs. 2.3 lakh for infrastructure development."
+    ],
+    "Consultancy Works": [
+      "Completed Consultancy Works worth Rs. 25.32 lakh."
+    ],
+    "MoUs Signed": [
+      "TekAfforde",
+      "Effitrac Solutions",
+      "XESStechLink",
+      "VEI Technologies",
+      "Smart Chainers",
+      "Ingenious Technologies",
+      "Nandha Infotech",
+      "Tringapps",
+      "Atna Technologies",
+      "Workline Pvt. Ltd."
+    ],
+    "Student Achievements": [
+      "Students presented & published papers in various National & International conferences and its proceedings."
+    ]
+  },  
+
+    "milestones": [
+      {
+        "year": 2022,
+        "event": "Received Best Research Department Award."
+      },
+      {
+        "year": 2010,
+        "event": "Established CTS sponsored laboratory."
+      },
+      {
+        "year": 2007,
+        "event": "60 to 120 intake."
+      },
+      {
+        "year": 1998,
+        "event": "30 to 60 intake."
+      },
+      {
+        "year": 1995,
+        "event": "30 intake MCA program commenced."
+      }
+    ],
+
+    "labs": [
+      {
+        "topic": "Multimedia & Operating System Laboratory",
+        "detail": "To perform image editing operations, sound editing operations, 2D/3D animations using Photoshop Tool, sound forge software and flash tools, for providing practical exposure to the students in open source software’s and Linux platform.",
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Oracle Laboratory",
+        "detail": "ORACLE lab is furnished with 50 personal computers with database client software enabling the students to create and interact with the database. The Application software includes Oracle 10-g which works under Windows and Oracle Express on Linux.",
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "CTS Open Source Laboratory",
+        "detail": "To download Free / Open Source Software’s from the web which will help students to develop their own programs / mini projects and do research projects.",
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      }
+      
+    ],
+    
+    "library": {
+      "name": " Computer Applications Department Library",
+      "description": "The Computer Applications department has a separate department library to cater to the specific needs of the Computer Application students. The following is the consolidated data related to the department library.",
+      "details": {
+        "total_area": "216.62 sq.m",
+        "number_of_volumes": "1505",
+        "number_of_titles": "909",
+        "number_of_project_report_cd": "525",
+        "value_of_books_in_rs": "8,99,882.00",
+        "number_of_journals": "8",
+        "value_of_journals_in_rs": "25,600.00",
+        "working_hours": "8:40 AM to 4.30 PM"
+      }
+    },
+    "rnd": {
+      "academic": "https://rnd.kongu.edu/academic/ca.php",
+      "activities":"https://rnd.kongu.edu/activities/ca/index.php"
+    },    
+  "dept_images": [
+      "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png"
+  ]
+}

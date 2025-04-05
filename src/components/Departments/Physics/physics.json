@@ -1,0 +1,96 @@
+{
+  "image": "https://img.freepik.com/free-photo/person-using-ar-technology-their-daily-occupation_23-2151137517.jpg?t=st=1742316233~exp=1742319833~hmac=0445d7af0510bf642933e543fa19a030a8de1172c6bf050f78913509b2c64ce4&w=2000",
+  "about": "Automobile Engineering is a branch of engineering that focuses on the design, development, manufacturing, and maintenance of automobiles. It integrates elements of mechanical, electrical, electronic, software, and safety engineering to create efficient and high-performance vehicles. Automobile engineers work on various aspects, including vehicle aerodynamics, powertrain systems, fuel efficiency, safety features, and advanced technologies such as electric and autonomous vehicles. With the rapid advancements in automotive technology, the field is evolving towards sustainability, incorporating hybrid and electric powertrains to reduce carbon emissions. As the demand for smart and connected vehicles increases, automobile engineering continues to drive innovation in transportation, enhancing performance, safety, and environmental impact.",
+  "dept-name": "Physics",
+  "hod_name": "Dr.K.Prabu",
+  "intake": 60,
+  "staffs": 50,
+  "lab_count": 10,
+  "classrooms": 8,
+  "workshops": 5,
+  "research_centers": 2,
+  "patents_filed": 12,
+  "industry_mous": 15,
+  "vision": "To be a centre of excellence for dissemination of knowledge in Physics and to promote innovation for academic and professional success for the welfare of the nation and beyond.",
+  "mission": [
+      "The Department of Physics is committed to provide adequate knowledge in physics for engineering students through an effective teaching-learning process, to mould them into competent professionals ready to meet global challenges and to promote research activities by nurturing the spirit of innovation among students and members of faculty by providing state-of-the-art facilities in the new areas of science and technology."
+  ],
+  "objective": "The Department aims to disseminate knowledge and skill based understanding of the concepts of science, especially in areas relevant to Engineering and Technology. The research centre in the department provides an active and dynamic research atmosphere where research on futuristic areas in physics is pursued.",
+    
+  "peo": [
+      ".",
+      ".",
+      "."
+  ],
+  "po": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "pso": [
+      ".",
+      " ."
+  ],
+  "highlights": {
+      "Conferences organized": "International - 3",
+      "Sponsored Seminars / Workshops / FDP organized": "4 (funded by CSIR)",
+      "Publications by faculty in journals": 98,
+      "Publications by faculty in conferences": 40,
+      "Consultancy / training activities carried out": "Rs.5.23Lakhs",
+      "Consistent improvement in Placement and Internship": true,
+      "Sponsored student’s projects": "06 (IIT Palakkad, SPARK fund and SEED grant)",
+      "MoU": [
+          "Brakes India", "Wheels India", "Roots Industries", "Niyata Infotech Pvt Ltd, Bangalore", 
+          "Sree Saradhambal Automobiles Pvt Ltd, Coimbatore", "Aadhi Cars Pvt Ltd, Coimbatore", "IMIK Technologies, Coimbatore"
+      ],
+      "State of art laboratory facilities": true,
+      "Papers presented by students": "140 and won 20 prizes, 7 prizes from MITs, NITs & other premier institutions",
+      "Projects presented by students": "59 and won 25 prizes, 6 prizes from IITs.",
+      "Participation in National and International Events": [
+          "KPIT", "E-Kart", "Baja", "Go-kart", "E-Kart", "Aero Modelling", "Electric Two-Wheeler Design Challenge", "Bicycle Design Challenge"
+      ]
+  },
+
+    "milestones": [
+      {
+        "year": 1998,
+        "event": "B.E.(EIE) Programme started with an intake of 30."
+      }
+    ],
+
+    "labs": [
+      {
+        "topic": "Physics Laboratory",
+        "detail": [
+            "Three physics laboratories have been established with an area of 523.38 sq.m. and with equipment worth Rs.15.36 lakhs. Thin film research laboratory was established with an area of 51.35 sq.m. and with equipment worth Rs.15 lakhs."
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      }
+    ],
+    
+    "library": {
+      "name": "Physics Department Library",
+      "description": "The Physics department has a separate department library to cater to the specific needs of the students. The following is the consolidated data related to the department library.",
+      "details": {
+        "number_of_titles": "175"
+      },
+    "rnd": {
+      "academic": "https://rnd.kongu.edu/academic/english.php",
+      "activities":"https://rnd.kongu.edu/activities/snh/index.php"
+    },    
+  "dept_images": [
+      "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png"
+  ]
+}
+}

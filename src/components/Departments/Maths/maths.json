@@ -1,0 +1,97 @@
+{
+  "image": "https://img.freepik.com/free-photo/person-using-ar-technology-their-daily-occupation_23-2151137517.jpg?t=st=1742316233~exp=1742319833~hmac=0445d7af0510bf642933e543fa19a030a8de1172c6bf050f78913509b2c64ce4&w=2000",
+  "about": "Automobile Engineering is a branch of engineering that focuses on the design, development, manufacturing, and maintenance of automobiles. It integrates elements of mechanical, electrical, electronic, software, and safety engineering to create efficient and high-performance vehicles. Automobile engineers work on various aspects, including vehicle aerodynamics, powertrain systems, fuel efficiency, safety features, and advanced technologies such as electric and autonomous vehicles. With the rapid advancements in automotive technology, the field is evolving towards sustainability, incorporating hybrid and electric powertrains to reduce carbon emissions. As the demand for smart and connected vehicles increases, automobile engineering continues to drive innovation in transportation, enhancing performance, safety, and environmental impact.",
+  "dept-name": "Mathematics",
+  "hod_name": "Dr.M.Dhavamani",
+  "intake": 60,
+  "staffs": 50,
+  "lab_count": 10,
+  "classrooms": 8,
+  "workshops": 5,
+  "research_centers": 2,
+  "patents_filed": 12,
+  "industry_mous": 15,
+  "vision": "The Department of Mathematics is committed to empowering students to understand and learn the required concepts of Mathematics and apply them effectively in the fields of Engineering and Technology.",
+  "mission": [
+      "To expand knowledge in Mathematics, establish the department as a research centre and cater to the needs of the student community to become qualified professionals. To create and develop necessary infrastructure and a learning environment using the services of a highly qualified and dedicated team of faculty members."
+  ],
+  "objective": "To equip students with the necessary technical and managerial skills.",
+  "peo": [
+      ".",
+      ".",
+      "."
+  ],
+  "po": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "pso": [
+      ".",
+      " ."
+  ],
+  "highlights": {
+      "Conferences organized": "International - 3",
+      "Sponsored Seminars / Workshops / FDP organized": "4 (funded by CSIR)",
+      "Publications by faculty in journals": 98,
+      "Publications by faculty in conferences": 40,
+      "Consultancy / training activities carried out": "Rs.5.23Lakhs",
+      "Consistent improvement in Placement and Internship": true,
+      "Sponsored student’s projects": "06 (IIT Palakkad, SPARK fund and SEED grant)",
+      "MoU": [
+          "Brakes India", "Wheels India", "Roots Industries", "Niyata Infotech Pvt Ltd, Bangalore", 
+          "Sree Saradhambal Automobiles Pvt Ltd, Coimbatore", "Aadhi Cars Pvt Ltd, Coimbatore", "IMIK Technologies, Coimbatore"
+      ],
+      "State of art laboratory facilities": true,
+      "Papers presented by students": "140 and won 20 prizes, 7 prizes from MITs, NITs & other premier institutions",
+      "Projects presented by students": "59 and won 25 prizes, 6 prizes from IITs.",
+      "Participation in National and International Events": [
+          "KPIT", "E-Kart", "Baja", "Go-kart", "E-Kart", "Aero Modelling", "Electric Two-Wheeler Design Challenge", "Bicycle Design Challenge"
+      ]
+  },
+
+    "milestones": [
+      {
+        "year": 1998,
+        "event": "B.E.(EIE) Programme started with an intake of 30."
+      }
+    ],
+
+    "labs": [
+      {
+        "topic": "Mathematics Laboratory",
+        "detail": [
+            "Models from different fields of Mathematics like Geometry, Calculus of variations, Graph theory, Integration, Astronomy etc., are exhibited in the Mathematics Laboratory. Formula illustrative models exhibited in our laboratory help the students to understand the concepts in different dimensions. The models for abstract concepts sharpen the analytical thoughts of students and help them to solve brain teasing problems.",
+            "Some of the photos of the great mathematicians are kept in the Laboratory to introduce their works among the student community. Different types of puzzle books, files of collection of aptitude questions are available in the laboratory library for the usage of first year B.E/B.Tech students, to prepare for quiz programmes and competitive examinations."
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      }
+    ],
+    
+    "library": {
+      "name": "Mathematics Department Library",
+      "description": "The Mathematics department has a separate department library to cater to the specific needs of the students. The following is the consolidated data related to the department library.",
+      "details": {
+        "number_of_titles": "531",
+        "working_hours": "8:40 AM to 4.30 PM"
+      }
+    },
+    "rnd": {
+      "academic": "https://rnd.kongu.edu/academic/mathematics.php",
+      "activities":"https://rnd.kongu.edu/activities/snh/index.php"
+    },    
+  "dept_images": [
+      "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png"
+  ]
+}

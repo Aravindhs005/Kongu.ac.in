@@ -1,0 +1,360 @@
+.navi-container {
+  width: 100%;
+  background: #ffffff;
+  color: #262464;
+  padding: 10px 20px;
+  position: fixed;
+  top: 28px; /* Below Section */
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999; /* Lower than Section */
+  transition: background 0.5s ease;
+  border-bottom: 1px solid #b6b6bd;
+}
+
+.navi-container img {
+  width: 70px;
+}
+
+.navi-links-nav {
+  display: none;
+}
+
+.navi-container ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navi-container ul li {
+  position: relative;
+}
+
+.navi-top-nav ul li {
+  font-size: 14px;
+}
+
+.navi-btm-nav ul li {
+  font-size: 17px;
+}
+
+.navi-dark-nav {
+  background: #ffffff;
+}
+
+
+/* Navigation Banner */
+.navi-banner-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navi-top-nav {
+  padding-bottom: 9px;
+}
+
+.navi-banner-logo img {
+  width: 50px;
+}
+
+.navi-banner-text {
+  color: rgb(48, 43, 91);
+  font-family: "Oswald", serif;
+  text-align: left;
+}
+
+.navi-banner-text h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.navi-banner-text p {
+  margin: 5px 0;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+}
+
+/* Navigation Button */
+.navi-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #ff6f61;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.navi-btn:hover {
+  background: #e65a50;
+}
+
+/* Dropdown Menu */
+.navi-dropdown {
+  cursor: pointer;
+}
+
+.navi-dropdown-title {
+  position: relative;
+}
+
+.navi-dropdown-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 100;
+  padding: 10px;
+  gap: 5px;
+  width: 250px;
+}
+
+.navi-dropdown-content a {
+  text-decoration: none;
+  color: #212ea0;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.navi-dropdown-content a:hover {
+  background: #f0f0f0;
+}
+
+/* Clickdown for Logo */
+.navi-clickdown-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60%;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  z-index: 1001;
+  padding: 20px;
+  gap: 5px;
+  width: 300px;
+}
+
+.navi-clickdown-logo {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.navi-clickdown-content a {
+  text-decoration: none;
+  color: #212ea0;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.navi-clickdown-content a:hover {
+  background: #f0f0f0;
+}
+
+.navi-menu-icon {
+  display: none;
+}
+
+.mobileView {
+  position: absolute;
+  top: 0;
+  left: 20vw; /* Start from the right of the navbar */
+  width: 80vw; /* Cover remaining half of the screen */
+  height: 100vh;
+  background-color: #ffffff;
+  color: rgb(39, 51, 91);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.mobileView.open {
+  transform: translateX(0);
+}
+
+.naviMobileMenu {
+  list-style: none;
+  padding: 0;
+}
+
+/* Mobile View */
+@media (max-width: 840px) {
+  .navi-container {
+    top: 42px; /* Adjust if Section height changes */
+    padding: 8px 15px;
+  }
+
+  .mobileView{
+    display: block;
+  }
+
+  .naviMobileMenu li {
+    padding: 1px;
+    cursor: pointer;
+    /* border-bottom: 1px solid #ffffff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+/* Mobile Sub-dropdown */
+.subDropdown {
+  display: none;
+  background-color: #f9f9f9;
+  list-style: none;
+  padding: 10px;
+  flex-direction: column;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.subDropdown.active {
+  display: flex; /* Show when active */
+}
+
+.subDropdown li {
+  padding: 12px;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.subDropdown li:last-child {
+  border-bottom: none;
+}
+
+.subDropdown li:hover {
+  background-color: #e0e0e0;
+}
+
+/* Back button inside sub-dropdown */
+.subDropdown .back-btn {
+  display: block;
+  padding: 12px;
+  font-size: 18px;
+  background: #ddd;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.subDropdown .back-btn:hover {
+  background: #bbb;
+}
+  .navi-container ul {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    background: #cecccc;
+    padding-top: 2px;
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+    z-index: 1000;
+  }
+
+  .navi-links-nav {
+    display: block;
+  }
+
+  .navi-system-nav {
+    display: none;
+  }
+
+  .navi-banner-logo img {
+    width: 45px;
+  }
+
+  .navi-banner-text {
+    color: rgb(48, 43, 91);
+    font-family: "Oswald", serif;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .navi-banner-text h1 {
+    font-size: 12px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .navi-banner-text p {
+    margin: 5px 0;
+    font-size: 8px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+  }
+
+  .navi-menu-icon {
+    display: block;
+    font-size: 25px;
+    z-index: 1001;
+  }
+
+  .naviMobileMenu{
+    display: none;
+  }
+
+  .navi-hide-mobile-menu {
+    transform: translateX(100%);
+
+  }
+
+
+  .navi-container ul:not(.navi-hide-mobile-menu) {
+    transform: translateX(0);
+  }
+
+  .navi-container ul li {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .navi-top-nav ul li,
+  .navi-btm-nav ul li {
+    font-size: 16px;
+  }
+
+  .navi-dropdown-content {
+    position: static;
+    background: white;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .navi-dropdown-content a {
+    text-align: left;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}

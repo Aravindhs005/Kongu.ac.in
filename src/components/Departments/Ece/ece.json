@@ -1,0 +1,277 @@
+{
+  "image": "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png",
+  "about": "Electronics and Communication Engineering (ECE) is a branch of engineering that focuses on the design, development, and application of electronic devices and communication systems. It encompasses various fields, including embedded systems, VLSI design, signal processing, wireless communication, and the Internet of Things (IoT). ECE engineers work on cutting-edge technologies such as 5G, satellite communication, artificial intelligence, and semiconductor technology, shaping the future of global connectivity. With rapid advancements in communication networks and smart devices, the field continues to evolve, enhancing speed, efficiency, and security in data transmission. As the world moves towards a more connected and digital era, Electronics and Communication Engineering plays a crucial role in driving innovation across industries, improving communication, automation, and intelligent systems.",
+  "dept-name": "Electronics and Communication Engineering",
+  "hod_name": "Dr.N.Kasthuri",
+  "intake": 240,
+  "staffs": 50,
+  "lab_count": 10,
+  "classrooms": 8,
+  "workshops": 5,
+  "research_centers": 2,
+  "patents_filed": 12,
+  "industry_mous": 15,
+  "vision": "To be a centre of excellence for development and dissemination of knowledge in Electronics and Communication Engineering for the Nation and beyond.",
+  "mission": [
+      "To impart industry and research based quality education for developing value based Electronics and Communication engineers.",
+      "To enrich the academic activities by continual improvement in the teaching learning process.",
+      "To infuse confidence in the minds of students to develop as entrepreneurs.",
+      "To develop expertise for consultancy activities by providing thrust for Industry Institute Interaction.",
+      "To endeavor for constant up gradation of technical expertise for producing competent professionals to cater to the needs of the society and to meet the global challenges."
+  ],
+  "objective": "To equip students with the necessary technical and managerial skills.",
+  "peo": [
+      "Succeed in industry and higher education by applying knowledge of mathematics, science and engineering principles.",
+      "Analyze, design and implement electronics based solutions to meet the real-world problems, with constant update of domain knowledge.",
+      "Demonstrate Soft skills, Professional and Ethical values and an aptitude for lifelong learning needed for a successful professional career."
+  ],
+  "po": [
+    "Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.",
+    "Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.",
+    "Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal and environmental considerations.",
+    "Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.",
+    "Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.",
+    "The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.",
+    "Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.",
+    "Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.",
+    "Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.",
+    "Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.",
+    "Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.",
+    "Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+  ],
+  "pso": [
+      "Products Development: Apply intradisciplinary knowledge and skills to develop products for providing solutions for the real world problems in Industry, Agriculture, Healthcare and Communication etc.",
+      "Development of Entrepreneurship: An aptitude to take up applied research useful to become Entrepreneurs in Electronics and Communication Engineering by combining the skills of project management and finance."
+  ],
+    "highlights": {
+      "Publications": [
+        "1031 papers published in international journals and conferences with SCI/Scopus/WOS",
+        "655 publications have been done by our faculty members"
+      ],
+      "Centres of Excellence": [
+        "COE-Intel Unnati Labs - 2024",
+        "COE in Edge AI with Digitoad Technologies, Bengaluru - 2022",
+        "Centre of Excellence in VLSI Domain - 2021"
+      ],
+      "Startups Initiated": ["Gluco Track", "Likan", "Agaram Agro Tech"],
+      "Awards": [
+        "Shri P P Malhotra Memorial Award for IETE - 2023",
+        "Dr.Kalam Young Achiever Awards from World Youth Federation - 2020, 2016, 2017",
+        "Uzhavar Award from Uzhavan Foundation - 2020",
+        "Teaching Excellency Awards - 2017",
+        "All India National Award from Thal Sainik Camp, New Delhi - 2017",
+        "Best Innovation Award with cash prize of Rs.25,000 from CII and YI - 2017",
+        "Chennai Science Fest-2017 Award from Science City, Government of Tamil Nadu - 2017",
+        "Young Scientists Conclave Award in Indian International Science Festival from GoI - 2016",
+        "Best NSS Volunteer Award from Anna University - 2016",
+        "Gandhian Young Technological Innovation Award from IIM, Ahmedabad - 2013-2014",
+        "Best IETE Student Forum (ISF) Award - 2010-12 and 2014-16",
+        "ISTE National Award for Best B.E Project"
+      ],
+      "Grants Received": [
+        "NCW (National Commission for Woman- Government of India) grant of Rs.4.75 Lakhs - 2019",
+        "DST grant of Rs.35 Lakhs - 2019",
+        "AICTE grant of Rs.14 Lakhs - 2019",
+        "FIST grant of Rs.13.6 Lakhs - 2018",
+        "AICTE grant of Rs.9.44 Lakhs under MODROBS-VLSI Lab",
+        "UGC minor research projects - Rs.1.3 Lakhs and Rs.1 Lakh",
+        "AICTE grant of Rs.5 Lakhs under MODROBS - Communication Lab"
+      ],
+      "Patents": ["4 obtained", "27 published"],
+      "Consultancy Works": "Rs.14 Lakhs for various industries",
+      "MoU Signed": "12 Industries",
+      "Accreditations": [
+        "Extension of NBA accreditation for one year under Tier-1 Washington Accord - 2016",
+        "Reaccredited by NBA for 2 years under Tier-I Washington Accord - 2014",
+        "Department accredited by NBA for five years - 2001 and 2008"
+      ],
+      "Infrastructure and Labs": [
+        "Texas Instruments sponsored Analog System Design lab - 2014",
+        "Established Free scale Embedded system laboratory Sponsored by Free scale Semiconductors Inc, USA",
+        "Rs.4 Crore Technological Business Incubator with DST funding"
+      ],
+      "Student Achievements": [
+        "Best presentation award for a student at NASA, USA",
+        "IEEE Enterprise Award for students",
+        "5538 students presented technical papers/projects with 864 prize winners",
+        "304 project models exhibited in science exhibitions"
+      ],
+      "Research Projects": [
+        "Research project undertaken for BPL Telecom, Palakkad",
+        "Approved Research Centre by Anna University of Technology, Coimbatore"
+      ],
+      "Academic Milestones": [
+        "M.E Embedded Systems started - 2012",
+        "B.E Electronics and Communication Engineering intake increased from 180 to 240 - 2012",
+        "M.E Communication Systems started - 2011",
+        "B.E Electronics and Communication Engineering intake increased from 120 to 180 - 2011",
+        "M.E VLSI Design started - 2003",
+        "M.E Applied Electronics started - 2002",
+        "B.E Electronics and Communication Engineering intake increased from 60 to 90 - 2000",
+        "B.E Electronics and Communication Engineering started with 60 students - 1984"
+      ],
+      "Events and Workshops": [
+        "126 self-supported national level workshop/seminar/FDP from 2010-11 till date",
+        "41 sponsored national level workshop/seminar/FDP from 2010-11 till date",
+        "First National Level Students Technical Symposium \"ACUMEN\" held - 1996"
+      ],
+      "Radio and Media": "Kongu Community Radio (90.4MHz) established - 2005"
+    },  
+    "milestones": [
+      {
+        "year": 2022,
+        "event": [
+            "Established Centre of Excellence on Industrial IoT.",
+            "NBA awarded Accreditation for 3 years."
+        ]
+      },
+      {
+        "year": 2020,
+        "event": "Reaccredited by NBA for 1 year."
+      }
+    ],
+
+    "labs": [
+      {
+        "topic": "Research Lab",
+        "detail": [
+          "Research laboratory was established using various funding agencies like DST, TNSCST, FIST, AICTE MODROB etc for the purpose of research and development."
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg",
+        "table": [
+          {
+            "s_no": 1,
+            "name": "Sponsoring Agency",
+            "details": "Department of Science and Technology, India F.No/DST/SSTP/2018/232 (G) dated 31.03.2019"
+          },
+          {
+            "s_no": 2,
+            "name": "Title of project",
+            "version": "Design of an Automatic Fabric Defect and Shade Variation Detector: A Predictive Model for Textile Industries in Tiruppur District, TamilNadu",
+            "users": 50
+          },
+          {
+            "s_no": 3,
+            "name": "ANSYS",
+            "version": "2025 R1",
+            "users": 50
+          },
+          {
+            "s_no": 4,
+            "name": "MINITAB",
+            "version": "17",
+            "users": 10
+          },
+          {
+            "s_no": 5,
+            "name": "ABAQUS",
+            "version": "V6.12",
+            "users": 40
+          },
+          {
+            "s_no": 6,
+            "name": "CATIA",
+            "version": "V5-6R2015",
+            "users": 30
+          },
+          {
+            "s_no": 7,
+            "name": "ANSYS",
+            "version": "14.0",
+            "users": 50
+          },
+          {
+            "s_no": 8,
+            "name": "AUTO CAD",
+            "version": "R2010",
+            "users": 30
+          },
+          {
+            "s_no": 9,
+            "name": "NX NASTRAN",
+            "version": "V5",
+            "users": 5
+          },
+          {
+            "s_no": 10,
+            "name": "PRO/ENGINEER",
+            "version": "Wildfire 4.0",
+            "users": 400
+          },
+          {
+            "s_no": 11,
+            "name": "NX (IDEAS & UNIGRAPHICS)",
+            "version": "NX4",
+            "users": 10
+          },
+          {
+            "s_no": 12,
+            "name": "SOLIDWORKS",
+            "version": "2022-23",
+            "users": 500
+          },
+          {
+            "s_no": 13,
+            "name": "MATLAB",
+            "version": "R2024b",
+            "users": "Campus wide suite"
+          }
+        ]
+      }
+     
+    ],
+    
+    "library": {
+      "name": " Electronics and Communication Engineering Department Library",
+      "description": "The Electronics and Instrumentation engineering department has a separate department library to cater to the specific needs of the students. The following is the consolidated data related to the department library.",
+      "details": {
+        "total_area": "20.12mx4.88m",
+        "number_of_titles": "611",
+        "number_of_books": "1452",
+        "number_of_online_journals": "27",
+        "number_of_national_journals & magazines_subscribed": "3 + Employment News",
+        "project_report": "All the BE and ME degree project work reports"
+      }
+    },
+
+      "patents": {
+        "details": [
+          {
+            "Title": "Automatic gas stove",
+            "Students": ["G.Manikandan", "R.Shankar", "Jabachakraborty"],
+            "Guide": ["Dr.G.Murugesan"],
+            "Year": "25.4.2008",
+            "Patent No": "219187"
+          },
+          {
+            "Title": "Polymorphic keyboard for physically handicapped",
+            "Students": ["K.S.Satheesh Kumar"],
+            "Guide": ["V.R.Saraswathy"],
+            "Year": "13.5.2008",
+            "Patent No": "219748"
+          },
+          {
+            "Title": "A plucking device for climbing a tree and harvesting a fruit from the tree",
+            "Students": ["R.Sathishkumar"],
+            "Guide": ["Dr.S.Maheswaran"],
+            "Year": "9.8.2021",
+            "Patent No": "374141"
+          },
+          {
+            "Title": "Automatic Coconut Dehusking Machine With Identification of Decay in Coconut",
+            "Students": ["R.P.Karthik"],
+            "Guide": ["Dr.S.Maheswaran", "S.Sathesh"],
+            "Year": "14.3.2024",
+            "Patent No": "526009"
+          }
+        ]
+      },
+    
+    "rnd": {
+      "academic": "https://rnd.kongu.edu/academic/ece.php",
+      "activities":"https://rnd.kongu.edu/activities/ece/index.php"
+    },    
+  "dept_images": [
+      "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png"
+  ]
+}
