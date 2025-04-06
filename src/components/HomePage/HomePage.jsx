@@ -19,6 +19,7 @@ import Ecosystem from './Ecosystem/Ecosystem';
 import Placement from './Placement/Placement';
 import CampusVideo from './CampusVideo/CampusVideo';
 import ScrollToTopButton from '../ScrollToTopButton';
+import Department from './Department/Department';
 
 const HomePage = () => {
 
@@ -30,6 +31,7 @@ const HomePage = () => {
       <Slider/>
       <About/>
       {/* <Data/> */}
+      <Department/>
       <Ranking/>
       <Placement/>
       <Newsletter/>

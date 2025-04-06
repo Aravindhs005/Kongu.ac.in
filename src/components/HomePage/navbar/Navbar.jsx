@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars,faXmark, faSquareCaretDown,faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-const NaviNavbar = () => {
+const Navbar = () => {
   const [naviSticky, setNaviSticky] = useState(false);
   const [naviMobileMenu, setNaviMobileMenu] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -98,33 +98,34 @@ const NaviNavbar = () => {
                       naviTimeoutId = setTimeout(() => setNaviActiveDropdown(null), 300);
                     }}
                   >
-                    <a href="https://kongu.ac.in/pages/aboutkec.php" target="_blank" rel="noopener noreferrer">
+                    <span onClick={() => navigate('/aboutkec')} style={{ cursor: 'pointer' }}>
                       About KEC
-                    </a>
-                    <a href="https://kongu.ac.in/pages/vmq.php.php" target="_blank" rel="noopener noreferrer">
+                    </span>
+                    <span onClick={() => navigate('/vision')} style={{ cursor: 'pointer' }}>
                       Vision Mission & Quality Policy
-                    </a>
-                    <a href="https://kongu.ac.in/pages/kvitt.php" target="_blank" rel="noopener noreferrer">
-                      KVITT Office Bearers
-                    </a>
-                    <a href="https://kongu.ac.in/pages/kvitt.php" target="_blank" rel="noopener noreferrer">
+                    </span>
+                    <span onClick={() => navigate('/officebearers')} style={{ cursor: 'pointer' }}>
+                      KVIT Office Bearers
+                    </span>
+                    <span onClick={() => navigate('/headoftheinstitution')} style={{ cursor: 'pointer' }}>
                       Head of the Institution
-                    </a>
-                    <a href="https://kongu.ac.in/pages/kvitt.php" target="_blank" rel="noopener noreferrer">
+                    </span>
+                    <span onClick={() => navigate('/governingcouncil')} style={{ cursor: 'pointer' }}>
                       Governing Council
-                    </a>
-                    <a href="https://kongu.ac.in/pages/kvitt.php" target="_blank" rel="noopener noreferrer">
+                    </span>
+                    <span onClick={() => navigate('/academiccouncil')} style={{ cursor: 'pointer' }}>
                       Academic Council
-                    </a>
-                    <a href="https://kongu.ac.in/pages/kvitt.php" target="_blank" rel="noopener noreferrer">
+                    </span>
+                    <span onClick={() => navigate('/universityranks')} style={{ cursor: 'pointer' }}>
                       University Ranks
-                    </a>
-                    <a href="https://kongu.ac.in/pages/kvitt.php" target="_blank" rel="noopener noreferrer">
-                      Endowments
-                    </a>
-                    <a href="https://kongu.ac.in/pages/kvitt.php" target="_blank" rel="noopener noreferrer">
+                    </span>
+                    <span onClick={() => navigate('/endownments')} style={{ cursor: 'pointer' }}>
+                      Endownments
+                    </span>
+                    <span onClick={() => navigate('/collegerules')} style={{ cursor: 'pointer' }}>
                       College Rules
-                    </a>
+                    </span>
+                    
                   </div>
                 )}
               </li>
@@ -196,27 +197,31 @@ const NaviNavbar = () => {
                       naviTimeoutId = setTimeout(() => setNaviActiveDropdown(null), 300);
                     }}
                   >
-                    <Link to="navi-about-us-1" smooth={true} duration={500}>
+
+                    <span onClick={() => navigate('/autonomous')} style={{ cursor: 'pointer' }}>
                       Autonomous
-                    </Link>
-                    <Link to="navi-about-us-2" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/university')} style={{ cursor: 'pointer' }}>
+                      University
+                    </span>
+                    <span onClick={() => navigate('/nba')} style={{ cursor: 'pointer' }}>
                       NBA
-                    </Link>
-                    <Link to="navi-about-us-3" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/naac')} style={{ cursor: 'pointer' }}>
                       NAAC
-                    </Link>
-                    <Link to="navi-about-us-1" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/nirf')} style={{ cursor: 'pointer' }}>
                       NIRF
-                    </Link>
-                    <Link to="navi-about-us-2" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/aicteet')} style={{ cursor: 'pointer' }}>
                       AICTE E&T
-                    </Link>
-                    <Link to="navi-about-us-3" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/aictemca')} style={{ cursor: 'pointer' }}>
                       AICTE MCA
-                    </Link>
-                    <Link to="navi-about-us-3" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/aictemba')} style={{ cursor: 'pointer' }}>
                       AICTE MBA
-                    </Link>
+                    </span>
                   </div>
                 )}
               </li>
@@ -260,18 +265,20 @@ const NaviNavbar = () => {
 
               {naviIsLogoDropdownOpen && (
                 <div className="navi-clickdown-content">
-                  <Link to="navi-link-1" smooth={true} duration={500}>
-                    Facilities
-                  </Link>
-                  <Link to="navi-link-2" smooth={true} duration={500}>
-                    Academic
-                  </Link>
-                  <Link to="navi-link-3" smooth={true} duration={500}>
-                    COE
-                  </Link>
-                  <Link to="navi-link-4" smooth={true} duration={500}>
-                    R&D
-                  </Link>
+                    <span onClick={() => navigate('/facilities')} style={{ cursor: 'pointer' }}>
+                      Facilities
+                    </span>
+                    <span onClick={() => window.open('https://academic.kongu.edu/', '_blank')} >
+                      Academic
+                    </span>
+
+                    <span onClick={() => window.open('https://coe.kongu.edu/', '_blank')} >
+                      COE
+                    </span>
+
+                    <span onClick={() => window.open('https://rnd.kongu.edu/', '_blank')} >
+                      R&D
+                    </span>
                   <Link to="navi-link-5" smooth={true} duration={500}>
                     IEF
                   </Link>
@@ -358,4 +365,4 @@ const NaviNavbar = () => {
   );
 };
 
-export default NaviNavbar;
+export default Navbar;
