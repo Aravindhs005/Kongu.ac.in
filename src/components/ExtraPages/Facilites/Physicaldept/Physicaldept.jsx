@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Physicaldept.css";
+import Spinner from "../../../Spinner";
 
 import achi2015 from '../../../../assets/docs/Sports/Achievements 2015-16.pdf';
 import achi2016 from '../../../../assets/docs/Sports/Achievements 2016-17.pdf';
@@ -41,7 +42,15 @@ const Physicaldept = () => {
     setActiveSection(section);
   };
 
-  return (
+  const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        const timer = setTimeout(() => setLoading(false), 1500);
+        return () => clearTimeout(timer);
+      }, []);
+    
+    
+      return loading ? <Spinner /> : (
     <>
     <Section/>
     <Navbar/>
@@ -50,11 +59,16 @@ const Physicaldept = () => {
 
       <nav className="physical-nav">
         {["Home", "Facilities", "Activities Calendar", "Gallery", "Achievements"].map((item, index) => (
-          <button key={index} onClick={() => handleNavClick(item)} className="nav-button">
+          <button
+            key={index}
+            onClick={() => handleNavClick(item)}
+            className={`phy-nav-button ${activeSection === item ? "active" : ""}`}
+          >
             {item}
           </button>
         ))}
       </nav>
+
 
       {activeSection === "Home" && (
   <section className="physical-section" id="home">
@@ -104,10 +118,10 @@ const Physicaldept = () => {
 
     <h3>Staff</h3>
     <ul>
-      <li><strong>Professor-Incharge:</strong> Dr. K. Kannan, M.Tech, Ph.D</li>
-      <li><strong>Director of Physical Education:</strong> Dr. R. Jeyaraman, M.P.Ed, M.Phil, Ph.D</li>
-      <li><strong>Assistant Physical Director:</strong> Mr. V. Kannan, M.P.Ed, M.Phil</li>
-      <li><strong>Assistant Physical Director:</strong> Ms. D. Pavithra, M.P.Ed</li>
+      <li><strong>Professor-Incharge:</strong><br /> Dr. K. Kannan, M.Tech, Ph.D</li>
+      <li><strong>Director of Physical Education:</strong><br /> Dr. R. Jeyaraman, M.P.Ed, M.Phil, Ph.D</li>
+      <li><strong>Assistant Physical Director:</strong><br /> Mr. V. Kannan, M.P.Ed, M.Phil</li>
+      <li><strong>Assistant Physical Director:</strong><br /> Ms. D. Pavithra, M.P.Ed</li>
     </ul>
 
     <h3>Contact</h3>

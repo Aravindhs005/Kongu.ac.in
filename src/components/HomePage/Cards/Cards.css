@@ -1,36 +1,32 @@
-.cards-container {
+.kec-cards-container {
   display: grid;
   gap: 20px;
   padding: 20px;
   justify-items: center;
 }
 
-/* Desktop: 6 columns */
 @media (min-width: 1200px) {
-  .cards-container {
+  .kec-cards-container {
     grid-template-columns: repeat(6, 1fr);
   }
 }
 
-/* Tablet: 4 columns */
 @media (min-width: 768px) and (max-width: 1199px) {
-  .cards-container {
+  .kec-cards-container {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-/* Mobile: 2 columns */
 @media (max-width: 767px) {
-  .cards-container {
+  .kec-cards-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Card styles */
-.card {
+.kec-card {
   width: 100%;
-  aspect-ratio: 1 / 1; /* Keep square shape */
-  background-color: #f3f3f3;
+  aspect-ratio: 1 / 1;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -43,25 +39,22 @@
   justify-content: center;
 }
 
-/* Hover effect */
-.card:hover {
+.kec-card:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Card contents */
-.card-logo {
+.kec-card-logo {
   font-size: 2.5rem;
 }
 
-.card-title {
+.kec-card-title {
   font-size: 1.1rem;
   font-weight: bold;
   margin-top: 10px;
 }
 
-/* Extra text appears on hover */
-.extra-text {
+.kec-extra-text {
   display: none;
   position: absolute;
   bottom: 15px;
@@ -73,7 +66,7 @@
   padding: 0 10px;
 }
 
-.card:hover .extra-text {
+.kec-card:hover .kec-extra-text {
   display: block;
   opacity: 1;
 }

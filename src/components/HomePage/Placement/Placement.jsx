@@ -1,13 +1,28 @@
 import { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import React from "react";
 import "./Placement.css";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import Knowmore from "../../../assets/images/know_more.png";
 
 
 const Placement = () => {
+  const navigate = useNavigate();
+
+  // Load slider images from folder
+    const importSliderImages = (r) => r.keys().map(r);
+    const sliderImages = importSliderImages(
+      require.context("../../../assets/images/Placement/Slider", false, /\.(png|jpe?g|svg|webp)$/)
+    );
+
 
   const sliderRef = useRef(null);
+
+  // Dynamically load all images from the company-logos folder
+    const importAll = (r) => r.keys().map(r);
+    const companyImages = importAll(
+      require.context("../../../assets/images/Placement/Companies", false, /\.(png|jpe?g|svg|webp)$/)
+    );
+
 
   // Auto-scroll logic
   useEffect(() => {
@@ -43,35 +58,6 @@ const Placement = () => {
     { title: "Placement Status", value: "91%" }
   ];
 
-  const sliderImages = [
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-    "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg"
-  ];
-  
-
-  const companyLogos = [
-    "https://1000logos.net/wp-content/uploads/2021/09/Cognizant-Logo.png",
-    "https://www.ersbio.co.za/wp-content/uploads/2024/11/infosys-logo.png.original.png",
-    "https://www.clutch.com/wp-content/uploads/2018/04/Accenture-logo-no-background.png",
-    "https://upload.wikimedia.org/wikipedia/commons/a/ac/ZOHO_New.png",
-    "https://allvectorlogo.com/img/2016/08/presidio-logo.png",
-    "https://www.logo.wine/a/logo/Huawei/Huawei-Logo.wine.svg",
-    "https://media.hackerearth.com/recruit/wp-content/uploads/2022/11/Soliton-Logo-Transparent.png.webp",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTKPS7AES9C41BuuHsJLeEeoCoyC1AoQ6hA&s",
-    "https://logos-world.net/wp-content/uploads/2022/12/TVS-Motor-Logo.png",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRRiersP52Vd--k1XZkRX1yrmbWlFEqaQ3GA&s",
-    "https://upload.wikimedia.org/wikipedia/commons/d/df/TOSHIBA_Logo.png",
-    "https://pbs.twimg.com/profile_images/872785043684339712/9rhP0jb4_400x400.jpg",
-    "https://pbs.twimg.com/profile_images/872785043684339712/9rhP0jb4_400x400.jpg",
-
-  ];
 
   return (
     <div className="placement-container">
@@ -102,12 +88,15 @@ const Placement = () => {
       </div>
 
       <div className="companies">
-        {companyLogos.map((logo, index) => (
+        {companyImages.slice(0, 20).map((img, index) => (
           <div key={index} className="company-box">
-            <img src={logo} alt={`Company ${index + 1}`} />
+            <img src={img} alt={`Company Logo ${index + 1}`} />
           </div>
         ))}
+       
       </div>
+
+
 
       <div className="square-slider" ref={sliderRef}>
         {sliderImages.map((img, index) => (
@@ -117,8 +106,9 @@ const Placement = () => {
         ))}
       </div>
 
+
       <div className="button-container-placement">
-        <button className="know-more-btn">Know More</button>
+        <button className="know-more-btn" onClick={() => navigate("/placement")}>Know More</button>
       </div>
     </div>
   );

@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import Section from "../../HomePage/Section/Section";
 import Navbar from "../../HomePage/navbar/Navbar";
 import Footer from "../../HomePage/Footer/Footer";
 import ScrollToTopButton from "../../ScrollToTopButton";
 import "./Aictemca.css";
+import Spinner from "../../Spinner";
 
 // Importing PDF files for MCA Approvals
 import mca000 from '../../../assets/docs/Aicte/MCA/MCA1993-1994.pdf';
@@ -108,7 +109,15 @@ const mcaApprovals = [
 ];
 
 const AicteMca = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => setLoading(false), 1500);
+      return () => clearTimeout(timer);
+    }, []);
+  
+  
+    return loading ? <Spinner /> : (
     <>
       <Section />
       <Navbar />

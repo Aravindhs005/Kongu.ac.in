@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import './University.css';
 import Section from '../../HomePage/Section/Section';
 import Navbar from '../../HomePage/navbar/Navbar';
 import Footer from '../../HomePage/Footer/Footer';
 import ScrollToTopButton from '../../ScrollToTopButton';
+import Spinner from '../../Spinner';
 
 // Importing PDF files
 import aff2024_25 from '../../../assets/docs/University/affiliation_2024_25.pdf';
@@ -61,7 +62,15 @@ const University = () => {
     { title: 'Permanent Affiliation M.Tech Food Tech 2020-2021', file: permAff2020_21_MTech_FoodTech },
   ];
 
-  return (
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => setLoading(false), 1500);
+      return () => clearTimeout(timer);
+    }, []);
+  
+  
+    return loading ? <Spinner /> : (
     <>
       <Section />
       <Navbar />

@@ -15,6 +15,10 @@ const Navbar = () => {
   let naviTimeoutId = null;
   const navigate = useNavigate();
 
+  const handleNavigation = (path) => {
+    toggleMenu(); 
+    navigate(path);
+  };
 
   const naviToggleLogoDropdown = () => {
     setNaviIsLogoDropdownOpen(!naviIsLogoDropdownOpen);
@@ -150,27 +154,24 @@ const Navbar = () => {
                       naviTimeoutId = setTimeout(() => setNaviActiveDropdown(null), 300);
                     }}
                   >
-                    <Link to="navi-about-us-1" smooth={true} duration={500}>
+                    <span onClick={() => navigate('/ug')} style={{ cursor: 'pointer' }}>
                       Undergraduates
-                    </Link>
-                    <Link to="navi-about-us-2" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/pg')} style={{ cursor: 'pointer' }}>
                       Postgraduates
-                    </Link>
-                    <Link to="navi-about-us-3" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/appliedscience')} style={{ cursor: 'pointer' }}>
                       Applied Science
-                    </Link>
-                    <Link to="navi-about-us-1" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => navigate('/mba')} style={{ cursor: 'pointer' }}>
                       Management Studies
-                    </Link>
-                    <Link to="navi-about-us-2" smooth={true} duration={500}>
-                      Computer Application
-                    </Link>
-                    <Link to="navi-about-us-3" smooth={true} duration={500}>
-                      Computer Technology
-                    </Link>
-                    <Link to="navi-about-us-3" smooth={true} duration={500}>
-                      Science and Humanities
-                    </Link>
+                    </span>
+                    <span onClick={() => navigate('/mca')} style={{ cursor: 'pointer' }}>
+                      Computer Applications
+                    </span>
+                    <span onClick={() => navigate('/snh')} style={{ cursor: 'pointer' }}>
+                      Science & Humanities
+                    </span>
                   </div>
                 )}
               </li>
@@ -246,12 +247,12 @@ const Navbar = () => {
                       naviTimeoutId = setTimeout(() => setNaviActiveDropdown(null), 300);
                     }}
                   >
-                    <Link to="navi-about-us-1" smooth={true} duration={500}>
+                     <span onClick={() => window.open('https://kms.kongu.edu/recruitment/', '_blank')} >
                       Teaching
-                    </Link>
-                    <Link to="navi-about-us-2" smooth={true} duration={500}>
+                    </span>
+                    <span onClick={() => window.open('https://kms.kongu.edu/nt_recruitment/', '_blank')} >
                       Non-Teaching
-                    </Link>
+                    </span>
                   </div>
                 )}
               </li>
@@ -282,21 +283,21 @@ const Navbar = () => {
                   <Link to="navi-link-5" smooth={true} duration={500}>
                     IEF
                   </Link>
-                  <Link to="navi-link-5" smooth={true} duration={500}>
-                    Placement
-                  </Link>
-                  <Link to="navi-link-5" smooth={true} duration={500}>
-                    IIPC
-                  </Link>
-                  <Link to="navi-link-5" smooth={true} duration={500}>
-                    Alumni
-                  </Link>
-                  <Link to="navi-link-5" smooth={true} duration={500}>
-                    Online Payment
-                  </Link>
-                  <Link to="navi-link-5" smooth={true} duration={500}>
-                    Contact
-                  </Link>
+                  <span onClick={() => navigate('/placement')} style={{ cursor: 'pointer' }}>
+                      Placement
+                    </span>
+                  <span onClick={() => window.open('https://http://iipc.kongu.edu/', '_blank')} >
+                      IIPC
+                    </span>
+                    <span onClick={() => window.open('https://alumni.kongu.edu/', '_blank')} >
+                      Alumni
+                    </span>
+                    <span onClick={() => navigate('/onlinepayment')} style={{ cursor: 'pointer' }}>
+                      Online Payment
+                    </span>
+                    <span onClick={() => navigate('/contact')} style={{ cursor: 'pointer' }}>
+                      Contact
+                    </span>
                 </div>
               )}
             </ul>
@@ -311,13 +312,20 @@ const Navbar = () => {
 
       <div className={`mobileView ${naviMobileMenu ? "open" : "closed"}`}>
         <ul className="naviMobileMenu">
-          <li onClick={toggleMenu}>Home</li>
+        <li onClick={() => handleNavigation("/")}>Home</li>
           <li onClick={() => toggleDropdown(1)}>
             About Us <FontAwesomeIcon icon={faChevronDown} />
             {activeDropdown === 1 && (
               <ul className="subDropdown">
-                <li onClick={toggleMenu}>History</li>
-                <li onClick={toggleMenu}>Vision & Mission</li>
+              <li onClick={() => handleNavigation("/aboutus")}>About KEC</li>
+              <li onClick={() => handleNavigation("/vision")}>Vision Mission & Quality Policy</li>
+              <li onClick={() => handleNavigation("/officebearers")}>KVIT Office Bearers</li>
+              <li onClick={() => handleNavigation("/headoftheinstitution")}>Head of the Institution</li>
+              <li onClick={() => handleNavigation("/governingcouncil")}>Governing Council</li>
+              <li onClick={() => handleNavigation("/academiccouncil")}>Academic Council</li>
+              <li onClick={() => handleNavigation("/universityranks")}>University Ranks</li>
+              <li onClick={() => handleNavigation("/endownments")}>Endownments</li>
+              <li onClick={() => handleNavigation("/collegerules")}>College Rules</li>
               </ul>
             )}
           </li>
@@ -325,39 +333,52 @@ const Navbar = () => {
             Programmes <FontAwesomeIcon icon={faChevronDown} />
             {activeDropdown === 2 && (
               <ul className="subDropdown">
-                <li onClick={toggleMenu}>Undergraduate</li>
-                <li onClick={toggleMenu}>Postgraduate</li>
+              <li onClick={() => handleNavigation("/ug")}>Undergraduates</li>
+              <li onClick={() => handleNavigation("/pg")}>Postgraduates</li>
+              <li onClick={() => handleNavigation("/appliedscience")}>Applied Science</li>
+              <li onClick={() => handleNavigation("/mba")}>Management Studies</li>
+              <li onClick={() => handleNavigation("/mca")}>Computer Applications</li>
+              <li onClick={() => handleNavigation("/snh")}>Science & Humanities</li>
               </ul>
+                     
+              
             )}
           </li>
           <li onClick={() => toggleDropdown(3)}>
             Accreditation <FontAwesomeIcon icon={faChevronDown} />
             {activeDropdown === 3 && (
-              <ul className="subDropdown">
-                <li onClick={toggleMenu}>NAAC</li>
-                <li onClick={toggleMenu}>NBA</li>
-              </ul>
+               <ul className="subDropdown">
+               <li onClick={() => handleNavigation("/autonomous")}>Autonomous</li>
+               <li onClick={() => handleNavigation("/university")}>University</li>
+               <li onClick={() => handleNavigation("/nba")}>NBA</li>
+               <li onClick={() => handleNavigation("/naac")}>NAAC</li>
+               <li onClick={() => handleNavigation("/nirf")}>NIRF</li>
+               <li onClick={() => handleNavigation("/aicteet")}>AICTE E&T</li>
+               <li onClick={() => handleNavigation("/aictemca")}>AICTE MCA</li>
+               <li onClick={() => handleNavigation("/aictemba")}>AICTE MBA</li>
+               </ul>
             )}
           </li>
           <li onClick={() => toggleDropdown(4)}>
             Careers <FontAwesomeIcon icon={faChevronDown} />
             {activeDropdown === 4 && (
               <ul className="subDropdown">
-                <li onClick={toggleMenu}>Faculty Positions</li>
-                <li onClick={toggleMenu}>Non-Teaching Positions</li>
+                
+              <li onClick={() => window.open('https://kms.kongu.edu/recruitment/')}>Teaching</li>
+              <li onClick={() => window.open('https://kms.kongu.edu/nt_recruitment/')}>Non-Teaching</li>
               </ul>
             )}
           </li>
-          <li onClick={toggleMenu}>Facilities</li>
-          <li onClick={toggleMenu}>Academics</li>
-          <li onClick={toggleMenu}>COE</li>
-          <li onClick={toggleMenu}>R&D</li>
+          <li onClick={() => handleNavigation("/facilities")}>Facilities</li>
+          <li onClick={() => window.open('https://academic.kongu.edu/')}>Academic</li>
+          <li onClick={() => window.open('https://coe.kongu.edu/')}>COE</li>
+          <li onClick={() => window.open('https://rnd.kongu.edu/')}>R&D</li>
           <li onClick={toggleMenu}>IEF</li>
-          <li onClick={toggleMenu}>Placement</li>
-          <li onClick={toggleMenu}>IIPC</li>
-          <li onClick={toggleMenu}>Alumni</li>
-          <li onClick={toggleMenu}>Online Payment</li>
-          <li onClick={toggleMenu}>Contact</li>
+          <li onClick={() => handleNavigation("/placement")}>Placement</li>
+          <li onClick={() => window.open('https://iipc.kongu.edu/')}>IIPC</li>
+          <li onClick={() => window.open('https://alumni.kongu.edu/')}>Alumni</li>
+          <li onClick={() => handleNavigation("/onlinepayment")}>Online Payment</li>
+          <li onClick={() => handleNavigation("/contact")}>Contact</li>
         </ul>
       </div>
       </nav>

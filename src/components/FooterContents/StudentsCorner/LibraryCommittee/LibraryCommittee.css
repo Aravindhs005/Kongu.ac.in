@@ -1,0 +1,81 @@
+.library-container {
+    padding: 8rem 1rem 1rem;
+    background: linear-gradient(to bottom right, #eef2f7, #f9fafb);
+    min-height: 100vh;
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 2rem;
+  }
+  
+  .library-description {
+    font-size: 1.2rem;
+    color: #374151;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+    padding: 0 1rem;
+  }
+  
+  .library-table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .library-table th {
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 1.1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .library-table td {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #111827;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .library-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  @media (max-width: 768px) {
+    .library-container {
+      padding-top: 5rem;
+    }
+  
+    .library-description {
+      font-size: 1rem;
+    }
+  
+    .library-table th,
+    .library-table td {
+      font-size: 0.95rem;
+      padding: 0.8rem;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

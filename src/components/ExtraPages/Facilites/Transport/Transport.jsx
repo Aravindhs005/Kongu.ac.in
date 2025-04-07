@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import "./Transport.css";
 import Section from "../../../HomePage/Section/Section";
 import Navbar from "../../../HomePage/navbar/Navbar";
 import Footer from "../../../HomePage/Footer/Footer";
 import ScrollToTopButton from "../../../ScrollToTopButton";
+import Spinner from "../../../Spinner";
 
 const collegeRoutes = [
   ["Erode - College", "20 Buses"],
@@ -42,7 +43,15 @@ const publicRoutes = [
 ];
 
 const Transport = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        const timer = setTimeout(() => setLoading(false), 1500);
+        return () => clearTimeout(timer);
+      }, []);
+    
+    
+      return loading ? <Spinner /> : (
     <>
     <Section/>
     <Navbar/>

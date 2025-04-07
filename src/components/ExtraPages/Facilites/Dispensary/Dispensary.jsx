@@ -1,12 +1,21 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./Dispensary.css";
 import Section from "../../../HomePage/Section/Section";
 import Navbar from "../../../HomePage/navbar/Navbar";
 import Footer from "../../../HomePage/Footer/Footer";
 import ScrollToTopButton from "../../../ScrollToTopButton";
+import Spinner from "../../../Spinner";
 
 const Dispensary = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => setLoading(false), 1500);
+      return () => clearTimeout(timer);
+    }, []);
+  
+  
+    return loading ? <Spinner /> : (
     <>
     <Section/>
     <Navbar/>

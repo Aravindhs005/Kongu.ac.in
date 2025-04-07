@@ -1,5 +1,6 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./HostelsandAccomodations.css";
+import Spinner from "../../../Spinner";
 
 // Importing images
 import guesthouse from "../../../../assets/images/HostelandAccomodation/guesthouse.jpg";
@@ -56,7 +57,15 @@ const imageMap = {
 };
 
 const HostelsandAccommodation = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => setLoading(false), 1500);
+      return () => clearTimeout(timer);
+    }, []);
+  
+  
+    return loading ? <Spinner /> : (
     <>
     <Section/>
     <Navbar/>   

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import './CollegeRules.css';
 import ruleImg from '../../../assets/images/rules.png';
 import codeofConduct from '../../../assets/images/codeofconduct.webp';
@@ -12,7 +12,7 @@ import Section from '../../HomePage/Section/Section';
 import Navbar from '../../HomePage/navbar/Navbar';
 import Footer from '../../HomePage/Footer/Footer';
 import ScrollToTopButton from '../../ScrollToTopButton';
-
+import Spinner from '../../Spinner';
 const rules = [
   {
     title: 'General Information',
@@ -91,7 +91,16 @@ const rules = [
 ];
 
 const CollegeRules = () => {
-  return (
+  
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => setLoading(false), 1500);
+      return () => clearTimeout(timer);
+    }, []);
+  
+  
+    return loading ? <Spinner /> : (
     <>
     <Section/>
     <Navbar/>

@@ -1,10 +1,11 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import './Facilities.css';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../../HomePage/navbar/Navbar';
 import Section from '../../HomePage/Section/Section';
 import Footer from '../../HomePage/Footer/Footer';
 import ScrollToTopButton from '../../ScrollToTopButton';
+import Spinner from '../../Spinner';
 
 import pe from '../../../assets/images/physicaldept.jpg';
 import hostel from '../../../assets/images/hostel.jpg';
@@ -53,7 +54,15 @@ const Facilities = () => {
       }
   };
 
-  return (
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => setLoading(false), 1500);
+      return () => clearTimeout(timer);
+    }, []);
+  
+  
+    return loading ? <Spinner /> : (
     <>
       <Section />
       <Navbar />

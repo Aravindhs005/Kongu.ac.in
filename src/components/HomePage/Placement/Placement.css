@@ -30,6 +30,29 @@
   font-palette: --Nabla;
 }
 
+.know-more-box-plc {
+  display: flex;
+  width: 100px;
+  height: 80px;
+  background: #fff;
+  border-radius: 10px 10px 10px 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: #3371d5;
+  transition: background 0.3s;
+}
+
+.know-more-box-plc:hover {
+  background-color: white;
+  color: #3371d5;
+  border: 1px solid #3371d5;
+}
+
 span:nth-child(n) {
   animation-delay: calc(0.1s * var(--i));
 }
@@ -168,30 +191,38 @@ span:nth-child(n) {
 .square-slider {
   display: flex;
   overflow-x: auto;
-  scroll-behavior: smooth;
-  gap: 20px;
-  margin-top: 40px;
-  padding-bottom: 10px;
-  scrollbar-width: none;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0;
 }
+
+.slide-image {
+  flex: 0 0 auto;
+  width: 350px; /* or any square size you prefer */
+  height: 350px;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: #f2efef;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.slide-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 0.5rem;
+}
+
 
 .square-slider::-webkit-scrollbar {
   display: none;
 }
 
-.slide-image {
-  flex: 0 0 calc(33.333% - 20px);
-  height: 300px;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 2px solid #ffffff;
-}
-
-.slide-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 
 /* Tablets and Smaller */

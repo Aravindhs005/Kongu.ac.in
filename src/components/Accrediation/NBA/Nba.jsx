@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import './Nba.css';
 import Navbar from '../../HomePage/navbar/Navbar';
 import Footer from '../../HomePage/Footer/Footer';
@@ -16,6 +16,7 @@ import nba05082021 from '../../../assets/docs/Nba/NBA_ECE_CHEM_MECH_EIE_05082021
 import nba11062018 from '../../../assets/docs/Nba/NBA_KEC_11.06.2018.pdf';
 import nba11092020 from '../../../assets/docs/Nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf';
 import nba13102017 from '../../../assets/docs/Nba/NBA_KEC_13.10.2017.pdf';
+import Spinner from '../../Spinner';
 
 const accreditationData = [
   {
@@ -127,7 +128,15 @@ const accreditationData = [
 ];
 
 const Nba = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        const timer = setTimeout(() => setLoading(false), 1500);
+        return () => clearTimeout(timer);
+      }, []);
+    
+    
+      return loading ? <Spinner /> : (
     <>
       <Section />
       <Navbar />

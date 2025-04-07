@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import './Naac.css';
 import Navbar from '../../HomePage/navbar/Navbar';
 import Footer from '../../HomePage/Footer/Footer';
@@ -7,9 +7,18 @@ import Section from '../../HomePage/Section/Section';
 
 import gradeSheet from '../../../assets/docs/Naac/NAAC_CERTIFICATE_2022.pdf';
 import ssrDVV from '../../../assets/docs/Naac/SSR_DVV_31_01_2022.pdf';
+import Spinner from '../../Spinner';
 
 const Naac = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        const timer = setTimeout(() => setLoading(false), 1500);
+        return () => clearTimeout(timer);
+      }, []);
+    
+    
+      return loading ? <Spinner /> : (
     <>
       <Section />
       <Navbar />

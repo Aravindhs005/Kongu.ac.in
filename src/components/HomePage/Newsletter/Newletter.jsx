@@ -1,75 +1,63 @@
 import React, { useState } from 'react';
 import './Newsletter.css';
 
-const newsletters = [
-  {
-    title: 'Enthusia',
-    content: 'Kongu Engineering College establishes Center of Excellence (CoE) to enhance the skills and knowledge of students and faculty in various emerging technologies. The CoEs are equipped with state-of-the-art infrastructure and facilities relevant to the specific field of study, includes advanced laboratories, specialized equipments, software, and other resources necessary for hands-on learning and practical applications.',
-    image: 'https://enthusia.kongu.edu/image/enthusia.png',
-  },
-  {
-    title: 'Swaram',
-    content: 'Kongu Engineering College establishes Center of Excellence (CoE) to enhance the skills and knowledge of students and faculty in various emerging technologies. The CoEs are equipped with state-of-the-art infrastructure and facilities relevant to the specific field of study, includes advanced laboratories, specialized equipments, software, and other resources necessary for hands-on learning and practical applications.',
-    image: 'https://rotaract.kongu.edu/static/media/vjsiddhu.b275b3540752d2a167b7.jpg',
-  },
-  {
-    title: 'Ehoryzon25',
-    content: 'Kongu Engineering College establishes Center of Excellence (CoE) to enhance the skills and knowledge of students and faculty in various emerging technologies. The CoEs are equipped with state-of-the-art infrastructure and facilities relevant to the specific field of study, includes advanced laboratories, specialized equipments, software, and other resources necessary for hands-on learning and practical applications.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFy49mMZnB8ug7jZZdS0zxYs635NLTT1yDg&s',
-  },
-  {
-    title: 'Epoch',
-    content: 'Kongu Engineering College establishes Center of Excellence (CoE) to enhance the skills and knowledge of students and faculty in various emerging technologies. The CoEs are equipped with state-of-the-art infrastructure and facilities relevant to the specific field of study, includes advanced laboratories, specialized equipments, software, and other resources necessary for hands-on learning and practical applications.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXjEKh28KmtGEnBfxKPlRBIUrS_JdcX-fmw&s',
-  },
-  {
-    title: 'Newsletter 5',
-    content: 'Kongu Engineering College establishes Center of Excellence (CoE) to enhance the skills and knowledge of students and faculty in various emerging technologies. The CoEs are equipped with state-of-the-art infrastructure and facilities relevant to the specific field of study, includes advanced laboratories, specialized equipments, software, and other resources necessary for hands-on learning and practical applications.',
-    image: 'https://cdn.pixabay.com/photo/2016/02/01/00/56/news-1172463_1280.jpg',
-  },
-  {
-    title: 'Newsletter 6',
-    content: 'Kongu Engineering College establishes Center of Excellence (CoE) to enhance the skills and knowledge of students and faculty in various emerging technologies. The CoEs are equipped with state-of-the-art infrastructure and facilities relevant to the specific field of study, includes advanced laboratories, specialized equipments, software, and other resources necessary for hands-on learning and practical applications.',
-    image: 'https://cdn.pixabay.com/photo/2016/02/01/00/56/news-1172463_1280.jpg',
-  },
-];
+// Dynamically import all images from Events folder
+const imagesContext = require.context(
+  '../../../assets/images/Events',
+  false,
+  /\.(png|jpe?g|svg)$/
+);
+
+// Create an array of image data with filename and src
+const imageData = imagesContext.keys().map((key) => {
+  const filename = key.replace('./', '');
+  return {
+    name: filename.split('.')[0],
+    src: imagesContext(key),
+  };
+});
 
 const Newsletter = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % newsletters.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 3) % imageData.length);
   };
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex - 1 < 0 ? newsletters.length - 1 : prevIndex - 1    
+      prevIndex - 3 < 0 ? imageData.length - 3 : prevIndex - 3
     );
   };
 
   return (
     <div className="newsletter-container">
-        <h1>Upcoming Events</h1>
+      <h1>Upcoming Events</h1>
       <div className="slider">
         <div className="news-boxes">
-          {newsletters
-            .slice(currentIndex, currentIndex + 3)
-            .map((newsletter, index) => (
-              <div key={index} className="news-box">
-                <div className="image-box">
-                  <img src={newsletter.image} alt={newsletter.title} />
-                </div>
-                <div className="text-box">
-                  <h3>{newsletter.title}</h3>
-                  {/* <p>{newsletter.content}</p> */}
-                </div>
+          {imageData.slice(currentIndex, currentIndex + 3).map((img, index) => (
+            <div key={index} className="news-box">
+              <div className="image-box">
+                <div
+                  className="blur-bg"
+                />
+                <img src={img.src} alt={img.name} />
               </div>
-            ))}
+
+              <div className="text-box">
+                <h3>{img.name}</h3>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
       <div className="button-group">
-        <button className="prev-button" onClick={prevSlide}>&#8249;</button>
-        <button className="next-button" onClick={nextSlide}>&#8250;</button>
+        <button className="prev-button" onClick={prevSlide}>
+          &#8249;
+        </button>
+        <button className="next-button" onClick={nextSlide}>
+          &#8250;
+        </button>
       </div>
     </div>
   );

@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import "./Aicteet.css";
 import Footer from "../../HomePage/Footer/Footer";
 import Section from "../../HomePage/Section/Section";
 import Navbar from "../../HomePage/navbar/Navbar";
 import ScrollToTopButton from "../../ScrollToTopButton";
+import Spinner from "../../Spinner";
 
 const approvals = [
   {
@@ -3202,7 +3203,15 @@ const Aicteet = () => {
     link.click();
   };
 
-  return (
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => setLoading(false), 1500);
+      return () => clearTimeout(timer);
+    }, []);
+  
+  
+    return loading ? <Spinner /> : (
     <>
     <Section />
     <Navbar />

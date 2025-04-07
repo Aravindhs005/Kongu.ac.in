@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import './Autonomous.css';
 import Section from '../../HomePage/Section/Section';
 import Navbar from '../../HomePage/navbar/Navbar';
@@ -7,9 +7,18 @@ import ScrollToTopButton from '../../ScrollToTopButton';
 import pdf2023_2033 from '../../../assets/docs/Autonomous/KEC_autonomous_approval_23-33.pdf';
 import pdf2022_2023 from '../../../assets/docs/Autonomous/KEC_autonomous_approval.pdf';
 import pdf2012_2013 from '../../../assets/docs/Autonomous/KEC_autonomous_approval1.pdf';
+import Spinner from '../../Spinner';
 
 const Autonomous = () => {
-    return (
+  const [loading, setLoading] = useState(true);
+  
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1500);
+    return () => clearTimeout(timer);
+  }, []);
+
+
+  return loading ? <Spinner /> : (
 
       <>
         <Section />

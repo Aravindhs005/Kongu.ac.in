@@ -1,10 +1,10 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import './Endownments.css';
 import Section from '../../HomePage/Section/Section';
 import Navbar from '../../HomePage/navbar/Navbar';
 import Footer from '../../HomePage/Footer/Footer';
 import ScrollToTopButton from '../../ScrollToTopButton';
-
+import Spinner from '../../Spinner';
 const studentAwards = [
   ['CEEDEE\'s Award', 'Venbro Polymers', 'Best Overall Outgoing Student BE (Boy)'],
   ['T.M. Periyathambi Gounder Award', 'KVITT', 'Best Overall Outgoing Student BE (Girl)'],
@@ -45,7 +45,15 @@ const facultyAwards = [
 ];
 
 const Endowments = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        const timer = setTimeout(() => setLoading(false), 1500);
+        return () => clearTimeout(timer);
+      }, []);
+    
+    
+      return loading ? <Spinner /> : (
     <>
       <Section />
       <Navbar />

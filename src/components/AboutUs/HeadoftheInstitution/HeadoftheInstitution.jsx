@@ -1,13 +1,22 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import './HeadoftheInstitution.css';
 import Section from '../../HomePage/Section/Section';
 import Navbar from '../../HomePage/navbar/Navbar';
 import Footer from '../../HomePage/Footer/Footer';
 import ScrollToTopButton from '../../ScrollToTopButton';
-import ProfilePic from '../../../assets/images/principal.jfif'; // Replace with actual image path
+import ProfilePic from '../../../assets/images/principal.jfif'; 
+import Spinner from '../../Spinner';
 
 const HeadoftheInstitution = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        const timer = setTimeout(() => setLoading(false), 1500);
+        return () => clearTimeout(timer);
+      }, []);
+    
+    
+      return loading ? <Spinner /> : (
     <>
       <Section />
       <Navbar />
