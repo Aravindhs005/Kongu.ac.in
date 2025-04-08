@@ -38,6 +38,7 @@
 /* Section Wrapper */
 .ecosystem {
   padding: 40px;
+  overflow-x: hidden; /* prevent body from extending on mobile */
 }
 
 /* Main Heading */
@@ -110,7 +111,10 @@
   gap: 1rem;
   scroll-snap-type: x mandatory;
   padding: 1rem 0;
+  max-width: 100%;        /* ensure it stays within container */
+  box-sizing: border-box; /* avoid overflow due to padding */
 }
+
 
 .eco-slide-image {
   flex: 0 0 auto;

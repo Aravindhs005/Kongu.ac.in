@@ -17,6 +17,7 @@ import selfdeclaration from "../../../assets/docs/Footer/SelfDeclaration/kec_sel
 import fulltimephd from "../../../assets/docs/Footer/FulltimePHD/fulltime_phd.pdf";
 import rti from "../../../assets/docs/Footer/RTI/kec_rti.pdf";
 
+
 const Footer = () => {
   const columns = [
     {
@@ -85,6 +86,8 @@ const Footer = () => {
 
   return (
     <footer className="footer">
+        <div className="footer-vertical-text">KONGU ENGINEERING COLLEGE</div>
+
       <div className="footer-container">
         {columns.map((column, index) => (
           <div className="footer-column" key={index}>
@@ -122,14 +125,25 @@ const Footer = () => {
           </div>
         ))}
       </div>
+
+      <div className="footer-globe"></div>
+
+
       <div className="creator">
-        <p>@ KEC. All rights reserved.</p>
-        <p>© Aravindh S 21ITR005</p>
-        <ul>
-          <li>Terms of Services</li>
-          <li>Privacy Policy</li>
-        </ul>
+
+        <p className="rights-reserved">@ 2025 Kongu Engineering College. All rights reserved.</p>
+        <p className="created-by">
+          ©{" "}
+          {"Aravindh S - 21ITR005".split("").map((char, index) => (
+            <span key={index} className="hover-jump-letter">
+              {char}
+            </span>
+          ))}
+        </p>
+
+
       </div>
+
     </footer>
   );
 };
