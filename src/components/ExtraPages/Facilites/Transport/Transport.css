@@ -1,8 +1,20 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .transport-container {
     padding: 8rem 2rem 2rem;
     background: linear-gradient(135deg, #f9f9f9, #e0eafc);
     min-height: 100vh;
     font-family: 'Segoe UI', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+
   }
   
   .transport-title {

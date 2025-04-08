@@ -1,15 +1,26 @@
 import React from 'react';
 import { useEffect, useRef, useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import './Ecosystem.css';
 import kongubanner from "../../../assets/images/kecglobe.png";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRibbon, faMicrochip, faDiagramProject } from '@fortawesome/free-solid-svg-icons';
+import bgimg from '../../../assets/images/Background images/slider-background.jpg';
 
 
 const Ecosystem = () => {
+  const navigate = useNavigate();
+
 
     const sliderRef = useRef(null);
+
+    // Load slider images from folder
+    const importSliderImages = (r) => r.keys().map(r);
+    const sliderImages = importSliderImages(
+      require.context("../../../assets/images/InnovationEcosystem/Slider", false, /\.(png|jpe?g|svg|webp)$/)
+    );
+  
   
     // Auto-scroll logic
     useEffect(() => {
@@ -36,18 +47,6 @@ const Ecosystem = () => {
       return () => clearInterval(interval);
     }, []);
 
-        
-    const sliderImages = [
-      "https://mc-webpcache.readwhere.in/mcms.php?size=large&in=https://mcmscache.epapr.in/post_images/website_545/post_45090782/full.jpg",
-      "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-      "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-      "https://mc-webpcache.readwhere.in/mcms.php?size=large&in=https://mcmscache.epapr.in/post_images/website_545/post_45090782/full.jpg",
-      "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-      "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-      "https://mc-webpcache.readwhere.in/mcms.php?size=large&in=https://mcmscache.epapr.in/post_images/website_545/post_45090782/full.jpg",
-      "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg",
-      "https://images.shiksha.com/mediadata/images/1733908606php4bmcRi.jpeg"
-    ];
   
   return (
     <div className='ecosystem'>
@@ -66,19 +65,31 @@ const Ecosystem = () => {
       <div className="ecosystem-content">
         <p>
         At Kongu Engineering College, we foster a culture of creativity and groundbreaking innovation. Our students and faculty thrive on fresh perspectives, pioneering solutions, and the implementation of ideas that push the boundaries of conventional thinking. We instill an entrepreneurial spirit in our learners, empowering them with the freedom to ideate, experiment, and innovate. At Kongu, innovation isn't just encouraged—it’s a way of life!        </p>
-        <button className="know-more-button"><FontAwesomeIcon icon={faRibbon} /> &ensp;COE</button>
-        <button className="know-more-button"><FontAwesomeIcon icon={faDiagramProject} /> &ensp;TBI</button>
-        <button className="know-more-button"><FontAwesomeIcon icon={faMicrochip} /> &ensp;Hackathons</button>
+        <button className="know-more-button" onClick={() => navigate('/coe')}>
+          <FontAwesomeIcon icon={faRibbon} /> &ensp;COE
+        </button>
+        <button className="know-more-button" onClick={() => window.open('https://www.tbi-kec.org/')}>
+          <FontAwesomeIcon icon={faDiagramProject} /> &ensp;TBI
+        </button>
+        <button className="know-more-button" onClick={() => navigate('/hackathons')}>
+          <FontAwesomeIcon icon={faMicrochip} /> &ensp;Hackathons
+        </button>
       </div>
 
-      <div className="square-slider" ref={sliderRef}>
-        {sliderImages.map((img, index) => (
-          <div key={index} className="slide-image">
-            <img src={img} alt={`Slide ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-      
+      <div className="eco-square-slider" ref={sliderRef}>
+  {sliderImages.map((img, index) => (
+    <div
+      key={index}
+      className="eco-slide-image"
+      style={{
+        backgroundImage: `url(${bgimg})`
+      }}
+    >
+      <img src={img} alt={`Slide ${index + 1}`} />
+    </div>
+  ))}
+</div>
+
     </div>
     </div>
   );

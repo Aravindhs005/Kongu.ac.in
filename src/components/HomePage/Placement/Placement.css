@@ -198,24 +198,40 @@ span:nth-child(n) {
 
 .slide-image {
   flex: 0 0 auto;
-  width: 350px; /* or any square size you prefer */
+  width: 350px;
   height: 350px;
   scroll-snap-align: start;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 16px;
-  background: #f2efef;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  transition: transform 0.3s ease;
+  position: relative; /* Needed for ::before */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Blurred & transparent background layer */
+.slide-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  opacity: 0.5;
+  z-index: 0;
 }
 
 .slide-image img {
   max-width: 100%;
   max-height: 100%;
+  z-index: 1;
   object-fit: contain;
-  padding: 0.5rem;
+  padding: 0rem;
 }
 
 

@@ -82,25 +82,25 @@ const Contact = () => {
         <div className="social-media">
           <ul>
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/konguengineeringcollegeperundurai">
                 <FontAwesomeIcon className='iconssocial' icon={faFacebookF}/>
                 <span> - Facebook</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FKonguOfficial">
               <FontAwesomeIcon className='iconssocial' icon={faXTwitter}/>
               <span> - Twitter</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.youtube.com/c/konguengineeringcollege">
                 <FontAwesomeIcon className='iconssocial' icon={faSquareYoutube}/>
                 <span> - Youtube</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.instagram.com/konguengineeringcollege/">
                 <FontAwesomeIcon className='iconssocial' icon={faInstagram}/>
                 <span> - Instagram</span>
               </a>

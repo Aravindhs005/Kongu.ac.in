@@ -1,4 +1,13 @@
-/* Library.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/* Library.css */
 
 .library-wrapper {
     max-width: 100%;
@@ -7,6 +16,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
     text-align: justify;
+    animation: fadeIn 1s ease-in-out;
+
   }
 
   

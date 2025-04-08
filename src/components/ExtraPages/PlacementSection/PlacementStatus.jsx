@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./PlacementStatus.css";
-import Spinner from "../../Spinner";
 
 const placementFiles = require.context(
   "../../../assets/docs/Placement/Placement Status",
@@ -111,16 +110,7 @@ const PlacementStatus = () => {
     }
     return null;
   };
-
-  const [loading, setLoading] = useState(true);
-  
-    useEffect(() => {
-      const timer = setTimeout(() => setLoading(false), 1500);
-      return () => clearTimeout(timer);
-    }, []);
-  
-  
-    return loading ? <Spinner /> : (
+  return (
     <div className="placement-status-wrapper">
       <div className="status-header">
         <h2>Placement Status</h2>

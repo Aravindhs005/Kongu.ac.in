@@ -1,9 +1,21 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .hostels-container {
   padding: 8rem 1rem 4rem;
   background: linear-gradient(to bottom right, #eef2f3, #ffffff);
   min-height: 100vh;
   position: relative;
   z-index: 1;
+  animation: fadeIn 1s ease-in-out;
+
 }
 
 .hostels-title {

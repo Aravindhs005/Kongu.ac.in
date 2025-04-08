@@ -100,6 +100,12 @@ import Achievements from './components/ExtraPages/Achievements/Achievements.jsx'
 import Awards from './components/ExtraPages/Awards/Awards.jsx';
 import Updates from './components/ExtraPages/Updates/Updates.jsx';
 import NewsClippings from './components/ExtraPages/NewsClippings/NewsClippings.jsx';
+import Coe from './components/ExtraPages/COE/Coe.jsx';
+import Hackathon from './components/ExtraPages/Hackathons/Hackathon.jsx';
+import IEF from './components/ExtraPages/IEF/IEF.jsx';
+
+import ScrollToTop from './components/ScrollToTop.jsx';
+
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -111,6 +117,8 @@ const App = () => {
 
   return loading ? <Spinner /> :  (
     <Router>
+      <ScrollToTop />
+
       <Routes>
 
         <Route path="/" element={<HomePage />} />
@@ -121,6 +129,10 @@ const App = () => {
         <Route path='/awards' element={<Awards />}/>
         <Route path='/updates' element={<Updates />}/>
         <Route path='/news-clippings' element={<NewsClippings />}/>
+
+        {/* Innovation Ecosystem */}
+        <Route path='/coe' element={<Coe />}/>
+        <Route path='/hackathons' element={<Hackathon />}/>
 
 
 
@@ -172,6 +184,7 @@ const App = () => {
 
         {/* Extra Pages */}
         <Route path='/facilities' element={<Facilites />}/>
+        <Route path='/ief' element={<IEF />}/>
         <Route path='/ug' element={<Ug />}/>
         <Route path='/pg' element={<Pg />}/>
         <Route path='/appliedscience' element={<AppliedScience/>}/>

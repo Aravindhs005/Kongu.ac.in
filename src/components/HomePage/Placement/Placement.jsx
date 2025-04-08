@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import React from "react";
 import "./Placement.css";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-
+import bgimg from '../../../assets/images/Background images/slider-background.jpg';
 
 const Placement = () => {
   const navigate = useNavigate();
@@ -99,12 +99,19 @@ const Placement = () => {
 
 
       <div className="square-slider" ref={sliderRef}>
-        {sliderImages.map((img, index) => (
-          <div key={index} className="slide-image">
-            <img src={img} alt={`Slide ${index + 1}`} />
-          </div>
-        ))}
-      </div>
+  {sliderImages.map((img, index) => (
+    <div
+      key={index}
+      className="slide-image"
+      style={{
+        backgroundImage: `url(${bgimg})`
+      }}
+    >
+      <img src={img} alt={`Slide ${index + 1}`} />
+    </div>
+  ))}
+</div>
+
 
 
       <div className="button-container-placement">

@@ -1,9 +1,21 @@
-.ug-container {
-  padding: 8rem 2rem 2rem;
-  font-family: 'Segoe UI', sans-serif;
-  min-height: 100vh;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
+.ug-container {
+    padding: 8rem 1rem 3rem;
+    background: linear-gradient(to bottom right, #f9f9f9, #e6f0ff);
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    animation: fadeIn 1s ease-in-out;
+  }
 .ug-title {
   text-align: center;
   font-size: 2rem;

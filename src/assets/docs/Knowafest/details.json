@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Code Carnival 2025",
+      "department": "Computer Science and Engineering",
+      "venue": "Main Auditorium, KEC",
+      "dates": "April 20-21, 2025",
+      "description": "A national-level coding hackathon with 24-hour problem solving, tech talks, and cash prizes.",
+      "poster": "https://www.knowafest.com/files/uploads/BROCHURE2-2025040220.jpg",
+      "link": "https://ieeecomsoc.live/Prathiyogitha/"
+    },
+    {
+      "name": "InnoFest 2025",
+      "department": "Electronics and Communication Engineering",
+      "venue": "ECE Block Seminar Hall",
+      "dates": "May 3, 2025",
+      "description": "Project expo and hardware hackathon encouraging innovative IoT-based solutions.",
+      "poster": "https://www.knowafest.com/files/uploads/BROCHURE2-2025040220.jpg",
+      "link": "https://ieeecomsoc.live/Prathiyogitha/"
+    },
+    {
+      "name": "TechnoSpark 2025",
+      "department": "Information Technology",
+      "venue": "IT Block Lab 3",
+      "dates": "May 10, 2025",
+      "description": "A mini-hackathon for first and second year students with beginner-friendly challenges.",
+      "poster": "https://www.knowafest.com/files/uploads/BROCHURE2-2025040220.jpg",
+      "link": "https://ieeecomsoc.live/Prathiyogitha/"
+    },
+    {
+      "name": "MECHovation 2025",
+      "department": "Mechanical Engineering",
+      "venue": "Mechanical Block Workshop",
+      "dates": "April 25, 2025",
+      "description": "CAD and simulation competition hosted by the Mechanical Department.",
+      "poster": "https://www.knowafest.com/files/uploads/BROCHURE2-2025040220.jpg",
+      "link": "https://ieeecomsoc.live/Prathiyogitha/"
+    },
+    {
+      "name": "Greenovate Challenge",
+      "department": "Civil Engineering",
+      "venue": "CE Block Conference Room",
+      "dates": "May 5, 2025",
+      "description": "A sustainability-focused innovation challenge for eco-friendly solutions.",
+      "poster": "https://www.knowafest.com/files/uploads/BROCHURE2-2025040220.jpg",
+      "link": "https://ieeecomsoc.live/Prathiyogitha/"
+    }
+  ]
+  

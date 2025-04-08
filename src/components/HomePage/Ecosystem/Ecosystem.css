@@ -104,6 +104,58 @@
   font-size: 20px;
 }
 
+.eco-square-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0;
+}
+
+.eco-slide-image {
+  flex: 0 0 auto;
+  width: 350px;
+  height: 280px;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  position: relative; /* Needed for ::before */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Blurred & transparent background layer */
+.eco-slide-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.eco-slide-image img {
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  padding: 0rem;
+}
+
+
+.eco-square-slider::-webkit-scrollbar {
+  display: none;
+}
+
+
 /* Image Block */
 .kongubanner {
   flex: 1;

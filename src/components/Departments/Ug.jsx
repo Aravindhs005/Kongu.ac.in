@@ -1,10 +1,11 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import { useNavigate } from "react-router-dom";
 import "./Ug.css";
 import Footer from "../HomePage/Footer/Footer";
 import Section from "../HomePage/Section/Section";
 import ScrollToTopButton from "../ScrollToTopButton";
 import Navbar from "../HomePage/navbar/Navbar";
+import Spinner from "../Spinner";
 
 const ugProgrammes = [
   { sno: 1, name: "B.E Civil Engineering", duration: "4 Years", year: 1984, route: "civil" },
@@ -26,11 +27,19 @@ const ugProgrammes = [
 const Ug = () => {
   const navigate = useNavigate();
 
+  
   const handleNavigate = (route) => {
     navigate(`/${route}`);
   };
 
-  return (
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1500);
+    return () => clearTimeout(timer);
+  }, []);
+
+  return loading ? <Spinner /> :  (
     <>
     <Section/>
     <Navbar/>

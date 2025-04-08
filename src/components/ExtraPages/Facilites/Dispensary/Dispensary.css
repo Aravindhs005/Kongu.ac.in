@@ -1,9 +1,21 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .dispensary-container {
     padding: 8rem 2rem 2rem;
     background: linear-gradient(135deg, #e0f7fa, #e0f2f1);
     min-height: 100vh;
     font-family: 'Segoe UI', sans-serif;
     color: #2c3e50;
+    animation: fadeIn 1s ease-in-out;
+
   }
   
   .dispensary-title {

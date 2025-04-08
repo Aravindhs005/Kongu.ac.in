@@ -1,10 +1,11 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import { useNavigate } from "react-router-dom";
 import "./Pg.css";
 import Section from "../HomePage/Section/Section";
 import Navbar from "../HomePage/navbar/Navbar";
 import Footer from "../HomePage/Footer/Footer";
 import ScrollToTopButton from "../ScrollToTopButton";
+import Spinner from "../Spinner";
 
 const pgPrograms = [
   { sno: 1, name: "M.E Computer Science and Engineering", duration: "2 Years", year: 1999, route: "cse"  },
@@ -22,7 +23,14 @@ const Pg = () => {
       navigate(`/${route}`);
     };
   
-    return (
+    const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        const timer = setTimeout(() => setLoading(false), 1500);
+        return () => clearTimeout(timer);
+      }, []);
+    
+      return loading ? <Spinner /> :  (
       <>
       <Section/>
       <Navbar/>

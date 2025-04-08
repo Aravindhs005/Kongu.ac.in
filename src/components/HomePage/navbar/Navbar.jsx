@@ -280,9 +280,9 @@ const Navbar = () => {
                     <span onClick={() => window.open('https://rnd.kongu.edu/', '_blank')} >
                       R&D
                     </span>
-                  <Link to="navi-link-5" smooth={true} duration={500}>
-                    IEF
-                  </Link>
+                    <span onClick={() => navigate('/ief')} style={{ cursor: 'pointer' }}>
+                      IEF
+                    </span>
                   <span onClick={() => navigate('/placement')} style={{ cursor: 'pointer' }}>
                       Placement
                     </span>
@@ -373,7 +373,7 @@ const Navbar = () => {
           <li onClick={() => window.open('https://academic.kongu.edu/')}>Academic</li>
           <li onClick={() => window.open('https://coe.kongu.edu/')}>COE</li>
           <li onClick={() => window.open('https://rnd.kongu.edu/')}>R&D</li>
-          <li onClick={toggleMenu}>IEF</li>
+          <li onClick={() => handleNavigation("/ief")}>IEF</li>
           <li onClick={() => handleNavigation("/placement")}>Placement</li>
           <li onClick={() => window.open('https://iipc.kongu.edu/')}>IIPC</li>
           <li onClick={() => window.open('https://alumni.kongu.edu/')}>Alumni</li>
