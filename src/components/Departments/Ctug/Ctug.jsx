@@ -6,6 +6,7 @@ import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./ct-ug.json";
 import Slider from "../../HomePage/Slider/Slider";
+import Deptimg from "../../../assets/images/Department Banner/ctug.jpg"
 
 const NAV_ITEMS = [
   "Home",
@@ -15,8 +16,8 @@ const NAV_ITEMS = [
   "Library",
   // "Patents",
   // "Testing/Consultancy",
-  "R&D (Academic)",
-  "R&D (Activities)",
+  // "R&D (Academic)",
+  // "R&D (Activities)",
 ];
 
 const Ctug = () => {
@@ -78,7 +79,7 @@ const Ctug = () => {
 
       <div className="auto-container">
         <div className="auto-banner-container">
-          <img src={autoData.image} alt="Department Banner" className="auto-banner" />
+          <img src={Deptimg} alt="Department Banner" className="auto-banner" />
           <div className="overlay"></div>
           <h1 className="auto-header">{autoData["dept-name"]}</h1>
         </div>
@@ -106,14 +107,11 @@ const Ctug = () => {
                 <tbody>
                   {[
                     ["HOD", autoData.hod_name],
-                    ["Intake", autoData.intake],
-                    ["Total Staff", autoData.staffs],
-                    ["Labs", autoData.lab_count],
-                    ["Classrooms", autoData.classrooms],
-                    ["Workshops", autoData.workshops],
-                    ["Research Centers", autoData.research_centers],
-                    ["Patents Filed", autoData.patents_filed],
-                    ["Industry MoUs", autoData.industry_mous],
+                    ["Programmes Offered", autoData.prog_offr],
+                    ["B.Sc - Computer Systems and Design",autoData.csd],
+                    ["B.Sc - Information Systems",autoData.is],
+                    ["B.Sc - Software Systems",autoData.ss],
+
                   ].map(([label, value], index) => (
                     <tr key={index}>
                       <td><strong>{label}</strong></td>
@@ -123,7 +121,7 @@ const Ctug = () => {
                 </tbody>
               </table>
 
-              {["vision", "mission", "peo", "po", "pso"].map((key) => (
+              {["vision", "mission","po"].map((key) => (
                 <div key={key} className={`dropdown-section ${dropdowns[key] ? "active" : ""}`}>
                   <button onClick={() => toggleDropdown(key)}>
                     {key.toUpperCase()}
@@ -138,6 +136,61 @@ const Ctug = () => {
                   </div>
                 </div>
               ))}
+              <br />
+              <h2>B.Sc - Computer Systems and Design</h2>
+              <p>{autoData.csddesc}</p>
+              {["csd-peo","csd-pso"].map((key)=>(
+                 <div key={key} className={`dropdown-section ${dropdowns[key] ? "active" : ""}`}>
+                 <button onClick={() => toggleDropdown(key)}>
+                   {key.toUpperCase()}
+                 </button>
+                 <div className="dropdown-content">
+                   <ul>
+                     {Array.isArray(autoData[key])
+                       ? autoData[key].map((point, index) => <li key={index}>{point}</li>)
+                       : <li>{autoData[key] || "N/A"}</li>
+                     }
+                   </ul>
+                 </div>
+               </div>
+              ))}
+              <br />
+              <h2>B.Sc - Information Systems</h2>
+              <p>{autoData.isdesc}</p>
+              {["is-peo","is-pso"].map((key)=>(
+                 <div key={key} className={`dropdown-section ${dropdowns[key] ? "active" : ""}`}>
+                 <button onClick={() => toggleDropdown(key)}>
+                   {key.toUpperCase()}
+                 </button>
+                 <div className="dropdown-content">
+                   <ul>
+                     {Array.isArray(autoData[key])
+                       ? autoData[key].map((point, index) => <li key={index}>{point}</li>)
+                       : <li>{autoData[key] || "N/A"}</li>
+                     }
+                   </ul>
+                 </div>
+               </div>
+              ))}
+              <br />
+              <h2>B.Sc - Software Systems</h2>
+              <p>{autoData.ssdesc}</p>
+              {["ss-peo","ss-pso"].map((key)=>(
+                 <div key={key} className={`dropdown-section ${dropdowns[key] ? "active" : ""}`}>
+                 <button onClick={() => toggleDropdown(key)}>
+                   {key.toUpperCase()}
+                 </button>
+                 <div className="dropdown-content">
+                   <ul>
+                     {Array.isArray(autoData[key])
+                       ? autoData[key].map((point, index) => <li key={index}>{point}</li>)
+                       : <li>{autoData[key] || "N/A"}</li>
+                     }
+                   </ul>
+                 </div>
+               </div>
+              ))}
+              
             </div>
           )}
 

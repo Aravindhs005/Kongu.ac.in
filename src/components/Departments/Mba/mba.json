@@ -4,13 +4,8 @@
   "dept-name": "Management Studies(MBA)",
   "hod_name": "Dr.P.Karthikeyan",
   "intake": 120,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "phd": "Ph.D in Management is offered",
+  
   "vision": "To be a centre of excellence for development and dissemination of knowledge in Management for the Nation and beyond.",
   "mission": [
       "Transform the Student Community into ethically and socially inclined Business Leaders.",
@@ -31,10 +26,7 @@
     "International Exposure and Cross-Cultural Understanding:  Graduates are expected to demonstrate a global outlook with the ability to identify aspects of the global business and Cross-Cultural Understanding.",
     "Social Responsiveness and Ethics:  Graduates are expected to demonstrate awareness of ethical issues, identify the contemporary social needs and explore the opportunities for social entrepreneurship."
   ],
-  "pso": [
-      ".",
-      " ."
-  ],
+  "pso": null,
   "highlights": {
     "Faculty & Teaching Excellence": [
       "Highly qualified and industry-savvy faculty members.",

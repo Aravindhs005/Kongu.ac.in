@@ -6,6 +6,8 @@ import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./ct-pg.json";
 import Slider from "../../HomePage/Slider/Slider";
+import Deptimg from "../../../assets/images/Department Banner/ctpg.jpg"
+
 
 const NAV_ITEMS = [
   "Home",
@@ -15,8 +17,8 @@ const NAV_ITEMS = [
   "Library",
   // "Patents",
   // "Testing/Consultancy",
-  "R&D (Academic)",
-  "R&D (Activities)",
+  // "R&D (Academic)",
+  // "R&D (Activities)",
 ];
 
 const Ctpg = () => {
@@ -78,7 +80,7 @@ const Ctpg = () => {
 
       <div className="auto-container">
         <div className="auto-banner-container">
-          <img src={autoData.image} alt="Department Banner" className="auto-banner" />
+          <img src={Deptimg} alt="Department Banner" className="auto-banner" />
           <div className="overlay"></div>
           <h1 className="auto-header">{autoData["dept-name"]}</h1>
         </div>
@@ -107,13 +109,7 @@ const Ctpg = () => {
                   {[
                     ["HOD", autoData.hod_name],
                     ["Intake", autoData.intake],
-                    ["Total Staff", autoData.staffs],
-                    ["Labs", autoData.lab_count],
-                    ["Classrooms", autoData.classrooms],
-                    ["Workshops", autoData.workshops],
-                    ["Research Centers", autoData.research_centers],
-                    ["Patents Filed", autoData.patents_filed],
-                    ["Industry MoUs", autoData.industry_mous],
+                   
                   ].map(([label, value], index) => (
                     <tr key={index}>
                       <td><strong>{label}</strong></td>

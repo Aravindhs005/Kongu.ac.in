@@ -107,13 +107,8 @@ const Mca = () => {
                   {[
                     ["HOD", autoData.hod_name],
                     ["Intake", autoData.intake],
-                    ["Total Staff", autoData.staffs],
-                    ["Labs", autoData.lab_count],
-                    ["Classrooms", autoData.classrooms],
-                    ["Workshops", autoData.workshops],
-                    ["Research Centers", autoData.research_centers],
-                    ["Patents Filed", autoData.patents_filed],
-                    ["Industry MoUs", autoData.industry_mous],
+                    ["phD", autoData.phd],
+
                   ].map(([label, value], index) => (
                     <tr key={index}>
                       <td><strong>{label}</strong></td>

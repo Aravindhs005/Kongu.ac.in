@@ -1,17 +1,12 @@
 {
   "image": "https://img.freepik.com/free-photo/person-using-ar-technology-their-daily-occupation_23-2151137517.jpg?t=st=1742316233~exp=1742319833~hmac=0445d7af0510bf642933e543fa19a030a8de1172c6bf050f78913509b2c64ce4&w=2000",
-  "about": "Automobile Engineering is a branch of engineering that focuses on the design, development, manufacturing, and maintenance of automobiles. It integrates elements of mechanical, electrical, electronic, software, and safety engineering to create efficient and high-performance vehicles. Automobile engineers work on various aspects, including vehicle aerodynamics, powertrain systems, fuel efficiency, safety features, and advanced technologies such as electric and autonomous vehicles. With the rapid advancements in automotive technology, the field is evolving towards sustainability, incorporating hybrid and electric powertrains to reduce carbon emissions. As the demand for smart and connected vehicles increases, automobile engineering continues to drive innovation in transportation, enhancing performance, safety, and environmental impact.",
+  "about":"B.Sc. Computer Technology Undergraduate (CTUG) is a comprehensive academic stream offering three specialized 3-year degree programs: B.Sc. Computer Systems and Design, B.Sc. Information Systems, and B.Sc. Software Systems. These programs are designed to equip students with in-depth knowledge and practical skills in modern computing technologies. The B.Sc. Computer Systems and Design course emphasizes the architecture, development, and optimization of computer hardware and software systems. B.Sc. Information Systems focuses on the application of technology in business and organizational settings, covering topics such as data management, system analysis, and IT infrastructure. Meanwhile, B.Sc. Software Systems prepares students for software development and engineering roles, with a strong foundation in programming, algorithms, and application design. Together, these programs foster analytical thinking, problem-solving, and technical proficiency, preparing graduates to thrive in the dynamic fields of IT, software development, and digital transformation.",
   "dept-name": "Computer Technology-UG",
   "hod_name": "Dr.S.Kalaiselvi",
-  "prog_offr":["B.Sc - Computer Systems and Design","B.Sc - Information Systems","B.Sc - Software Systems"],
-  "intake": 60,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "prog_offr":["CSD, IS, SS"],
+  "csd":60,
+  "is":60,
+  "ss":60,  
   "vision": "To become a technically competent centre in the domain of computer science to take care of the global industrial needs.",
   "mission": [
       "Develop inventive, proficient, ethical and quality conscious software professionals.",
@@ -19,33 +14,33 @@
       "Provide students with the state-of-art technologies to excel in academics to meet the IT industrial needs."
   ],
   "objective": "To equip students with the necessary technical and managerial skills.",
-  "Computer Systems and Design": "This branch of study focuses on providing the knowledge and skills necessary to develop new paradigms for the design and development of state-of-the-art software projects by incorporating the technologies of computer science.",
-  "peo": [
+  "csddesc": "This branch of study focuses on providing the knowledge and skills necessary to develop new paradigms for the design and development of state-of-the-art software projects by incorporating the technologies of computer science.",
+  "csd-peo": [
       "Be successfully employed as Software developer and/or accepted into higher education.",
       "Engage in professional development with the ability to progress in the organization.",
       "Adapt to societal changes of industries, lifelong learning and entrepreneurial endeavours."
   ],
-  "pso": [
+  "csd-pso": [
       "Analyze, develop and provide solutions to industrial problems in computer domain using programming, data processing and analytical skills.",
       "Apply software application oriented skills to innovate solution to meet the ever changing demands of IT industry."
   ],
-  "Information Systems": "This branch of study focuses on the use of computer technology and information management methods to solve problems, by understanding the gamut of product development and web-based applications.",
-  "peo": [
+  "isdesc": "This branch of study focuses on the use of computer technology and information management methods to solve problems, by understanding the gamut of product development and web-based applications.",
+  "is-peo": [
       "Practice in computer and information systems related field and/or pursue advanced studies.",
       "Function as a responsible professional and to adapt to an ever-changing environment.",
       "Incorporate ethical values and continuous learning to resolve societal issues."
   ],
-  "pso": [
+  "is-pso": [
       "Provide solutions for the problems of computer and information systems domain, using programming, web scripting and information security skills.",
       "Apply software professional skills to enhance IT oriented services."
   ],
-  "Software Systems": "This branch of study emphasizes critical thinking and design considerations involved in software-enabled systems, by acquiring the knowledge and skills of software engineering and development.",
-  "peo": [
+  "ssdesc": "This branch of study emphasizes critical thinking and design considerations involved in software-enabled systems, by acquiring the knowledge and skills of software engineering and development.",
+  "ss-peo": [
       "Flourish in software profession and/or pursue post-graduation.",
       "Exhibit professional competency and contribute to the intellectual foundation of software engineering discipline.",
       "Live and work as contributing, well-rounded member of society."
   ],
-  "pso": [
+  "ss-pso": [
       "Design, develop and manage the problems in the field of software engineering using programming, project management and analysis skills.",
       "Create and provide robust solutions for the complex industrial problems using effective project management skills."
   ],

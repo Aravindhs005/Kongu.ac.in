@@ -104,7 +104,7 @@ const Library = () => {
 
             <h3>Details of Library Book (up to February 2025)</h3>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>Sl.No.</th>
@@ -150,7 +150,7 @@ const Library = () => {
 
             <h3>National and International Journal</h3>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>S.No.</th>
@@ -196,7 +196,7 @@ const Library = () => {
 
             <h4>AUERC Subscription - E-Journals</h4>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>S.No</th>
@@ -223,7 +223,7 @@ const Library = () => {
 
             <h4>SELF Subscription</h4>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>S.No</th>
@@ -250,7 +250,7 @@ const Library = () => {
 
             <h4>E-Books</h4>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>S.No</th>
@@ -284,7 +284,7 @@ const Library = () => {
 
             <h4>Plagiarism Check Tools</h4>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>Tool</th>
@@ -302,7 +302,7 @@ const Library = () => {
 
             <h4>Digimate - NPTEL</h4>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>Platform</th>
@@ -321,7 +321,7 @@ const Library = () => {
 
             <h4>Reading Facility for Partially Impaired Students</h4>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>Facility</th>
@@ -339,7 +339,7 @@ const Library = () => {
 
             <h4>Remote Access</h4>
             <div className="library-table-container">
-            <table className="library-table">
+            <table className="mainlibrary-table">
                 <thead>
                 <tr>
                     <th>Platform</th>
@@ -447,7 +447,7 @@ const Library = () => {
             <p><strong>No. of Online Journals Subscription:</strong> 10,563</p>
 
             <h2>AUERC SUBSCRIPTION - E-Journals</h2>
-            <table className="library-table">
+            <table className="mainlibrary-table">
             <thead>
                 <tr>
                 <th>Sl.No.</th>

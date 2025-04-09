@@ -6,6 +6,8 @@ import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./chemistry.json";
 import Slider from "../../HomePage/Slider/Slider";
+import Deptimg from "../../../assets/images/Department Banner/chemistry.jpg";
+
 
 const NAV_ITEMS = [
   "Home",
@@ -78,7 +80,7 @@ const Chemistry = () => {
 
       <div className="auto-container">
         <div className="auto-banner-container">
-          <img src={autoData.image} alt="Department Banner" className="auto-banner" />
+          <img src={Deptimg} alt="Department Banner" className="auto-banner" />
           <div className="overlay"></div>
           <h1 className="auto-header">{autoData["dept-name"]}</h1>
         </div>
@@ -106,14 +108,7 @@ const Chemistry = () => {
                 <tbody>
                   {[
                     ["HOD", autoData.hod_name],
-                    ["Intake", autoData.intake],
-                    ["Total Staff", autoData.staffs],
-                    ["Labs", autoData.lab_count],
-                    ["Classrooms", autoData.classrooms],
-                    ["Workshops", autoData.workshops],
-                    ["Research Centers", autoData.research_centers],
-                    ["Patents Filed", autoData.patents_filed],
-                    ["Industry MoUs", autoData.industry_mous],
+                   
                   ].map(([label, value], index) => (
                     <tr key={index}>
                       <td><strong>{label}</strong></td>
@@ -123,7 +118,7 @@ const Chemistry = () => {
                 </tbody>
               </table>
 
-              {["vision", "mission", "peo", "po", "pso"].map((key) => (
+              {["vision", "mission"].map((key) => (
                 <div key={key} className={`dropdown-section ${dropdowns[key] ? "active" : ""}`}>
                   <button onClick={() => toggleDropdown(key)}>
                     {key.toUpperCase()}
@@ -150,26 +145,6 @@ const Chemistry = () => {
                   details === true || details === "" ? <li key={index}>{category.replace(/_/g, " ")}</li> : null
                 )}
               </ul>
-
-              <table className="highlights-table">
-                <thead>
-                  <tr>
-                    <th>Category</th>
-                    <th>Details</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.entries(autoData.highlights || {}).map(([category, details], index) =>
-                    details !== true && details !== "" ? (
-                      <tr key={index}>
-                        <td>{category.replace(/_/g, " ")}</td>
-                        <td>{Array.isArray(details) ? details.join(", ") : details}</td>
-                      </tr>
-                    ) : null
-                  )}
-                </tbody>
-              </table>
-
               <h2>Milestones</h2>
               <div className="milestone-container">
                 {autoData.milestones.map((milestone, index) => (
@@ -205,13 +180,22 @@ const Chemistry = () => {
                 ))}
               </div>
 
-              {selectedLab !== null && (
-                <div className="lab-detail">
-                  <h3>{autoData.labs[selectedLab].topic}</h3>
-                  <img src={autoData.labs[selectedLab].image} alt={autoData.labs[selectedLab].topic} />
-                  <p>{autoData.labs[selectedLab].detail}</p>
-                </div>
-              )}
+            
+                       {selectedLab !== null && (
+                         <div className="lab-detail">
+                           <h3>{autoData.labs[selectedLab].topic}</h3>
+                           {/* <img src={autoData.labs[selectedLab].image} alt={autoData.labs[selectedLab].topic} /> */}
+                           {autoData.labs[selectedLab].detail.map((item, index) => {
+                             if (item.startsWith("* ")) {
+                               return <h2 key={index}>{item.substring(2)}</h2>;
+                             } else if (item.startsWith("- ")) {
+                               return <li key={index}>{item.substring(2)}</li>;
+                             } else {
+                               return <p key={index}>{item}</p>;
+                             }
+                           })}
+                         </div>
+                       )}
             </div>
           )}
 

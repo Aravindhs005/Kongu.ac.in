@@ -1,16 +1,10 @@
 {
-  "image": "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png",
+  "image": "../../../assets/images/Department Banner/mech.jfif",
   "about" : "Mechanical Engineering is one of the broadest and most versatile branches of engineering, focusing on the design, analysis, manufacturing, and maintenance of mechanical systems. It integrates principles of physics, material science, thermodynamics, fluid mechanics, and automation to develop innovative solutions for industries such as automotive, aerospace, energy, robotics, and manufacturing.Mechanical engineers work on various aspects, including machine design, thermal systems, structural analysis, and advanced manufacturing technologies like 3D printing and automation. With the rise of smart manufacturing and Industry 4.0, the field is evolving towards integrating artificial intelligence, IoT, and sustainable energy solutions. As industries move towards greater efficiency and environmental responsibility, mechanical engineering continues to play a crucial role in shaping modern technology and infrastructure.",
   "dept-name": "Mechanical Engineering",
   "hod_name": "Dr.P.Selvakumar",
   "intake": 60,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "phd": "-",
   "vision": "To be a Centre of excellence for development and dissemination of knowledge in Mechanical Engineering for the nation and beyond.",
   "mission": [
       "Establish itself as an excellent academic center through expert pedagogical methods and modern laboratories to produce world class mechanical engineers.",
@@ -339,7 +333,7 @@
           "Product Design and Development Laboratory provides students with hands-on experience in additive manufacturing technology. It allows them to design and create three-dimensional objects by layering thermoplastic materials. The lab offers an opportunity to understand the mechanics of 3D printing and its applications in engineering, art, and product design. Students can experiment with various materials, such as PLA / ABS etc., to build prototypes or models. It’s a valuable space for learning about innovation, prototyping, and the practical implementation of design concepts.",
           "* Hardware/Equipements",
           "- Fabex Pro 3D Printer – 03 Nos.",
-          " Fabex XL 3D Printer – 02 Nos.",
+          "- Fabex XL 3D Printer – 02 Nos.",
           "* Software",
           "- Prusa Slicer"
 

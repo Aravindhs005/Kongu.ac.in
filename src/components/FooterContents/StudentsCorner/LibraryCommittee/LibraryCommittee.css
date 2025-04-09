@@ -1,4 +1,4 @@
-.library-container {
+.librarycmt-container {
     padding: 8rem 1rem 1rem;
     background: linear-gradient(to bottom right, #eef2f7, #f9fafb);
     min-height: 100vh;
@@ -9,7 +9,7 @@
     margin-top: 2rem;
   }
   
-  .library-description {
+  .librarycmt-description {
     font-size: 1.2rem;
     color: #374151;
     margin-bottom: 2.5rem;
@@ -21,7 +21,7 @@
     padding: 0 1rem;
   }
   
-  .library-table {
+  .librarycmt-table {
     width: 100%;
     max-width: 800px;
     margin: auto;
@@ -32,7 +32,7 @@
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   }
   
-  .library-table th {
+  .librarycmt-table th {
     background-color: #1e3a8a;
     color: white;
     font-size: 1.1rem;
@@ -40,7 +40,7 @@
     text-align: center;
   }
   
-  .library-table td {
+  .librarycmt-table td {
     padding: 1rem;
     font-size: 1rem;
     color: #111827;
@@ -48,21 +48,21 @@
     border-bottom: 1px solid #e5e7eb;
   }
   
-  .library-table tr:last-child td {
+  .librarycmt-table tr:last-child td {
     border-bottom: none;
   }
   
   @media (max-width: 768px) {
-    .library-container {
+    .librarycmt-container {
       padding-top: 5rem;
     }
   
-    .library-description {
+    .librarycmt-description {
       font-size: 1rem;
     }
   
-    .library-table th,
-    .library-table td {
+    .librarycmt-table th,
+    .librarycmt-table td {
       font-size: 0.95rem;
       padding: 0.8rem;
     }

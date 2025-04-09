@@ -6,6 +6,8 @@ import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./civil.json";
 import Slider from "../../HomePage/Slider/Slider";
+import Deptimg from "../../../assets/images/Department Banner/civil.jpg";
+
 
 const NAV_ITEMS = [
   "Home",
@@ -78,7 +80,7 @@ const Civil = () => {
 
       <div className="auto-container">
         <div className="auto-banner-container">
-          <img src={autoData.image} alt="Department Banner" className="auto-banner" />
+          <img src={Deptimg} alt="Department Banner" className="auto-banner" />
           <div className="overlay"></div>
           <h1 className="auto-header">{autoData["dept-name"]}</h1>
         </div>
@@ -107,14 +109,9 @@ const Civil = () => {
                   {[
                     ["HOD", autoData.hod_name],
                     ["Intake", autoData.intake],
-                    ["Total Staff", autoData.staffs],
-                    ["Labs", autoData.lab_count],
-                    ["Classrooms", autoData.classrooms],
-                    ["Workshops", autoData.workshops],
-                    ["Research Centers", autoData.research_centers],
-                    ["Patents Filed", autoData.patents_filed],
-                    ["Industry MoUs", autoData.industry_mous],
-                    ["M.E Structural Engineering",autoData.me],
+                    ["M.E Structural Engineering", autoData.me],
+                    ["phD", autoData.phd],
+                    
                   ].map(([label, value], index) => (
                     <tr key={index}>
                       <td><strong>{label}</strong></td>

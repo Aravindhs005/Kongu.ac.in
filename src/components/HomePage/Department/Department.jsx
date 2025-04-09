@@ -19,26 +19,24 @@ const ugCourses = [
   { name: "Computer Science Engineering", abbrev: "CSE", icon: <FontAwesomeIcon icon={faComputer} /> },
   { name: "Information Technology", abbrev: "IT", icon: <FontAwesomeIcon icon={faCode} /> },
   { name: "Artificial Intelligence and Data Science", abbrev: "aids", icon: <FontAwesomeIcon icon={faBrain} /> },
-  { name: "Artificial Intelligence and Machine Learning", abbrev: "AI&ML", icon: <FontAwesomeIcon icon={faRobot} /> },
+  { name: "Artificial Intelligence and Machine Learning", abbrev: "AIML", icon: <FontAwesomeIcon icon={faRobot} /> },
   { name: "Computer Science and Design", abbrev: "CSD", icon: <FontAwesomeIcon icon={faVrCardboard} /> },
   { name: "Chemical Engineering", abbrev: "CHEM", icon: <FontAwesomeIcon icon={faAtom} /> },
   { name: "Food Technology", abbrev: "FOODTECH", icon: <FontAwesomeIcon icon={faSeedling} /> }
 ];
 
 const pgCourses = [
-  { name: "M.Tech Computer Science", abbrev: "M.Tech CSE", icon: <FontAwesomeIcon icon={faComputer} /> },
-  { name: "M.E VLSI Design", abbrev: "M.Tech AI", icon: <FontAwesomeIcon icon={faMicrochip} /> },
-  { name: "M.E Structural Engineering", abbrev: "M.Tech DS", icon: <FontAwesomeIcon icon={faPenRuler} /> },
-  { name: "M.Tech Food Technology", abbrev: "M.Tech CS", icon: <FontAwesomeIcon icon={faSeedling} /> },
-  { name: "Master of Business Administration (MBA)", abbrev: "M.Tech VLSI", icon: <FontAwesomeIcon icon={faBriefcase} /> },
-  { name: "Master of Computer Applications (MCA)", abbrev: "M.Tech ES", icon: <FontAwesomeIcon icon={faLaptopCode} /> }
+  { name: "M.E Computer Science and Engineering", abbrev: "cse", icon: <FontAwesomeIcon icon={faComputer} /> },
+  { name: "M.E VLSI Design", abbrev: "ece", icon: <FontAwesomeIcon icon={faMicrochip} /> },
+  { name: "M.E Structural Engineering", abbrev: "civil", icon: <FontAwesomeIcon icon={faPenRuler} /> },
+  { name: "M.Tech Food Technology", abbrev: "foodtech", icon: <FontAwesomeIcon icon={faSeedling} /> },
+  { name: "Master of Business Administration (MBA)", abbrev: "mba", icon: <FontAwesomeIcon icon={faBriefcase} /> },
+  { name: "Master of Computer Applications (MCA)", abbrev: "mca", icon: <FontAwesomeIcon icon={faLaptopCode} /> }
 ];
 
 const shCourses = [
-  { name: "B.Sc Computer Systems and Design", abbrev: "MATH", icon: <FontAwesomeIcon icon={faComputer} /> },
-  { name: "B.Sc Information Systems", abbrev: "PHY", icon: <FontAwesomeIcon icon={faCode} /> },
-  { name: "B.Sc Software Systems", abbrev: "CHEM", icon: <FontAwesomeIcon icon={faLaptopCode} /> },
-  { name: "M.Sc Software Systems", abbrev: "ENG", icon: <FontAwesomeIcon icon={faLaptopCode} /> },
+  { name: "CT-UG", abbrev: "ctug", icon: <FontAwesomeIcon icon={faComputer} /> },
+  { name: "CT-PG", abbrev: "ctpg", icon: <FontAwesomeIcon icon={faLaptopCode} /> },
 ];
 
 const Department = () => {
@@ -68,7 +66,7 @@ const Department = () => {
       <div className="dep-button-container">
         <button onClick={() => setSelectedCategory('UG')}>UG Programmes</button>
         <button onClick={() => setSelectedCategory('PG')}>PG Programmes</button>
-        <button onClick={() => setSelectedCategory('S&H')}>CT-UG & CT-PG</button>
+        <button onClick={() => setSelectedCategory('S&H')}>Applied Science</button>
       </div>
 
       <div className="dep-courses-container">

@@ -1,16 +1,12 @@
 {
-  "image": "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png",
+  "image": "../../../assets/images/Department Banner/cse.jpg",
   "about": "Computer Science and Engineering (CSE) is a branch of engineering that focuses on the design, development, and implementation of computer systems and software. It encompasses various domains, including artificial intelligence, data science, cybersecurity, cloud computing, and software engineering. CSE engineers work on cutting-edge technologies such as machine learning, blockchain, IoT, and quantum computing, driving innovation across industries. With the rapid advancement of digital transformation, the field continues to evolve, enhancing automation, efficiency, and security in computing systems. As the demand for intelligent and scalable solutions grows, Computer Science and Engineering plays a vital role in shaping the future of technology, powering industries, and improving everyday life.",
   "dept-name": "Computer Science and Engineering",
   "hod_name": "Dr.S.Malliga",
   "intake": 360,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "me": 12,
+  "phd": "-",
+  
   "vision": "To be a centre of excellence for nurturing competent computer professionals of high calibre and quality for catering to the ever-changing needs of the industry and society.",
   "mission": [
       "Develop innovative, competent and ethically strong computer engineers to meet global challenges.",

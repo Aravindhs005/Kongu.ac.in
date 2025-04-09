@@ -1,16 +1,9 @@
 {
   "image": "https://img.freepik.com/free-photo/person-using-ar-technology-their-daily-occupation_23-2151137517.jpg?t=st=1742316233~exp=1742319833~hmac=0445d7af0510bf642933e543fa19a030a8de1172c6bf050f78913509b2c64ce4&w=2000",
-  "about": "Automobile Engineering is a branch of engineering that focuses on the design, development, manufacturing, and maintenance of automobiles. It integrates elements of mechanical, electrical, electronic, software, and safety engineering to create efficient and high-performance vehicles. Automobile engineers work on various aspects, including vehicle aerodynamics, powertrain systems, fuel efficiency, safety features, and advanced technologies such as electric and autonomous vehicles. With the rapid advancements in automotive technology, the field is evolving towards sustainability, incorporating hybrid and electric powertrains to reduce carbon emissions. As the demand for smart and connected vehicles increases, automobile engineering continues to drive innovation in transportation, enhancing performance, safety, and environmental impact.",
+  "about": "M.Sc. Software Systems under the Computer Technology Postgraduate (CTPG) program is a unique integrated five-year course designed to provide students with a strong foundation in both theoretical and practical aspects of software development and system design. This program blends core concepts of computer science with advanced topics in software engineering, aiming to develop professionals who can innovate and lead in the fast-paced tech industry. Students are trained in programming, database management, system architecture, cloud computing, cybersecurity, and emerging technologies like AI and machine learning. With a curriculum that evolves with industry trends, the course emphasizes hands-on experience through projects, internships, and research activities. By the end of the five years, graduates are equipped with a master’s level understanding and industry-ready skills, making them highly competent for roles in software development, IT consulting, system analysis, and tech-driven entrepreneurship.",
   "dept-name": "Computer Technology - PG",
-  "hod_name": "Dr.E.Gothai",
+  "hod_name": "Dr.E.Gothai (wef. 04.05.2022)",
   "intake": 60,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
   "vision": "To become a technically competent centre in the domain of Computer Science to meet the changing needs of nation and beyond.",
   "mission": [
       "Inculcate conceptual knowledge with profound practical and real time industry exposure to the students.",
@@ -36,10 +29,7 @@
     "Project Management and Finance: Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.",
     "Life-Long Learning: Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change."
   ],
-  "pso": [
-      ".",
-      " ."
-  ],
+  "pso":null,
   "highlights": {
       "Conferences organized": "International - 3",
       "Sponsored Seminars / Workshops / FDP organized": "4 (funded by CSIR)",

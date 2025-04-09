@@ -1,16 +1,11 @@
 {
-  "image": "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png",
+  "image": "../../../assets/images/Department Banner/eie.jpg",
   "about": "Electronics and Instrumentation Engineering (EIE) is a branch of engineering that focuses on the design, development, and maintenance of instrumentation systems used in various industries. It integrates principles of electronics, control systems, and automation to ensure accurate measurement, monitoring, and control of industrial processes. EIE engineers work on advanced technologies such as sensors, robotics, IoT, biomedical instrumentation, and process automation in sectors like manufacturing, healthcare, power plants, and aerospace. With the growing demand for precision and automation, the field is evolving towards smart and intelligent systems, enhancing efficiency, safety, and reliability. As industries embrace digital transformation, Electronics and Instrumentation Engineering plays a vital role in optimizing processes and driving technological advancements.",
   "dept-name": "Electronics and Instrumentation Engineering ",
   "hod_name": "Dr.S.J.Suji Prasad",
   "intake": 120,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "phd": "-",
+  
   "vision": "To become a technically competent centre in the domain of Electronics and Instrumentation Engineering to take care of the National and International needs.",
   "mission": [
       "To develop innovative, competent, efficient, disciplined and quality Electronics and Instrumentation Engineers.",

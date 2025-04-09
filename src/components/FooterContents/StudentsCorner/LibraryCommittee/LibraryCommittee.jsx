@@ -21,12 +21,12 @@ const LibraryCommittee = () => {
     <>
       <Navbar />
       <Section title="Library Committee" />
-      <div className="library-container">
-        <p className="library-description">
+      <div className="librarycmt-container">
+        <p className="librarycmt-description">
           The Library Committee is reconstituted with the following members:
         </p>
         <div className="table-wrapper">
-          <table className="library-table">
+          <table className="librarycmt-table">
             <thead>
               <tr>
                 <th>Name</th>

@@ -1,16 +1,10 @@
 {
-  "image": "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png",
+  "image": "../../../assets/images/Department Banner/eee.jpg",
   "about": "Electrical and Electronics Engineering (EEE) is a branch of engineering that focuses on the study, design, development, and application of electrical and electronic systems. It encompasses various domains, including power generation, transmission, and distribution, as well as embedded systems, control systems, signal processing, and telecommunications. EEE engineers work on diverse technologies such as renewable energy, electric vehicles, smart grids, automation, and IoT-based systems. With rapid advancements in electronics and sustainable energy solutions, the field is evolving to meet the growing demand for energy efficiency and intelligent systems. As the world moves towards digitalization and green energy, Electrical and Electronics Engineering continues to drive innovation, enhancing efficiency, connectivity, and sustainability across industries.",
   "dept-name": "Electrical and Electronics Engineering",
   "hod_name": "Dr.M.Karthik",
   "intake": 120,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "phd": "-",
   "vision": "To be a centre of excellence for providing quality education in the frontier areas of Electrical and Electronics Engineering to benefit the society for the nation and beyond.",
   "mission": [
       "Develop innovative, competent, ethical and quality engineers to contribute for technical advancements to meet societal needs.",

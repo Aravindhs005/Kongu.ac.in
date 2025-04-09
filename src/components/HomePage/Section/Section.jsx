@@ -8,11 +8,11 @@ const Section = () => {
     <div className="section">
       <div className="section-content">
         <div className="left-links">
-          <a href="#link1">Students</a>
-          <a href="#link2">Faculty & Staff</a>
-          <a href="#link3">Alumni</a>
-          <a href="#link4">TBI</a>
-          <a href="#link5">COE</a>
+          <a href="https://kec.linways.com/">Linways Portal</a>
+          <a href="https://placement.kongu.edu/">Placement Drive</a>
+          <a href="https://kms.kongu.edu/">KMS Portal</a>
+          <a href="https://results.kongu.edu/">Results</a>
+
         </div>
         <div className="info-line">
           <marquee behavior="scroll" direction="left" className="marquee">

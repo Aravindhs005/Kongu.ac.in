@@ -6,6 +6,7 @@ import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./physics.json";
 import Slider from "../../HomePage/Slider/Slider";
+import Deptimg from "../../../assets/images/Department Banner/physics.webp";
 
 const NAV_ITEMS = [
   "Home",
@@ -59,7 +60,6 @@ const Physics = () => {
       .catch((error) => console.error("Error fetching CSV:", error));
   }, []);
 
-  // Redirect to R&D sections
   useEffect(() => {
     if (activeSection === "R&D (Academic)" && autoData.rnd?.academic) {
       window.location.href = autoData.rnd.academic;
@@ -67,7 +67,8 @@ const Physics = () => {
     if (activeSection === "R&D (Activities)" && autoData.rnd?.activities) {
       window.location.href = autoData.rnd.activities;
     }
-  }, [activeSection]);
+  }, [activeSection, autoData]);
+  
 
   return (
     <div>
@@ -78,7 +79,7 @@ const Physics = () => {
 
       <div className="auto-container">
         <div className="auto-banner-container">
-          <img src={autoData.image} alt="Department Banner" className="auto-banner" />
+          <img src={Deptimg} alt="Department Banner" className="auto-banner" />
           <div className="overlay"></div>
           <h1 className="auto-header">{autoData["dept-name"]}</h1>
         </div>
@@ -106,14 +107,8 @@ const Physics = () => {
                 <tbody>
                   {[
                     ["HOD", autoData.hod_name],
-                    ["Intake", autoData.intake],
-                    ["Total Staff", autoData.staffs],
-                    ["Labs", autoData.lab_count],
-                    ["Classrooms", autoData.classrooms],
-                    ["Workshops", autoData.workshops],
-                    ["Research Centers", autoData.research_centers],
-                    ["Patents Filed", autoData.patents_filed],
-                    ["Industry MoUs", autoData.industry_mous],
+                    ["Programmes Offered", autoData.progoffr],
+
                   ].map(([label, value], index) => (
                     <tr key={index}>
                       <td><strong>{label}</strong></td>
@@ -123,7 +118,7 @@ const Physics = () => {
                 </tbody>
               </table>
 
-              {["vision", "mission", "peo", "po", "pso"].map((key) => (
+              {["vision", "mission", "objective"].map((key) => (
                 <div key={key} className={`dropdown-section ${dropdowns[key] ? "active" : ""}`}>
                   <button onClick={() => toggleDropdown(key)}>
                     {key.toUpperCase()}
@@ -151,42 +146,7 @@ const Physics = () => {
                 )}
               </ul>
 
-              <table className="highlights-table">
-                <thead>
-                  <tr>
-                    <th>Category</th>
-                    <th>Details</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.entries(autoData.highlights || {}).map(([category, details], index) =>
-                    details !== true && details !== "" ? (
-                      <tr key={index}>
-                        <td>{category.replace(/_/g, " ")}</td>
-                        <td>{Array.isArray(details) ? details.join(", ") : details}</td>
-                      </tr>
-                    ) : null
-                  )}
-                </tbody>
-              </table>
-
-              <h2>Milestones</h2>
-              <div className="milestone-container">
-                {autoData.milestones.map((milestone, index) => (
-                  <div key={index} className="milestone">
-                    <div className="milestone-year">{milestone.year}</div>
-                    <div className="milestone-events">
-                      {Array.isArray(milestone.events) ? (
-                        <ul>
-                          {milestone.events.map((event, idx) => <li key={idx}>{event}</li>)}
-                        </ul>
-                      ) : (
-                        <p>{milestone.event}</p>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
+            
             </div>
           )}
 

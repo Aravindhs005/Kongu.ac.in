@@ -4,13 +4,8 @@
   "dept-name": "Computer Applications (MCA)",
   "hod_name": "Dr.A.Tamilarasi",
   "intake": 120,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "phd": "-",
+  
   "vision": "To be a center of excellence for development and dissemination of knowledge in computer applications for the nation and beyond.",
   "mission": [
       "To empower individuals with a strong foundation in mathematics, programming logic and coding fundamentals with the necessary tools to effectively tackle the problem-solving challenges in various domains.",
@@ -33,10 +28,7 @@
     "Ethics:  Understand and commit to professional ethics and cyber regulations, responsibilities, and norms of professional computing practices.",
     "Life-long learning:  Change management skills and the ability to learn, keep up with contemporary technologies and ways of working."
   ],
-  "pso": [
-      ".",
-      " ."
-  ],
+  "pso": null,
   "highlights": {
     "Placement & Internship": [
       "Consistent improvement in Placement and Internship."

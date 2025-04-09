@@ -1,6 +1,6 @@
 {
   "image": "https://img.freepik.com/free-photo/person-using-ar-technology-their-daily-occupation_23-2151137517.jpg?t=st=1742316233~exp=1742319833~hmac=0445d7af0510bf642933e543fa19a030a8de1172c6bf050f78913509b2c64ce4&w=2000",
-  "about": "Automobile Engineering is a branch of engineering that focuses on the design, development, manufacturing, and maintenance of automobiles. It integrates elements of mechanical, electrical, electronic, software, and safety engineering to create efficient and high-performance vehicles. Automobile engineers work on various aspects, including vehicle aerodynamics, powertrain systems, fuel efficiency, safety features, and advanced technologies such as electric and autonomous vehicles. With the rapid advancements in automotive technology, the field is evolving towards sustainability, incorporating hybrid and electric powertrains to reduce carbon emissions. As the demand for smart and connected vehicles increases, automobile engineering continues to drive innovation in transportation, enhancing performance, safety, and environmental impact.",
+  "about": "The Department as a Research Centre provides facility driving to the degree of Doctor of Philosophy in the fields of Functional Analysis, Lattice Theory, Fuzzy delayed differential Equations, Intuitionistic Fuzzy Topology, Fuzzy Linear Programming, Graph Theory, Intuitionistic Fuzzy Optimization, Fuzzy Image Processing, Stochastic Process and Stability Theory and Computational Fluid Dynamics.",
   "dept-name": "Mathematics",
   "hod_name": "Dr.M.Dhavamani",
   "intake": 60,
@@ -16,57 +16,26 @@
       "To expand knowledge in Mathematics, establish the department as a research centre and cater to the needs of the student community to become qualified professionals. To create and develop necessary infrastructure and a learning environment using the services of a highly qualified and dedicated team of faculty members."
   ],
   "objective": "To equip students with the necessary technical and managerial skills.",
-  "peo": [
-      ".",
-      ".",
-      "."
-  ],
-  "po": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
-  ],
-  "pso": [
-      ".",
-      " ."
-  ],
   "highlights": {
-      "Conferences organized": "International - 3",
-      "Sponsored Seminars / Workshops / FDP organized": "4 (funded by CSIR)",
-      "Publications by faculty in journals": 98,
-      "Publications by faculty in conferences": 40,
-      "Consultancy / training activities carried out": "Rs.5.23Lakhs",
-      "Consistent improvement in Placement and Internship": true,
-      "Sponsored student’s projects": "06 (IIT Palakkad, SPARK fund and SEED grant)",
-      "MoU": [
-          "Brakes India", "Wheels India", "Roots Industries", "Niyata Infotech Pvt Ltd, Bangalore", 
-          "Sree Saradhambal Automobiles Pvt Ltd, Coimbatore", "Aadhi Cars Pvt Ltd, Coimbatore", "IMIK Technologies, Coimbatore"
-      ],
-      "State of art laboratory facilities": true,
-      "Papers presented by students": "140 and won 20 prizes, 7 prizes from MITs, NITs & other premier institutions",
-      "Projects presented by students": "59 and won 25 prizes, 6 prizes from IITs.",
-      "Participation in National and International Events": [
-          "KPIT", "E-Kart", "Baja", "Go-kart", "E-Kart", "Aero Modelling", "Electric Two-Wheeler Design Challenge", "Bicycle Design Challenge"
-      ]
+      "Department has 23 highly qualified faculty members (Ph. D – 19 and Pursuing Ph. D - 4).":true,
+"Recognized as a research centre by Anna university, Chennai for doing Ph. D in Full time / Part time.":true,
+"12 Faculty members are approved by Anna University, Chennai to guide Ph. D scholars.":true,
+"35 (internal and external) faculty members were completed Ph. D and 19 (internal and external) faculty members were pursuing their Ph. D in this centre.":true,
+"Separate Mathematics Laboratory with numerous mathematical models, Puzzles for the students.":true,
+"Journal Publications by Faculty:":true,
+"International – 195":true,
+"National – 14":true,
+"Books Published – 3":true,
+"R & D project completed : 1 (worth of Rs. 3 Lakhs from UGC)":true,
+"34 sponsored and 3 self supporting seminars/ workshops/ STTP/ conference/ RCC/ POP-SCI and FDP’s were organized with a grant of more than Rs. 27.26 Lakhs from the government agencies like AICTE, DST, CSIR, DRDO, ICMR, DBT, NCM and IAS.":true,
+"Organized an international conference sponsored by SERB, INSA and CSIR.":true,
+"Conducting state level Quiz programme through Mathematics club every year.":true,
+"Conducting  District Level Quiz Programme for school students at Kongu Matriculation School, Uthukuli every year.":true,
+"Computing Facilities":true,
+"128 personal computers with LAN":true,
+"30 LCD projectors":true,
+"16 digital Boards":true
   },
-
-    "milestones": [
-      {
-        "year": 1998,
-        "event": "B.E.(EIE) Programme started with an intake of 30."
-      }
-    ],
 
     "labs": [
       {
@@ -83,7 +52,7 @@
       "name": "Mathematics Department Library",
       "description": "The Mathematics department has a separate department library to cater to the specific needs of the students. The following is the consolidated data related to the department library.",
       "details": {
-        "number_of_titles": "531",
+        "Total No of books": "531",
         "working_hours": "8:40 AM to 4.30 PM"
       }
     },

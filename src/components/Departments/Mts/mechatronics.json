@@ -1,16 +1,11 @@
 {
-  "image": "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png",
+  "image": "../../../assets/images/Department Banner/mts.jpg",
   "about": "Mechatronics Engineering is an interdisciplinary field that combines mechanical, electrical, electronics, and computer engineering to design and develop intelligent systems and automation solutions. It focuses on creating smart machines, robotics, and advanced control systems that enhance efficiency and precision in various industries. Mechatronics engineers work on automation, robotics, embedded systems, sensors, and artificial intelligence to develop cutting-edge technologies used in manufacturing, healthcare, automotive, and aerospace sectors. With the increasing integration of IoT and AI-driven automation, Mechatronics Engineering plays a crucial role in modern industry, driving innovation in smart systems, autonomous machines, and intelligent manufacturing processes.",
   "dept-name": "Mechatronics Engineering",
   "hod_name": "Dr.B.Meenakshipriya",
   "intake": 120,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "phd": "-",
+  
   "vision": "To be a centre of excellence for development and dissemination of knowledge in Mechatronics Engineering for the Nation and beyond.",
   "mission": [
       "Disseminate knowledge through effective teaching-learning process to develop technically competent and ethically strong Mechatronics professionals.",

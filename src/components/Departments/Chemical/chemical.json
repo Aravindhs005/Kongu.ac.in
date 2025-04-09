@@ -1,16 +1,10 @@
 {
-  "image": "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png",
+  "image": "../../../assets/images/Department Banner/chem.jfif",
   "about": "Chemical Engineering is a branch of engineering that focuses on the design, development, and optimization of chemical processes for producing valuable products. It integrates principles of chemistry, physics, mathematics, and biology to develop sustainable and efficient solutions for industries such as pharmaceuticals, energy, food processing, petrochemicals, and environmental engineering. Chemical engineers work on cutting-edge technologies like nanotechnology, renewable energy, biochemical engineering, and process automation to improve production efficiency and environmental sustainability. With the increasing emphasis on green technologies and sustainable manufacturing, the field continues to evolve, addressing global challenges such as climate change and resource management. As industries strive for safer and more efficient processes, Chemical Engineering plays a crucial role in innovation, sustainability, and technological advancement.",
   "dept-name": "Chemical Engineering",
   "hod_name": "Dr.V.Sangeetha",
   "intake": 60,
-  "staffs": 50,
-  "lab_count": 10,
-  "classrooms": 8,
-  "workshops": 5,
-  "research_centers": 2,
-  "patents_filed": 12,
-  "industry_mous": 15,
+  "phd": "-",
   "vision": "To be a centre of excellence for development and dissemination of knowledge in Chemical Engineering for the Nation and beyond.",
   "mission": [
       "Impart knowledge to students at all levels through a vibrant, dynamic and state of the art intellectual delivery to ensure the creation of a complete Chemical Engineer with a high sense of social responsibility and professional ethics.",
