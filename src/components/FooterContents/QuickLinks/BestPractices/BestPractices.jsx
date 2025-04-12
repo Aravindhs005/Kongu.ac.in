@@ -24,7 +24,7 @@ const BestPractices = () => {
       <Navbar />
       <div className="ariia-container">
         <h1 className="ariia-title">
-          Audit Report
+          Best Practices
         </h1>
         <div className="ariia-links">
           {ariiaFiles.map((pdf, index) => (

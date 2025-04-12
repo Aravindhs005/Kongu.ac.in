@@ -20,6 +20,7 @@ import Placement from './Placement/Placement';
 import CampusVideo from './CampusVideo/CampusVideo';
 import ScrollToTopButton from '../ScrollToTopButton';
 import Department from './Department/Department';
+import FlashNews from '../FlashNews';
 
 const HomePage = () => {
 
@@ -44,6 +45,7 @@ const HomePage = () => {
       <Contact/>
       <Footer/>
       <ScrollToTopButton/>
+      <FlashNews/>
     </div>
   )
 }

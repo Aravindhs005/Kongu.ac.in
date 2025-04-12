@@ -507,7 +507,49 @@
           "status": "Approved (Patent No. 381983-001)"
         }
       ]
-    },    
+    },   
+    "testing":{
+      "category": "TESTING/CONSULTANCY",
+      "description": "Testing & Consultancy works are carried out in the following diversified fields",
+      "fields": [
+        "RCC & Steel Structural Design - Detailing",
+        "Structural Materials testing",
+        "Testing on Beam, Column, Slab, Beam-Column Joint, Frame",
+        "Concrete Materials and Concrete Mix Design",
+        "Soil testing & Consultancy",
+        "Material Testing",
+        "NDT",
+        "Water Quality Testing",
+        "Surveying (Total station, GPS, Layout, Levelling and Setting out works)"
+      ],
+      "researchFacilities": [
+        "Compression Testing Machine (200T)",
+        "Vicat Apparatus",
+        "Consistometer",
+        "Electrical Strain Gauge",
+        "Testing Frame 100 T",
+        "Rebound Hammer",
+        "Ultrasonic Pulse Velocity Tester (TICO)",
+        "Compressometer",
+        "Concrete Permeability Apparatus",
+        "Flow Table",
+        "Air Entrainment Meter",
+        "Length Comparator",
+        "L Box, U Box, V Funnel, Fallibility Box",
+        "Environmental Chamber for Plastic Shrinkage Test",
+        "U V Visible Spectro Photometer",
+        "Universal Testing Machine (40T)",
+        "Electronic Universal Testing Machine (100T)",
+        "Compression Testing Machine (50T)",
+        "Plate bearing test apparatus",
+        "SPT test apparatus",
+        "Swell Pressure Test",
+        "Loading Frame Motorized",
+        "Waterproof Cyber Scan Ion Analyser",
+        "Auto Shrink Set (According to ASTM C 1698-09)"
+      ]
+    },
+    
     "rnd": {
       "academic": "https://rnd.kongu.edu/academic/civil.php",
       "activities":"https://rnd.kongu.edu/activities/civil/index.php"

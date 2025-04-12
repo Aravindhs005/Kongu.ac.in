@@ -1,27 +1,37 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Achievements.css';
 import Footer from '../../HomePage/Footer/Footer';
 import ScrollToTopButton from '../../ScrollToTopButton';
 import Section from '../../HomePage/Section/Section';
 import Navbar from '../../HomePage/navbar/Navbar';
 import Spinner from '../../Spinner';
+import Slider from './Slider/Slider';
 
-const importAll = (r) => r.keys().map((key) => ({
-  src: r(key),
-  name: key.split('/').pop().replace(/\.[^/.]+$/, ''),
-}));
+// Load faculty achievement images
+const importAll = (r) =>
+  r.keys().map((key) => ({
+    src: r(key),
+    name: key.split('/').pop().replace(/\.[^/.]+$/, ''),
+  }));
 
-const images = importAll(require.context('../../../assets/images/Achievements', false, /\.(png|jpe?g|svg)$/));
+const facultyImages = importAll(
+  require.context('../../../assets/images/Achievements/Faculties', false, /\.(png|jpe?g|svg)$/)
+);
+
+// Load student achievement PDFs
+const studentPDFs = importAll(
+  require.context('../../../assets/docs/Achievements/Students', false, /\.pdf$/)
+);
 
 const Achievements = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [loading, setLoading] = useState(true);
-  
+  const [category, setCategory] = useState('faculty'); // 'faculty' | 'student'
+
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1500);
     return () => clearTimeout(timer);
   }, []);
-
 
   const splitLines = (name) => {
     const words = name.split(' ');
@@ -32,47 +42,93 @@ const Achievements = () => {
     };
   };
 
-  const handleCardClick = (img) => {
-    setSelectedImage(img);
-  };
+  const handleCardClick = (img) => setSelectedImage(img);
+  const handleCloseModal = () => setSelectedImage(null);
 
-  const handleCloseModal = () => {
-    setSelectedImage(null);
-  };
-
-  return loading ? <Spinner /> :   (
+  return loading ? (
+    <Spinner />
+  ) : (
     <>
-    <Section/>
-    <Navbar/>
-    <div className="achievements-container">
-      <h2 className="achievements-title">Achievements</h2>
-      <div className="achievements-grid">
-        {images.map((img, idx) => {
-          const { line1, line2 } = splitLines(img.name);
-          return (
-            <div className="achievement-card" key={idx} onClick={() => handleCardClick(img)}>
-              <img src={img.src} alt={img.name} className="achievement-img" />
-              <p className="achievement-caption">{line1}<br />{line2}</p>
-            </div>
-          );
-        })}
-      </div>
+      <Section />
+      <Navbar />
+      <div className="achievements-container">
+        <h2 className="achievements-title">Achievements</h2>
 
-      {selectedImage && (
-        <div className="achievements-modal" onClick={handleCloseModal}>
-          <div className="achievements-modal-content">
-            <img src={selectedImage.src} alt={selectedImage.name} className="achievements-modal-image" />
-            <div className="achievements-modal-text">{selectedImage.name}</div>
-            <button className="achievements-modal-close" onClick={handleCloseModal}>×</button>
-            </div>
+        {/* Tab Switch */}
+        <div className="achievements-navsection">
+          <button
+            className={category === 'faculty' ? 'active' : ''}
+            onClick={() => setCategory('faculty')}
+          >
+            Faculty Achievements
+          </button>
+          <button
+            className={category === 'student' ? 'active' : ''}
+            onClick={() => setCategory('student')}
+          >
+            Student Achievements
+          </button>
         </div>
-      )}
 
+        {/* Faculty View */}
+        {category === 'faculty' && (
+          <div className="achievements-grid">
+            {facultyImages.map((img, idx) => {
+              const { line1, line2 } = splitLines(img.name);
+              return (
+                <div
+                  className="achievement-card"
+                  key={idx}
+                  onClick={() => handleCardClick(img)}
+                >
+                  <img src={img.src} alt={img.name} className="achievement-img" />
+                  <p className="achievement-caption">
+                    {line1}
+                    <br />
+                    {line2}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        )}
 
+        {/* Student View */}
+        {category === 'student' && (
+          <>
+          <Slider/>
 
-    </div>
-    <Footer/>
-    <ScrollToTopButton/>
+          <div className="achievements-pdf-list">
+            {studentPDFs.map((pdf, idx) => (
+              <div key={idx} className="achievement-pdf-item">
+                <a href={pdf.src} target="_blank" rel="noopener noreferrer" download>
+                  📄 {pdf.name}
+                </a>
+              </div>
+            ))}
+          </div>
+          </>
+        )}
+
+        {/* Modal */}
+        {selectedImage && (
+          <div className="achievements-modal" onClick={handleCloseModal}>
+            <div className="achievements-modal-content">
+              <img
+                src={selectedImage.src}
+                alt={selectedImage.name}
+                className="achievements-modal-image"
+              />
+              <div className="achievements-modal-text">{selectedImage.name}</div>
+              <button className="achievements-modal-close" onClick={handleCloseModal}>
+                ×
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+      <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

@@ -5,8 +5,9 @@ import Section from "../../HomePage/Section/Section";
 import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./aiml.json";
-import Slider from "../../HomePage/Slider/Slider";
+import Slider from "./Slider";
 import Deptimg from "../../../assets/images/Department Banner/aiml.jpg";
+import ScrollToTopButton from "../../ScrollToTopButton";
 
 
 const NAV_ITEMS = [
@@ -214,6 +215,8 @@ const Aiml = () => {
           {activeSection === "Faculty" && (
             <div>
               <h2>Faculty Members</h2>
+              <h3><strong>Total Faculty Members: {facultyData.length}</strong></h3>
+
               <div className="auto-faculty-container">
                 {facultyData.map((faculty, index) => (
                   <div
@@ -254,6 +257,7 @@ const Aiml = () => {
 
       <Slider />
       <Footer />
+      <ScrollToTopButton/>
     </div>
   );
 };

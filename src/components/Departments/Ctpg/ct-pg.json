@@ -31,23 +31,16 @@
   ],
   "pso":null,
   "highlights": {
-      "Conferences organized": "International - 3",
-      "Sponsored Seminars / Workshops / FDP organized": "4 (funded by CSIR)",
-      "Publications by faculty in journals": 98,
-      "Publications by faculty in conferences": 40,
-      "Consultancy / training activities carried out": "Rs.5.23Lakhs",
-      "Consistent improvement in Placement and Internship": true,
-      "Sponsored student’s projects": "06 (IIT Palakkad, SPARK fund and SEED grant)",
-      "MoU": [
-          "Brakes India", "Wheels India", "Roots Industries", "Niyata Infotech Pvt Ltd, Bangalore", 
-          "Sree Saradhambal Automobiles Pvt Ltd, Coimbatore", "Aadhi Cars Pvt Ltd, Coimbatore", "IMIK Technologies, Coimbatore"
-      ],
-      "State of art laboratory facilities": true,
-      "Papers presented by students": "140 and won 20 prizes, 7 prizes from MITs, NITs & other premier institutions",
-      "Projects presented by students": "59 and won 25 prizes, 6 prizes from IITs.",
-      "Participation in National and International Events": [
-          "KPIT", "E-Kart", "Baja", "Go-kart", "E-Kart", "Aero Modelling", "Electric Two-Wheeler Design Challenge", "Bicycle Design Challenge"
-      ]
+    "Papers published in SCI and Scopus Journals.":true,
+    "Actively involved in consultancy activities with various industries and generated Rs.2,63,600.":true,
+    "Four faculty members completed PhD and 9 faculty members are pursuing PhD.":true,
+    "Two approved supervisors with 11 scholars pursuing and 35 scholars completed Ph.D.":true,
+    "Completed two research projects sponsored by AICTE and UGC.":true,
+    "Eleven books published.":true,
+    "Organized Seminar / workshops/Short Term Training Programmes (STTP)/Faculty Development Programmes (FDP) sponsored by various funding agencies like AICTE, DST, ICMR, DRDO, CSIR, NBHM, DIT, INSA, MoEF, MNRE.":true,
+    "Internship opportunities for students with stipend in 7 th and 10 th standard.":true,
+    "MOU Signed with Incresco Technology Solutions pvt Ltd":true
+    
   },
 
     "milestones": [

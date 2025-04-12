@@ -24,7 +24,7 @@ const FitnessProtocol = () => {
       <Navbar />
       <div className="ariia-container">
         <h1 className="ariia-title">
-          Audit Report
+        Fitness Protocols and Guidelines
         </h1>
         <div className="ariia-links">
           {ariiaFiles.map((pdf, index) => (

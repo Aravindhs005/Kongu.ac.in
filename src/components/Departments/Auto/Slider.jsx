@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Slider.css';
-import data from './Auto.json';
 
 
 const importAll = (r) => r.keys().map(r);
-const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../../assets/images/Achievements/Departments/Auto', false, /\.(png|jpe?g|svg)$/));
 
 const SliderAchievements = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,9 +34,14 @@ const SliderAchievements = () => {
     return () => clearInterval(interval);
   }, []);
 
+  if (images.length === 0) {
+    return null;
+  }
+
+
   return (
     <div className="slider-container">
-    <h1>Explore the Achievements of {data['dept-name']} Department</h1>
+    <h1>Explore the Achievements of Automobile Engineering Department</h1>
       <div className={`slider ${isSliding ? 'sliding' : ''}`}>
         <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} className="slider-image" />
       </div>

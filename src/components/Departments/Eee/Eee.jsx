@@ -5,8 +5,10 @@ import Section from "../../HomePage/Section/Section";
 import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./eee.json";
-import Slider from "../../HomePage/Slider/Slider";
+import Slider from "./Slider";
 import Deptimg from "../../../assets/images/Department Banner/eee.jpg";
+import ScrollToTopButton from "../../ScrollToTopButton";
+
 
 
 const NAV_ITEMS = [
@@ -16,7 +18,7 @@ const NAV_ITEMS = [
   "Faculty",
   "Library",
   "Patents",
-  // "Testing/Consultancy",
+  "Testing/Consultancy",
   "R&D (Academic)",
   "R&D (Activities)",
 ];
@@ -224,6 +226,8 @@ const Eee = () => {
           {activeSection === "Faculty" && (
             <div>
               <h2>Faculty Members</h2>
+              <h3><strong>Total Faculty Members: {facultyData.length}</strong></h3>
+
               <div className="auto-faculty-container">
                 {facultyData.map((faculty, index) => (
                   <div
@@ -287,6 +291,59 @@ const Eee = () => {
                         </table>
                       </div>
                     )}
+
+                       {activeSection === "Testing/Consultancy" && autoData.testing && (
+                                <div className="library-container">
+                                  <h2>{autoData.testing.category || "Testing/Consultancy"}</h2>
+                                  <p className="library-description">
+                                    {autoData.testing.description || "Library details are provided below."}
+                                  </p>
+                    
+                                  <table className="library-table">
+                                    <tbody>
+                                    {(autoData.testing.fields || []).map((item, index) => (
+                                      <tr key={index}>
+                                        <td className="library-key">{item}</td>
+                                      </tr>
+                                    ))}
+                    
+                                    </tbody>
+                                  </table>
+                                  <br />
+                                  <h2>Major Associated Companies</h2>
+                    
+                                  <table className="library-table">
+                                    <tbody>
+                                    {(autoData.testing.mac || []).map((item, index) => (
+                                      <tr key={index}>
+                                        <td className="library-key">{item}</td>
+                                      </tr>
+                                    ))}
+
+                                    
+                                    
+                    
+                                    </tbody>
+                                  </table>
+                                  <h2>Certified Energy Auditors & Manager</h2>
+                                  <table className="library-table">
+                                    <tbody>
+                                    {(autoData.testing.caa || []).map((item, index) => (
+                                      <tr key={index}>
+                                        <td className="library-key">{item}</td>
+                                      </tr>
+                                    ))}
+
+                                    
+                                    
+                    
+                                    </tbody>
+                                  </table>
+
+                                </div>
+                              )}
+                    
+                    
           
 
         </div>
@@ -294,6 +351,7 @@ const Eee = () => {
 
       <Slider />
       <Footer />
+      <ScrollToTopButton/>
     </div>
   );
 };

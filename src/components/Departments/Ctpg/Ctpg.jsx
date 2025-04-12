@@ -5,8 +5,9 @@ import Section from "../../HomePage/Section/Section";
 import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./ct-pg.json";
-import Slider from "../../HomePage/Slider/Slider";
+import Slider from "./Slider";
 import Deptimg from "../../../assets/images/Department Banner/ctpg.jpg"
+import ScrollToTopButton from "../../ScrollToTopButton";
 
 
 const NAV_ITEMS = [
@@ -119,7 +120,7 @@ const Ctpg = () => {
                 </tbody>
               </table>
 
-              {["vision", "mission", "peo", "po", "pso"].map((key) => (
+              {["vision", "mission", "peo", "po"].map((key) => (
                 <div key={key} className={`dropdown-section ${dropdowns[key] ? "active" : ""}`}>
                   <button onClick={() => toggleDropdown(key)}>
                     {key.toUpperCase()}
@@ -147,42 +148,7 @@ const Ctpg = () => {
                 )}
               </ul>
 
-              <table className="highlights-table">
-                <thead>
-                  <tr>
-                    <th>Category</th>
-                    <th>Details</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.entries(autoData.highlights || {}).map(([category, details], index) =>
-                    details !== true && details !== "" ? (
-                      <tr key={index}>
-                        <td>{category.replace(/_/g, " ")}</td>
-                        <td>{Array.isArray(details) ? details.join(", ") : details}</td>
-                      </tr>
-                    ) : null
-                  )}
-                </tbody>
-              </table>
-
-              <h2>Milestones</h2>
-              <div className="milestone-container">
-                {autoData.milestones.map((milestone, index) => (
-                  <div key={index} className="milestone">
-                    <div className="milestone-year">{milestone.year}</div>
-                    <div className="milestone-events">
-                      {Array.isArray(milestone.events) ? (
-                        <ul>
-                          {milestone.events.map((event, idx) => <li key={idx}>{event}</li>)}
-                        </ul>
-                      ) : (
-                        <p>{milestone.event}</p>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
+           
             </div>
           )}
 
@@ -214,6 +180,8 @@ const Ctpg = () => {
           {activeSection === "Faculty" && (
             <div>
               <h2>Faculty Members</h2>
+              <h3><strong>Total Faculty Members: {facultyData.length}</strong></h3>
+
               <div className="auto-faculty-container">
                 {facultyData.map((faculty, index) => (
                   <div
@@ -254,6 +222,7 @@ const Ctpg = () => {
 
       <Slider />
       <Footer />
+      <ScrollToTopButton/>
     </div>
   );
 };

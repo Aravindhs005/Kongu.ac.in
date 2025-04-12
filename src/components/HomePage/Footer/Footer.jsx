@@ -80,6 +80,7 @@ const Footer = () => {
         { label: "Self Declaration", path: selfdeclaration, isPdf: true },
         { label: "Certificate Genuineness Verification",  path: "https://kongu.directverify.in/student/#/", isExternal: true},
         { label: "Full Time PhD", path: fulltimephd, isPdf: true },
+        
       ],
     },
   ];
@@ -124,6 +125,15 @@ const Footer = () => {
             </ul>
           </div>
         ))}
+          <p class="admission-contact-info">
+            For Admission Enquiry Contact <br />
+            <a href="tel:9965277765">Mobile: 9965277765</a> / 
+            <a href="tel:9443020583">9443020583</a><br />
+            <a href="tel:04294226515">Land Line: 04294-226515</a> / 
+            <a href="tel:04294226517">04294-226517</a>
+          </p>
+
+
       </div>
 
       <div className="footer-globe"></div>

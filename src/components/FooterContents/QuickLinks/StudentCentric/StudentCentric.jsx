@@ -10,10 +10,8 @@ const data = [
         "College Students Council": {
           "Chairman": "Dr. V. Balusamy, Principal"
         },
-        "IEEE": {
-          "StudentsBranch": {
-            "FacultyCoordinator": "Dr. J. Vijayalakshmi / ECE"
-          },
+        "IEEE Students Branch": {
+          "Faculty Coordinator": "Dr.J.Vijayalakshmi / ECE",
           "Robotics And Automation Society": "Dr. N. Nithyavathy / MTS",
           "Computer Society": [
             "Mr. Joseph Auxilius Jude / ECE",
@@ -50,16 +48,16 @@ const data = [
         "ICT Academy Of Tamilnadu": {
           "Coordinator": "Dr. M. Vimaladevi / AI"
         },
-        "IIChE": {
+        "Indian Institute of Chemical Engineers - KEC Student Chapter": {
           "Coordinator": "Dr. S. Mothil / Chemical"
         },
-        "SAE": {
+        "Society of Automotive Engineers": {
           "Coordinators": [
             "Mr. S. Karthi Vinith / Auto",
             "Dr. A. Mohankumar / Mech"
           ]
         },
-        "Instrument Society Of India": {
+        "Instrument Society of India (ISoI)": {
           "Coordinators": [
             "Dr. P. Vidhyalakshmi / EIE",
             "Mr. D. Selvakarthi / EIE"
@@ -71,30 +69,30 @@ const data = [
             "Mr. S. Vinodhkumar / Civil"
           ]
         },
-        "ACI India Chapter": {
+        "Indian Chapter of American Concrete Institute - KEC Student Chapter": {
           "Coordinators": [
             "Dr. G. S. Rampradheep / Civil",
             "Mr. K. Sampath Kumar / Civil"
           ]
         },
-        "NSS": {
+        "National Service Scheme (NSS)": {
           "ProgramOfficers": [
             "Dr. A. Manimaran / Maths",
             "Mr. K. S. Navaneethan / Civil",
             "Ms. K. Suvalakshmi / CSE"
           ]
         },
-        "NCC": {
+        "National Cadet Corps (NCC)": {
           "Army": "Major Dr. P. S. Raghavendran / EEE",
           "Air": "Flying Officer. A. Jeevanantham / IT"
         },
-        "Higher Education Competitive Exam Cell": {
+        "Higher Education Competitive Examination Cell": {
           "Coordinators": [
             "Dr. R. Thangarajan / IT",
             "Dr. V. Krishnamoorthy / Mgt. Studies"
           ]
         },
-        "HRD Cell": {
+        "Human Resource Development Cell": {
           "Coordinator": "Dr. P. N. Palanisamy / CCO Planning",
           "Members": [
             "Dr. M. Karthikeyan / Chemistry",
@@ -151,31 +149,31 @@ const data = [
             "Mr. S. Jegan / EIE"
           ]
         },
-        "Android AppDev Club": {
+        "Android Application Development and Programming Club": {
           "Coordinators": [
             "Mr. A. P. Pon Selva Kumar / IT",
             "Ms. P. Vanitha / IT"
           ]
         },
-        "Citizen Consumer Club": {
+        "Citizen Consumer / Legal Literacy Club": {
           "Coordinators": [
             "Dr. V. Vaishnavi / MBA",
             "Ms. M. Dharshne / MBA"
           ]
         },
-        "Energy Environment Club": {
+        "Energy & Environment Conservation Club": {
           "Coordinators": [
             "Dr. S. Gomathy / EEE",
             "Mr. R. Sathish Raam / Chemical"
           ]
         },
-        "English Proficiency Club": {
+        "English Proficiency & Readers Club": {
           "Coordinators": [
             "Dr. T. Geetha / English",
             "Dr. I. Salma / English"
           ]
         },
-        "Mathematics Club": {
+        "Srinivasa Ramanujan Mathematics Club": {
           "Coordinators": [
             "Dr. K. V. Tamil Selvi / Maths",
             "Dr. A. L. Nachammai / Maths"
@@ -190,7 +188,7 @@ const data = [
             "Dr. T. Tamilarasi / MTS"
           ]
         },
-        "CII Yi Yuva": {
+        "CII-Yi Yuva Kongu Engineering College": {
           "Coordinator": "Dr. T. P. Saravanan / MBA"
         },
         "Tamil Mandram": {
@@ -205,13 +203,13 @@ const data = [
             "Mr. A. Saravanan / Mech"
           ]
         },
-        "IWS": {
+        "Indian Welding Society (IWS)": {
           "Coordinators": [
             "Mr. K. V. Satheesh Kumar / Mech",
             "Dr. M. Bhuvanesh Kumar / Mech"
           ]
         },
-        "IIM": {
+        "Indian Institute of Metals (IIM)": {
           "Coordinator": "Dr. A. Mohankumar / Mech"
         },
         "Gender Equity Club": {
@@ -226,7 +224,7 @@ const data = [
             "Dr. S. Sathya / Maths"
           ]
         },
-        "Karate Martial Arts Club": {
+        "Karate & Martial Arts Club": {
           "Coordinators": [
             "Ms. K. Krishnaveni / Chemistry",
             "Mr. D. Gurukumaresan / Maths"
@@ -242,7 +240,7 @@ const data = [
             "Ms. K. Karthiga / CT-PG"
           ]
         },
-        "Student RnD Forum": {
+        "Student R&D Forum": {
           "Coordinators": [
             "Dr. C. Maheswari / MTS",
             "Dr. R. Rajkumar / EIE"
@@ -281,7 +279,7 @@ const data = [
             "Mr. B. Bizu / CSE"
           ]
         },
-        "Deaddiction AntiDrug Committee": {
+        "De-addiction / Anti Drug Committe": {
           "Chairman": "Dr. K. Kannan, AW, Hostels",
           "Members": [
             "Dr. P. S. Raghavendran, DW & NCC Officer",
@@ -349,7 +347,7 @@ const data = [
                 <tbody>
                   {Object.entries(value).map(([role, val], i) => (
                     <tr key={i}>
-                      <td><strong>{role}</strong></td>
+                      <td className="titledataforstudentcentric"><strong>{role}</strong></td>
                       <td>{renderValue(val)}</td>
                     </tr>
                   ))}

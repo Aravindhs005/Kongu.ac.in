@@ -5,8 +5,10 @@ import Section from "../../HomePage/Section/Section";
 import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./it.json";
-import Slider from "../../HomePage/Slider/Slider";
+import Slider from "./Slider";
 import Deptimg from "../../../assets/images/Department Banner/it.jpg";
+import ScrollToTopButton from "../../ScrollToTopButton";
+import VrTour from "./VrTour/VrTour";
 
 
 const NAV_ITEMS = [
@@ -215,6 +217,8 @@ const It = () => {
           {activeSection === "Faculty" && (
             <div>
               <h2>Faculty Members</h2>
+              <h3><strong>Total Faculty Members: {facultyData.length}</strong></h3>
+
               <div className="auto-faculty-container">
                 {facultyData.map((faculty, index) => (
                   <div
@@ -257,6 +261,7 @@ const It = () => {
               <table className="patent-table">
                 <thead>
                   <tr>
+                    <th>S.No</th>
                     <th>Title</th>
                     <th>Students Involved</th>
                     <th>Faculty</th>
@@ -266,6 +271,7 @@ const It = () => {
                 <tbody>
                   {autoData.patents.details.map((patent, index) => (
                     <tr key={index}>
+                      <td>{index+1}</td>
                       <td>{patent.Title}</td>
                       <td>{patent.Name}</td>
                       <td>{patent["Patent No"]}</td>
@@ -283,6 +289,8 @@ const It = () => {
 
       <Slider />
       <Footer />
+      <ScrollToTopButton/>
+      <VrTour/>
     </div>
   );
 };

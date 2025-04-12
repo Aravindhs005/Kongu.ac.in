@@ -14,6 +14,7 @@
   border-bottom: 1px solid #b6b6bd;
 }
 
+
 .navi-container img {
   width: 70px;
 }
@@ -250,7 +251,7 @@
     font-size: 9px;
     margin: 0;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.5px;
     white-space: nowrap;
     overflow: hidden;

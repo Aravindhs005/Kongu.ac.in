@@ -92,6 +92,11 @@
         "topic": "Internet of Things Laboratory",
         "detail": "This Laboratory is used to enable the students to develop applications using MATLAB , Python, Arduino UNO kit, Raspberry Pi, Camera module, Ultrasonic sensor, Proximity sensor, Rain sensor, Temperature Sensor, PH Sensor, Humidity Sensor, and Motion sensor.",
         "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Digital Electronics Laboratory",
+        "detail": "This lab offers the essential infrastructure for circuit prototyping, often equipped with prototyping boards, logic gates, and microcontroller programming facilities",
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
       }
      ],
     

@@ -3217,9 +3217,9 @@ const Aicteet = () => {
     <Navbar />
     <div className="aicte-container">
       <h2 className="aicte-title">AICTE Approvals for Engineering and Technology</h2>
-      {approvals.map((approval, index) => (
+      {[...approvals].reverse().map((approval, index) => (
         <div key={index} className="aicte-approval">
-          <h3 className="aicte-serial">S.No : {approval.slNo}</h3>
+          <h3 className="aicte-serial">S.No : {index+1}</h3>
           <table className="aicte-table">
             <thead>
               <tr>

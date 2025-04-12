@@ -12,8 +12,8 @@ const pgPrograms = [
   { sno: 2, name: "M.E. VLSI Design", duration: "2 Years", year: 2003,route: "ece" },
   { sno: 3, name: "M.E Structural Engineering", duration: "2 Years", year: 2012,route: "civil" },
   { sno: 4, name: "M.Tech Food Technology", duration: "2 Years", year: 2013 ,route: "foodtech"},
-  { sno: 5, name: "Master of Business Administration (MBA)", duration: "2 Years", year: 1994,route: "mba" },
-  { sno: 6, name: "Master of Computer Applications (MCA)", duration: "2 Years", year: 1993, route: "mca" },
+  // { sno: 5, name: "Master of Business Administration (MBA)", duration: "2 Years", year: 1994,route: "mba" },
+  // { sno: 6, name: "Master of Computer Applications (MCA)", duration: "2 Years", year: 1993, route: "mca" },
 ];
 
 const Pg = () => {

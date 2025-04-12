@@ -64,8 +64,7 @@
     "A one day National online workshop on “Research writing: Social Science Realm” was organized on 26.10.2024 with association with IIPC.": true,
     "A one day National online workshop on “English in Business: Speaking your way to success” was organized on 29.10.2024 with association with IIPC.": true,
     "A one day National online workshop on “Mastering the Art of Writing Research thesis in Social Science” was organized on 30.11.2024 with association with IIPC.": true
-  }
-  ,
+  }  ,
 
 
     "labs": [
@@ -84,8 +83,8 @@
     
     "library": {
       "name": "English Department Library",
-      "description": "The department has a library which has Journals, audio video CDs and cassettes, software packages for English language teaching and learning. In addition to this, there are also a large number of grammar books, dictionaries and reference books on general knowledge.",
-      
+      "description": "The department has a library which has Journals, audio video CDs and cassettes, software packages for English language teaching and learning. In addition to this, there are also a large number of grammar books, dictionaries and reference books on general knowledge."
+    },
     "rnd": {
       "academic": "https://rnd.kongu.edu/academic/english.php",
       "activities":"https://rnd.kongu.edu/activities/snh/index.php"
@@ -93,5 +92,4 @@
   "dept_images": [
       "https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252094.png"
   ]
-}
 }

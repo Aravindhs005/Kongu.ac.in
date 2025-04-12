@@ -36,97 +36,60 @@
       "Able to apply computational tools for the design, analysis and control of power systems integrated with renewable energy sources and electric vehicle to provide solutions to the real time."
   ],
 
-    "highlights": {
-      "Conferences organized": ["International - 3", "1 International and 4 National Conferences"],
-      "Sponsored Seminars / Workshops / FDP organized": "4 (funded by CSIR)",
-      "Publications by faculty": [
-        "98 Publications in Journals",
-        "40 Publications in Conferences",
-        "255 Papers Published in peer-reviewed International Journals"
-      ],
-      "Consultancy / training activities carried out": "Rs.5.23Lakhs",
-      "Consistent improvement in Placement and Internship": true,
-      "Sponsored student’s projects": [
-        "06 (IIT Palakkad, SPARK fund and SEED grant)",
-        "08 projects funded by TNSCST"
-      ],
-      "MoU": [
-        "Brakes India", "Wheels India", "Roots Industries", "Niyata Infotech Pvt Ltd, Bangalore", 
-        "Sree Saradhambal Automobiles Pvt Ltd, Coimbatore", "Aadhi Cars Pvt Ltd, Coimbatore", "IMIK Technologies, Coimbatore",
-        "Trend Instrumentation & Automation Pvt. Ltd., Chennai", "Yokogawa India Limited, Bengaluru", "VI Microsystems Pvt. Ltd., Chennai",
-        "ABE Semiconductor Designs, Chennai", "Centre for Development of Advanced Computing, Thiruvananthapuram", "Micromax Technologies, Trichy",
-        "Pamtrons Healthcare Devices, Mumbai", "bitsCrunch, Germany", "Silicon Systems, Coimbatore", "Kalchi Controls, Trichy",
-        "ABB Global Industries and Services Ltd, Bangalore"
-      ],
-      "State of art laboratory facilities": true,
-      "Papers presented by students": "140 and won 20 prizes, 7 prizes from MITs, NITs & other premier institutions",
-      "Projects presented by students": "59 and won 25 prizes, 6 prizes from IITs.",
-      "Participation in National and International Events": [
-        "KPIT", "E-Kart", "Baja", "Go-kart", "E-Kart", "Aero Modelling", "Electric Two-Wheeler Design Challenge", "Bicycle Design Challenge"
-      ],
-      "University Ranks": "52 University Ranks including 04 Gold Medals",
-      "ISOI Students’ chapter": true,
-      "Seminars/Workshops": ["32 sponsored", "74 self-supporting seminar/workshops organized"],
-      "Books Published": 17,
-      "R&D Projects Completed": "05 R&D Projects (worth of 76.02 Lakh from DST, UGC & AICTE)",
-      "Faculty International Conferences": "03 faculty members attended conferences in Malaysia & Singapore with a Travel grant of Rs. 2,68,789/- from UGC",
-      "Awards": [
-        "Best Department Award: 2005, 2013",
-        "Best Performing Department: 2015, 2016, 2024"
-      ],
-      "Research": [
-        "Approved Supervisors: 4",
-        "Ph.D Scholars: 8",
-        "Ph.D Completed: 24",
-        "Thesis Submitted: 2"
-      ],
-      "Consultancy Activities": [
-        "Trend Instrumentation & Automation",
-        "Sakthi Auto Components Private Ltd.",
-        "BPL India Ltd.",
-        "Maharaja World Multiplex",
-        "Cordite Factory"
-      ],
-      "Certifications": [
-        "CLAD (Certified LabVIEW Associate Developer): 2",
-        "CLD (Certified LabVIEW Developer): 1"
-      ],
-      "Notable Student Achievements": [
-        "Highest Salary Package: Mr. R. Ramesharavind (2014-18) - Amazon - 27 LPA",
-        "Sports Representation: Mr. R. Elangeshwaran (2015-19) - Star Sports Pro Kabaddi 2017",
-        "Best Extracurricular Student: 2015, 2016",
-        "N.Yogaprasanth: Represented TNP&A NCC Directorate in All India Republic Day Camp 2020",
-        "S.Karthik Raj: Attended NASA Conference, USA",
-        "S.Karthikraja: Cleared Civil Service Examination, Assistant Commissioner (IRS), GOI"
-      ],
-      "Awards & Recognitions": [
-        "Best Agro Project in TAFE 2018",
-        "AICTE Chhatra Vishwakarma Award - South convention 2019",
-        "Best Innovator award for Agri Equipments - 2019",
-        "1st position in Idea Spark 2019 by IIT, Madras",
-        "Smart India Hackathon 2020 winner & 2023 winner & Runner-up in E-Summit 2020"
-      ],
-      "Grants Received": [
-        "EDII-IVP: Rs. 2,43,000/-",
-        "AICTE ATAL FDP: Rs. 93,000/-",
-        "AICTE MODROBS: Rs. 11.97 Lakhs"
-      ],
-      "Centre of Excellence": "Industrial IoT",
-      "Recent Achievements": [
-        "AICTE Inventor Challenge 2023: Winner, cash prize Rs. 50,000 at New Delhi",
-        "Smart India Hackathon Hardware Edition 2024: Winner, cash prize Rs. 50,000 at Galgotius University, Uttar Pradesh"
-      ],
-      "R&D Fund Sanctioned": "Rs.101.3 lakhs for the last three years",
-      "Patents Filed": 30,
-      "Energy Auditors & Managers": [
-        "Energy Auditors: 4",
-        "Energy Manager: 1"
-      ],
-      "Consultancy Revenue": "Rs.19 lakhs from 45 consultancy activities",
-      "Student Paper Presentations": 383,
-      "Student Funded Projects": "17 projects worth Rs. 1,39,000",
-      "Student Internships": ["ABB", "BOSCH", "Lucas TVS", "Solitron"]
-    },
+  "highlights": {
+    "R&D Fund Sanctioned": "Rs.101.3 lakhs for the last three years",
+    "Seminars/Workshops": ["43 sponsored and self-supporting courses, seminars & workshops organized"],
+    "Publications by faculty": ["208 Publications in International/National Journals and Conferences in the last three years"],
+    "Energy Auditors & Managers": [
+      "Energy Auditors: 4",
+      "Energy Manager: 1"
+    ],
+    "Patents Filed": 30,
+    "Awards & Recognitions": [
+      "Students won 1st prize in Energy Ambassador Programme for 3 consecutive academic years (2020-2021, 2021-2022, 2022-2023) conducted by IAEMP Chapter",
+      "Faculty awards: IEEE Best Researcher Award (2020), IET Innovative Researcher Award (2020), Best Innovator Award - Ulzavan 2020 Awards, Outstanding Scientist (AIRF Awards, 2019), IET CLN & YP Men Engineer Award, Teaching Innovator Award (MHRD, GoI), Best Researcher Awards"
+    ],
+    "Faculty International Conferences": [
+      "2 faculty members mentored IEEE YESIST12 grand finale, 2-3 Sept 2023, Arab Academy for Science, Technology and Maritime Transport, Egypt"
+    ],
+    "Fellowships": [
+      "Raman Research Fellowship - Post Doctoral Research at North Eastern University, Boston, USA",
+      "SERB-SIRE Fellowship - Research at Ostfold University, Norway (6 months, Rs. 17.34 Lakhs)",
+      "SERB-SIRE Fellowship - Research at Florida State University, USA (6 months, Rs. 17.34 Lakhs)"
+    ],
+    "International Seminars": [
+      "Seminar on Electrical Power Quality Issues by Prof. Angelo Baggini, University of Bergamo, Italy (sponsored by APQI)"
+    ],
+    "International Collaboration": [
+      "Visit by Dr. Joga Dharma Setiawan and Dr. Trias Andromeda from Diponegoro University, Indonesia for India-ASEAN sponsored research"
+    ],
+    "MoU": [
+      "INNOTEC Consultants (IC)",
+      "Wise Management Systems",
+      "Cranes Software International Limited, Bangalore",
+      "ENZEN Global Solutions Private Ltd, Bangalore",
+      "Revoltaxe India Pvt Ltd",
+      "Botswana International University of Science and Technology",
+      "Schneider Electric India Pvt. Ltd."
+    ],
+    "Consultancy / training activities carried out": "45 activities in the last three years, generating Rs.19 lakhs revenue",
+    "Consultancy Activities": [
+      "Neyveli Lignite Corporation",
+      "Mahindra Water Utilities",
+      "Sakthi Auto Components Private Ltd.",
+      "BPL India Ltd.",
+      "NIMI (National Instructional Media Institute)"
+    ],
+    "Notable Student Achievements": [
+      "Mr. S. Karthik Raj (2010-2011): Attended NASA Conference, USA",
+      "Mr. S. Karthikraja (2011 batch): Cleared Civil Services, Assistant Commissioner (IRS), GOI",
+      "N. Yogaprasanth (III year): Represented TNP&A NCC Directorate in All India Republic Day Camp 2020"
+    ],
+    "Student Internships": ["ABB", "BOSCH", "Lucas TVS", "Solitron"],
+    "Student Paper Presentations": 383,
+    "Student Funded Projects": "17 projects worth Rs. 1,39,000",
+    "Sponsored student’s projects": ["11 (funded by TNSCST, IEI, ICTACT)"]
+  },
     "milestones": [
       {
         "year": 2025,
@@ -201,7 +164,6 @@
       {
         "year": 2019,
         "events": [
-          "Received DST-SERB ASEAN-India Collaborative Research Project worth of Rs 9 lakhs.",
           "Received DST-SERB ASEAN-India Collaborative Research Project worth of Rs 9 lakhs.",
           "13 patents filed.",
           "MoU signed with ALFA Switchgear and CoreEL Technologies India Pvt. Ltd.",
@@ -577,28 +539,169 @@
           "Patent No": "202011043068"
         },
         {
-          "Title": "Artificial Intelligence Based Speech Recognition Device",
-          "Students": [],
+          "Title": "A System of fault detection and monitoring of solar PV panels using Internet of things",
+          "Students": "-",
+          "Guide": "Dr.R.Meenakumari",
+          "Year": "November 2020",
+          "Patent No": "202041047411"
+        },
+        {
+          "Title": "Artificial Intelligence and voice based patients monitoring system",
+          "Students": "-",
+          "Guide": "M.Sabarimuthu",
+          "Year": "November 2020",
+          "Patent No": "202041048080"
+        },
+        {
+          "Title": "A reduced switch modular multilevel inverter with fault tolerant capability",
+          "Students": "-",
+          "Guide": "Dr.S.Albert Alexander",
+          "Year": "November 2020",
+          "Patent No": "202041047725"
+        },
+        {
+          "Title": "Artificial Intelligence based multifunctional voice activated pen",
+          "Students": "-",
+          "Guide": "S.Gomathy",
+          "Year": "January 2021",
+          "Patent No": "202041055911"
+        },
+        {
+          "Title": "A touchless flushing method in corona isolation ward",
+          "Students": "-",
+          "Guide": "Dr.N.Priyadharshini",
+          "Year": "January 2021",
+          "Patent No": "202141000386 A"
+        },
+        {
+          "Title": "Fabrication of Novel Cylindrical Thermosyphon for Effective Heat Transfer and its Performance Analysis Using Machine Learning Approach",
+          "Students": "-",
+          "Guide": "Dr.M.Sivachitra",
+          "Year": "March 2021",
+          "Patent No": "2020103771"
+        },
+        {
+          "Title": "Unmanned aerial vehicle-based system and method for determining vegetation indices",
+          "Students": "-",
+          "Guide": "Dr.S.Maheswari",
+          "Year": "March 2021",
+          "Patent No": "390206"
+        },
+        {
+          "Title": "A Method of Mitigation of Power Quality Events by Conditioning System in Integration of Two Renewable Energy Sources",
+          "Students": "-",
+          "Guide": "Dr.T.Logeswaran",
+          "Year": "March 2021",
+          "Patent No": "202141014823"
+        },
+        {
+          "Title": "IOT and cloud based low cost smart irrigation system",
+          "Students": "-",
+          "Guide": "Dr.T.Logeswaran",
+          "Year": "February 2021",
+          "Patent No": "202141006738 A"
+        },
+        {
+          "Title": "Designing an electric circuit by using a neural network with bayesian inference to select sub-routes for connecting elements",
+          "Students": "-",
+          "Guide": "P.Tamilarasu",
+          "Year": "July 2021",
+          "Patent No": "202141027526"
+        },
+        {
+          "Title": "Deep Learning Based Irrigation Model From The Plant Leaves Pictures To Enhance Crop Production",
+          "Students": "-",
+          "Guide": "M.Sabarimuthu",
+          "Year": "July 2021",
+          "Patent No": "202141031730"
+        },
+        {
+          "Title": "Method And System For Detecting Growth And Disease Conditions Based On Vegetation Indices Of Plants",
+          "Students": "-",
+          "Guide": "Dr.S.Maheswari",
+          "Year": "July 2021",
+          "Patent No": "415162"
+        },
+        {
+          "Title": "An internet of things based civil engineering water pump with embedded solar system",
+          "Students": "-",
+          "Guide": "T.Logeswaran",
+          "Year": "August 2021",
+          "Patent No": "2021103839"
+        },
+        {
+          "Title": "System and method for managing and Sowing seeds using an unmanned aerial vehicle",
+          "Students": "-",
+          "Guide": "Dr.S.Maheswari",
+          "Year": "March 2024",
+          "Patent No": "529442"
+        },
+        {
+          "Title": "Fast and Efficient Fertilizing Unit",
+          "Students": "R.Gowtham, J.Ezhilkumaran, M.Nandhakumar",
+          "Guide": "Dr.N.Senthilnathan",
+          "Year": "2016",
+          "Patent No": "513211"
+        },
+        {
+          "Title": "Smart Climate Forecasting Robot",
+          "Students": "-",
           "Guide": "Dr.M.Suresh",
-          "Year": 2024,
+          "Year": "2024",
+          "Patent No": "428180-001"
+        },
+        {
+          "Title": "Artificial Intelligence Based Speech Recognition Device",
+          "Students": "-",
+          "Guide": "Dr.M.Suresh",
+          "Year": "2024",
           "Patent No": "435091-001"
         },
         {
           "Title": "Autonomous Speed Control system for Electric Vehicles",
-          "Students": ["C.Abimanyu", "K.T.Charan", "R.Karthi", "M.Manikandan"],
+          "Students": "C.Abimanyu, K.T.Charan, R.Karthi, M.Manikandan",
           "Guide": "Dr.M.Sabarimuthu",
-          "Year": 2024,
+          "Year": "November 2024",
           "Patent No": "202441092005"
         },
         {
           "Title": "Reversable Fuel Cell Device",
-          "Students": [],
+          "Students": "-",
           "Guide": "Dr.M.Sabarimuthu",
-          "Year": 2024,
+          "Year": "November 2024",
           "Patent No": "437672-001"
         }
+       
       ]
     },    
+
+    "testing":{
+      "category": "TESTING/CONSULTANCY",
+      "description": "Consultancy works are carried out in the following diversified fields",
+      "fields": [
+        "Testing",
+        "Energy audit",
+        "Power Audit",
+        "Harmonic analysis",
+        "Measurement of various Electrical Parameters"
+      ],
+      "mac": [
+        "Mahindra Water Utilities",
+        "Neyveli Lignite Corporation",
+        "Sakthi Auto Components Pvt.Ltd",
+        "TEKIC – Tirupur",
+        "SKM Egg Products Pvt.Ltd",
+        "Seshasayee Paper and Boards.Ltd",
+        "Mallow International,Karur"
+      ],
+      "caa":[
+       " Dr.N.Senthilnathan - Energy Auditor",
+        "Dr.T.Logeswaran - Energy Auditor",
+        "Mr.M.Suresh - Energy Auditor",
+        "Mr.P.Tamilarasu - Energy Auditor"
+      ]
+    },
+    
 
     "rnd": {
       "academic": "https://rnd.kongu.edu/academic/eee.php",

@@ -71,11 +71,11 @@ body {
   .auto-navbar {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 1px;
     background-color: #004080;
     padding: 0;
     position: sticky;
-    top: 60px;
+    top: 120px;
     z-index: 999;
   }
   
@@ -114,6 +114,12 @@ body {
     color: #004080;
     font-size: 24px;
     border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
+  }
+
+  .auto-content h3 {
+    color: #004080;
+    font-size: 17px;
     padding-bottom: 5px;
   }
   
@@ -242,7 +248,7 @@ body {
   .dropdown-section.active .dropdown-content {
     display: block;
     opacity: 1;
-    max-height: 500px; /* Adjust based on content */
+    max-height: 100%; /* Adjust based on content */
   }
   
   /* List inside dropdown */
@@ -635,9 +641,9 @@ body {
     }
   
     .auto-navbar button {
-      width: 120px;
+      width: auto;
       height: 45px;
-      font-size: 14px;
+      font-size: 13px;
     }
   
     .auto-header {

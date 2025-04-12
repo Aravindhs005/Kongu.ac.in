@@ -5,7 +5,9 @@ import Section from "../../HomePage/Section/Section";
 import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./mba.json";
-import Slider from "../../HomePage/Slider/Slider";
+import Slider from "./Slider";
+import Deptimg from "../../../assets/images/Department Banner/mba.webp";
+import ScrollToTopButton from "../../ScrollToTopButton";
 
 const NAV_ITEMS = [
   "Home",
@@ -78,7 +80,7 @@ const Mba = () => {
 
       <div className="auto-container">
         <div className="auto-banner-container">
-          <img src={autoData.image} alt="Department Banner" className="auto-banner" />
+          <img src={Deptimg} alt="Department Banner" className="auto-banner" />
           <div className="overlay"></div>
           <h1 className="auto-header">{autoData["dept-name"]}</h1>
         </div>
@@ -118,7 +120,7 @@ const Mba = () => {
                 </tbody>
               </table>
 
-              {["vision", "mission", "peo", "po", "pso"].map((key) => (
+              {["vision", "mission", "peo", "po"].map((key) => (
                 <div key={key} className={`dropdown-section ${dropdowns[key] ? "active" : ""}`}>
                   <button onClick={() => toggleDropdown(key)}>
                     {key.toUpperCase()}
@@ -213,6 +215,8 @@ const Mba = () => {
           {activeSection === "Faculty" && (
             <div>
               <h2>Faculty Members</h2>
+              <h3><strong>Total Faculty Members: {facultyData.length}</strong></h3>
+
               <div className="auto-faculty-container">
                 {facultyData.map((faculty, index) => (
                   <div
@@ -253,6 +257,7 @@ const Mba = () => {
 
       <Slider />
       <Footer />
+      <ScrollToTopButton/>
     </div>
   );
 };

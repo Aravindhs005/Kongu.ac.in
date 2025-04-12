@@ -135,6 +135,15 @@
   transform: translateX(0);
 }
 
+.admission-contact-info {
+  text-align: center;
+  width: 100%;
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
 .creator {
   top: -10px;
   height: 200px;

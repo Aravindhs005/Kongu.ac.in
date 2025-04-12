@@ -446,20 +446,23 @@ const Library = () => {
             <h2>ONLINE JOURNALS & MAGAZINES (E-Resources)</h2>
             <p><strong>No. of Online Journals Subscription:</strong> 10,563</p>
 
+            <h2>WEB ACCESS</h2>
+            <p><strong>Link for web access:</strong> <a href="https://access.auerc.com/keca" target="_blank" rel="noopener noreferrer">access.auerc.com/keca</a></p>
+
+
             <h2>AUERC SUBSCRIPTION - E-Journals</h2>
             <table className="mainlibrary-table">
             <thead>
                 <tr>
                 <th>Sl.No.</th>
                 <th>Publisher's Platform</th>
-                <th>Web Address</th>
                 </tr>
             </thead>
             <tbody>
-                <tr><td>1</td><td>Cambridge University Press</td><td><a href="https://access.auerc.com/keca" target="_blank" rel="noopener noreferrer">access.auerc.com/keca</a></td></tr>
-                <tr><td>2</td><td>Elsevier</td><td>-</td></tr>
-                <tr><td>3</td><td>Springer</td><td>-</td></tr>
-                <tr><td>4</td><td>Wiley Online</td><td>-</td></tr>
+                <tr><td>1</td><td>Cambridge University Press</td></tr>
+                <tr><td>2</td><td>Elsevier</td></tr>
+                <tr><td>3</td><td>Springer</td></tr>
+                <tr><td>4</td><td>Wiley Online</td></tr>
             </tbody>
             </table>
 

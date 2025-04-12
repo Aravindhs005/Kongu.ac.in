@@ -397,8 +397,8 @@
           },
           {
             "title": "Multi Harvester and Land Preparator",
-            "students_involved": [],
-            "faculty": "Dr. T. P. Sathishkumar",
+            "students_involved": ["Dr. T. P. Sathishkumar"],
+            "faculty": "",
             "status": "376133"
           },
           {
@@ -437,8 +437,8 @@
           },
           {
             "title": "An Electronics Machine for Vibration Measurement",
-            "students_involved": [],
-            "faculty": "Dr.V.Hariharan",
+            "students_involved": ["Dr.V.Hariharan"],
+            "faculty": "",
             "status": "396612-001"
           },
           {
@@ -519,6 +519,43 @@
         ]
 
     },    
+    "testing":{
+      "category": "Testing",
+      "description": "The Testing and consultancy facilities available in the department are ",
+      "fields": [
+        "IC Engine computerized test rig with Eddy current dynamometer",
+        "Exhaust gas analyzer",
+        "Flue gas analyzer",
+        "Thermal Imager",
+        "Hot wire anemometer",
+        "Indoor air quality meter",
+        "Grain moisture and pH meter",
+        "Vibration Analyzer",
+        "Electronic Tensometer",
+        "Coordinate Measuring Machine",
+        "Force plate",
+        "Ultra Sonicator",
+        "Surface roughness tester",
+        "Solar PV testing kit",
+        "Solar thermal testing kit",
+        "Wind electric demo kit",
+        "Solar parabolic tough collector testing kit",
+        "Computerized Air Conditioning test rig",
+        "Computerized Refrigeration test rig",
+        "Inverted metallurgical microscope",
+        "Hydraulic press",
+        "Micro vickers hardness tester",
+        "Muffle furnace",
+        "Auto polishing machine",
+        "Abrasive cutting machine",
+        "Hydraulic mounting machine",
+        "Acoustic imager",
+        "Work station",
+        "3D printer"
+      ]
+     
+    },
+    
     "rnd": {
       "academic": "https://rnd.kongu.edu/academic/mech.php",
       "activities":"https://rnd.kongu.edu/activities/mech/index.php"

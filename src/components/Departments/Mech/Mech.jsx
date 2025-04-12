@@ -5,8 +5,9 @@ import Section from "../../HomePage/Section/Section";
 import Footer from "../../HomePage/Footer/Footer";
 import "../Deptstyle.css";
 import autoData from "./mechanical.json";
-import Slider from "../../HomePage/Slider/Slider";
+import Slider from "./Slider";
 import Deptimg from "../../../assets/images/Department Banner/mech.jfif";
+import ScrollToTopButton from "../../ScrollToTopButton";
 
 
 const NAV_ITEMS = [
@@ -16,7 +17,7 @@ const NAV_ITEMS = [
   "Faculty",
   "Library",
   "Patents",
-  // "Testing/Consultancy",
+  "Testing/Consultancy",
   "R&D (Academic)",
   "R&D (Activities)",
 ];
@@ -263,6 +264,8 @@ const Mech = () => {
           {activeSection === "Faculty" && (
             <div>
               <h2>Faculty Members</h2>
+              <h3><strong>Total Faculty Members: {facultyData.length}</strong></h3>
+
               <div className="auto-faculty-container">
                 {facultyData.map((faculty, index) => (
                   <div
@@ -306,6 +309,7 @@ const Mech = () => {
               <table className="patent-table">
                 <thead>
                   <tr>
+                    <th>S.No</th>
                     <th>Title</th>
                     <th>Name of the Inventors / Department</th>
                     <th>Patent No</th>
@@ -314,6 +318,7 @@ const Mech = () => {
                 <tbody>
                   {autoData.patents.details.map((patent, index) => (
                     <tr key={index}>
+                      <td>{index+1}</td>
                       <td>{patent.title}</td>
                       <td>{patent.students_involved.join(", ")}</td>
                       <td>{patent.status}</td>
@@ -328,6 +333,7 @@ const Mech = () => {
 <table className="patent-table">
   <thead>
     <tr>
+      <th>S.No</th>
       <th>Title</th>
       <th>Students Involved</th>
       <th>Project Guide</th>
@@ -337,6 +343,7 @@ const Mech = () => {
   <tbody>
     {autoData.patent_journals.details.map((patent_journals, index) => (
       <tr key={index}>
+        <td>{index+1}</td>
         <td>{patent_journals.title}</td>
         <td>{patent_journals.students_involved.join(", ")}</td>
         <td>{patent_journals.faculty}</td>
@@ -350,12 +357,35 @@ const Mech = () => {
             
           )}
 
+                    {activeSection === "Testing/Consultancy" && autoData.testing && (
+                      <div className="library-container">
+                        <h2>{autoData.testing.category || "Testing"}</h2>
+                        <p className="library-description">
+                          {autoData.testing.description || "Library details are provided below."}
+                        </p>
+          
+                        <table className="library-table">
+                          <tbody>
+                          {(autoData.testing.fields || []).map((item, index) => (
+                            <tr key={index}>
+                              <td className="library-key">{item}</td>
+                            </tr>
+                          ))}
+          
+                          </tbody>
+                        </table>
+                
+                      </div>
+                    )}
+          
+
 
         </div>
       </div>
 
       <Slider />
       <Footer />
+      <ScrollToTopButton/>
     </div>
   );
 };

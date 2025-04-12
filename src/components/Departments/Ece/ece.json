@@ -132,86 +132,276 @@
         "detail": [
           "Research laboratory was established using various funding agencies like DST, TNSCST, FIST, AICTE MODROB etc for the purpose of research and development."
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg",
-        "table": [
-          {
-            "s_no": 1,
-            "name": "Sponsoring Agency",
-            "details": "Department of Science and Technology, India F.No/DST/SSTP/2018/232 (G) dated 31.03.2019"
-          },
-          {
-            "s_no": 2,
-            "name": "Title of project",
-            "version": "Design of an Automatic Fabric Defect and Shade Variation Detector: A Predictive Model for Textile Industries in Tiruppur District, TamilNadu",
-            "users": 50
-          },
-          {
-            "s_no": 3,
-            "name": "ANSYS",
-            "version": "2025 R1",
-            "users": 50
-          },
-          {
-            "s_no": 4,
-            "name": "MINITAB",
-            "version": "17",
-            "users": 10
-          },
-          {
-            "s_no": 5,
-            "name": "ABAQUS",
-            "version": "V6.12",
-            "users": 40
-          },
-          {
-            "s_no": 6,
-            "name": "CATIA",
-            "version": "V5-6R2015",
-            "users": 30
-          },
-          {
-            "s_no": 7,
-            "name": "ANSYS",
-            "version": "14.0",
-            "users": 50
-          },
-          {
-            "s_no": 8,
-            "name": "AUTO CAD",
-            "version": "R2010",
-            "users": 30
-          },
-          {
-            "s_no": 9,
-            "name": "NX NASTRAN",
-            "version": "V5",
-            "users": 5
-          },
-          {
-            "s_no": 10,
-            "name": "PRO/ENGINEER",
-            "version": "Wildfire 4.0",
-            "users": 400
-          },
-          {
-            "s_no": 11,
-            "name": "NX (IDEAS & UNIGRAPHICS)",
-            "version": "NX4",
-            "users": 10
-          },
-          {
-            "s_no": 12,
-            "name": "SOLIDWORKS",
-            "version": "2022-23",
-            "users": 500
-          },
-          {
-            "s_no": 13,
-            "name": "MATLAB",
-            "version": "R2024b",
-            "users": "Campus wide suite"
-          }
-        ]
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Foundation Lab 4 (Internet of Things)",
+        "detail": [
+          "Foundation Laboratory - 4 (IoT), a cutting-edge facility dedicated to nurturing essential skills among students, empowering them to excel in the intricate realms of PCB design and Internet of Things (IoT) project development. Our state-of-the-art lab is fully equipped with advanced tools, including the PCB Milling machine, industrial-grade soldering machines, IoT development boards, and an extensive array of sensors and actuators. Designed to accommodate a cohort of 60 students, this dynamic learning environment fosters hands-on experiences with the latest technology. Within the lab, students have access to a comprehensive suite of software, meticulously installed to facilitate the seamless development of innovative projects. Here, creativity meets technical expertise as students harness their potential to control and monitor IoT devices in real time.",
+          "Foundation Laboratory is equipped with the following equipment.",
+          "* HARDWARE:",
+          "- Desktop Computers",
+          "- PCB Mate - PCB Milling machine",
+          "- ESP32 Modules (IoT Development Board)",
+          "- Soldering Machines",
+          "- Arduino UNO",
+          "- Arduino Nano",
+          "- Sensors and actuators",
+          "- Basic electronic components",
+          "* SOFTWARE:",
+          "- EasyEDA",
+          "- CopperCAM",
+          "- Autoleveller",
+          "- MACH3Mill",
+          "- Arduino IoT Cloud"
+      
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Marconi Communication Laboratory",
+        "detail": [
+          "Communication Engineering laboratory facilitates the students to learn the techniques used in analog and digital transmission and reception of signal. The students are upskilled for constructing the circuits for analog and digital communication. Along with, they are also trained to measure and analyze the parameters of antennas working at RF frequencies.",
+          "- Dual Trace Oscilloscope",
+          "- Digital Storage Oscilloscope",
+          "- Spectrum Analyzer",
+          "- AM/FM Transmitter Demonstration kit",
+          "- AM/FM Receiver Demonstration kit",
+          "- Data Communication kit for TDM, PCM, line coding and decoding",
+          "- PN sequence generator",
+          "- ASK, FSK, PSK, QPSK Modulation/Demodulation Trainer Kits",
+          "- Digital Communication Teaching Bundle with USRP 2900",
+          "- Antenna Trainer kit",
+          "- LAN Trainer kit",
+          "- LVDT Trainer kit"      
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Marconi Radio Frequency Lab",
+        "detail": [
+          "Marconi RF lab is well equipped with antenna kits (Yagi Uda, Halfwave Dipole, Square Loop) to enhance the study of various types of antenna and its radiation patterns.",
+          "The major facilities include:",
+          "- Antenna Trainer System",
+          "- Spectrum Analyzer",
+          "- Digital Storage Oscilloscope",
+          "- RF Transmitter/ Receiver"
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Thomson Electronics and Integrated Circuits Laboratory",
+        "detail": [
+          "Electronics Lab helps the students to acquire basic knowledge about the electronic devices like diode, transistor and thyristor families. It comprises basic electron devices lab, Electronic Circuits Lab and Linear IC Lab. In devices lab, all the device characteristics are studied. In Electronic Circuits Lab, the basic circuits for power supplies, regulators, amplifiers and oscillator are designed, constructed, tested and studied. In LIC lab, applications using op-amps are designed, constructed and verified."
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Von Neumann Microprocessor and Controller Laboratory",
+        "detail": [
+          "Microprocessor lab helps the students to enhance their knowledge on architecture, programming and interfacing of various processors and microcontrollers. Students from other branch of engineering and sciences also utilize this lab and develop their skills in the field of microprocessor and its applications. The features and facilities available in this lab will help the students to do their projects and enhance their knowledge on the latest trends and technologies",
+          "Microprocessor Laboratory is equipped with the following equipment.",
+          "- 8086 Microprocessor Trainer (Micro 86/88 LCD)",
+          "- 8051 Microcontroller Trainer",
+          "- Stepper Motor Controller Study Module (VCET 06)",
+          "- LVDT Position Trainer (VLPCT 01)",
+          "- Microprocessor Based AC motor controller (IIB PEC00A1)",
+          "- Microprocessor Based DC motor Controller (IIB PEC 00S1)",
+          "- ARM 7MP CORE Processor",
+          "- Cathode Ray Oscilloscope",
+          "- Microcontroller / EEPROM Programmer",
+          "- PIC Microcontroller Interface",
+          "- Programmer for various Microcontrollers"      
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Fourier Digital Signal Processing Laboratory",
+        "detail": [
+          "This lab is to impart knowledge on various DSP processors like TMS320C5X series and ADSP 21XX series. The students understand various concepts in signal processing through simulation using MATLab and implementation using processor kits. An exposure on real time applications is also given.",
+          "DSP Laboratory is equipped with the following equipment.",
+          "Microprocessor Laboratory is equipped with the following equipment.",
+          "- MATLAB 2023b Campus Wide license",
+          "- TMS 320 C5416- 6 Kits",
+          "- TMS 320 C6713- 2 Kits",
+          "- TMS 320C6748 – 12 Kits",
+          "- ADSP BF-533 EZ- 1 Kit",
+          "- ADSP BF-537 EZ- 1 Kit",
+          "- ADSP BF-537 Stamp board with Linux platform",
+          "- ADSP 21065 Kit",
+          "- ADSP 2181 Kit",
+          "- Pro Audio development Kit",
+          "- IPPBX board with FXO & FXS",
+          "- Digital Storage Oscilloscope (50MHz) – 1",
+          "- Thermal Camera"
+
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Maxwell Microwave and optical laboratory",
+        "detail": [
+          "The Microwave and Optical lab with Reflex Klystron and Gunn diode microwave setup to understand the working principle of reflex klystron and to analyze the characteristics of Gunn diode in X-band(8-12GHz) frequency range. Optical modules like LED, Laser Diode, Photo Diode, Avalanche Photo Diode are available to understand its VI and PI characteristics. The satellite communication kit, radar communication kit facilitates application oriented knowledge through some data communication between transmitter and receiver through satellite and to measure the target object characteristics using electromagnetic signals in radar kit.",
+          "The power meter, frequency meter, VSWR meter are available for microwave signal parameter measurements.",
+          "The optical communication laboratory complements the topics studied in the optical communication theory course. The lab is equipped with fiber optic trainer kits and modules to enable the study of components of an optical communication system.",
+          "Microwave and Optical Laboratory is equipped with the following equipments.",
+          "* HARDWARE:",
+          "- X band Reflex Klystron setup",
+          "- X band Gunn setup",
+          "- Various microwave components like magic tee, circulator, isolator, directional coupler, reflectometer, variable attenuator, and slotted line section with carriage probe, ss tuner, horn antenna",
+          "- Laser diode module",
+          "- LED module",
+          "- Photodiode module",
+          "- Avalanche photodiode module",
+          "- Optical trainer kit",
+          "- Modes of optical fiber setup",
+          "- Satellite trainer kit",
+          "- Radar trainer kit",
+          "- Light Runner setup"
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Hollerith Hardware and Digital laboratory",
+        "detail": [
+          "Hardware and Digital Laboratory enhances the student's knowledge on different types of combinational and sequential logic circuits. The student can design, construct and verify the logic of various digital circuits.",
+          "Hardware and Digital Laboratory comprises of the following equipments.",
+          "- 8-bit Digital IC Trainer Kits",
+          "- 10-bit Digital IC Trainer kit",
+          "- 20-bit Digital IC Trainer kit",
+          "- Digital IC Tester"
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Vinton Networks Laboratory",
+        "detail": [
+          "Network Laboratory motivates the students to design and analyze the behavioral aspects of wired and wireless networks. Furthermore, network lab motivates students to takeup research in WSN, MANET, VANET & Wi-Fi networks.",
+          "Vinton Network Lab is Equipped with the following equipment:",
+          "- Wireless sensor Hardware Tool (Gateway Module, Core Module, Sensors)",
+          "- Network Simulator (NS-3) & (NS-2)",
+          "- Netsim Simulation Software",
+          "- Stratoshark"
+      
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Kilby VLSI Laboratory",
+        "detail": [
+          "The students are trained to design digital circuits using the various hardware description languages and also their implementation on FPGAs. Lab is well equipped with synopsys and real time implementation kits for the students to undertake projects in the area of VLSI Design.",
+          "VLSI Lab is equipped with the following equipments.",
+          "* HARDWARE",
+          "- FPGA Universal Trainer kits",
+          "- XILINX VERTEX 2, VERTEX 7 FPGA kits",
+          "- XILINX SPARTAN 2E FPGA kits",
+          "- XILINX SPARTAN 3, SPARTAN 3E FPGA kits",
+          "- XC9536 CPLD Trainer kits",
+          "- Coolrunner CPLD Trainer kits",
+          "- ADD on cards",
+          "- FPGA kit – Basys 3",
+          "* SOFTWARE:",
+          "- Renoir – Modelsim and Leonardo Spectrum with Design Entry",
+          "- XILINX ISE Series with Modelsim",
+          "- MICROWIND"
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Robert Norton Noyce ASIC laboratory",
+        "detail": [
+          "The students are trained to design digital circuits using the various hardware description languages and also their implementation on FPGAs. Lab is well equipped with synopsys and real time implementation kits for the students to undertake projects in the area of VLSI Design.",
+          "ASIC Lab is equipped with the following equipment.",
+          "* Hardware",
+          "- Xilinx Virtex5 XUPv5 LX110t development kit",
+          "* Software",
+          "- Cadence Software - Front end and Back end (15 users)",
+          "- Mentor Graphics HEP Category Xilinx Vivado System Edition"
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Charles Babbage Computer Centre",
+        "detail": [
+          "The department has a well-equipped computer centre, facilitating students to learn programming languages such as C ,C++ ,Java and python to implement the concepts of data structures & algorithms.",
+          "The Open source operating system like Linux is installed in all the system. Also open source software’s like Mysql & Eclipse is installed so the students can explore database and IDE to work on programming languages. The centre is also used for e-learn like NPTEL, Coursera , Edx.",
+          "The Computer Centre is fully equipped with uninterrupted power supply and central air-conditioning units."
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Bell Communication System Design Laboratory",
+        "detail": [
+          "This lab provides a platform to the students to design, simulate, analyze and test the RF circuits, antennas and microwave components using the Electromagnetic simulation tools and Vector Network Analyzer.",
+          "The fundamental communication techniques are observed using Matlab simulation and practically tested by implementing in WiCOMM _T Wireless Digital Communication Training System.",
+          "* HARDWARE",
+          "- Keysight Vector Network Analyzer (30KHz – 9GHz)",
+          "- WiCOMM-T Wireless Digital Communication Training System",
+          "* SOFTWARE:",
+          "ANSYS HFSS – 3D Structure Simulator",
+          "Keysight Advanced Design System",
+          "Matlab R2015b"
+
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "KEC - Freescale embedded system laboratory",
+        "detail": [
+          "KEC- Freescale Embedded System Laboratory was sponsored by M/s Freescale Semiconductors Pvt., Lt.,. This lab is equipped with industrial microprocessor and project board kits, which enhance student’s knowledge related to industrial needs. This lab is also equipped with single board computer and computing devices to facilitates in the field of latest technologies like Artificial Intelligence (AI), Machine Learning (ML).",
+          "* HARDWARE",
+          "- MCU project board (PBMCUSLK)",
+          "- MCU 32 bit cold fire student learning kit (AP5223SLK)",
+          "- Symphmy audio kit (SOUND BYTE)",
+          "- FPGA application module student learning kit (APS3EFPGASLK)",
+          "- Zigbee application module student learning kit (APB192USLK)",
+          "- MPC8313 development kit (MPC8313E-RDB)",
+          "- PIC Programmer",
+          "- 8051 USB Programmer",
+          "- Digital Multimeter",
+          "- ARM 9 Kit with 7\" TFT Touch Screen and Linux 2.6",
+          "- DC Power Supply +5v/+12V, 2A",
+          "- TFT Screen With Touch Panel 3.5",
+          "- Raspberry Pi 3",
+          "- RPI NoIR camera board - V2",
+          "- Orange Pi Zero - 512MB",
+          "- Scientific DSO-SMO100 100 MHz, 1GS/s",
+          "- Intel Neural Computing Stick -2",
+          "- Microchip PICKIT-4",
+          "- STM32 ARM Cortex M4 Development Kit (Components and Software)",
+          "- Raspberry Pi 4 Model B",
+          "* SOFTWARE:",
+          "- Comprehensive Design & Simulation Environment for Micro-Controller Models",
+          "- STM32CUBE IDE & Arduino IDE",
+          "- STMicroelectronics NanoEdge AI Studio Edu Pack"
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Project Cubicle",
+        "detail": [
+          "The department has a unique project cubicle for the students to carry out their project work in an environment which facilitates creativity and innovation. Students and research scholars utilize this facility for design, analyze and implement various academic and mini projects."
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+      },
+      {
+        "topic": "Harvard Advanced Microcontroller Laboratory",
+        "detail": [
+          "This lab is established to impart practical knowledge on design of microprocessor based real time embeddedsystems, and aimed at uplifting the skills of the students in the design and development of embedded systems. The lab is equipped with advanced industrial control processors like PIC, AVR, Raspberry Pi, etc., and embedded communication protocol devices like Zigbee and LoraWAN. The lab has enough systems to accommodate batch of 35 students with individual computers and the hardware necessary to conduct experiments.",
+          "Advanced Microprocessor Laboratory is equipped with the following equipment:",
+          "* Hardware",
+          "- PIC 16 Series Microcontroller",
+          "- Raspberry Pi 3 B+",
+          "- LoRaWAN Gateway and Nodes",
+          "- Siemens IoT Gateway - SIMATIC IOT2020",
+          "- Arduino UNO",
+          "- Arduino Mega",
+          "* SOFTWARE:",
+          "- Proteus VSM Software",
+          "- CCS Compiler",
+          "- PCM Command line C Compiler for microchip PIC 10/12/14/16 Devices"
+        ],
+        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
       }
      
     ],
@@ -224,7 +414,8 @@
         "number_of_titles": "611",
         "number_of_books": "1452",
         "number_of_online_journals": "27",
-        "number_of_national_journals & magazines_subscribed": "3 + Employment News",
+        "number_of_national_journals & magazines_subscribed": "21",
+        "No. of news papers subscribed": "03 + Employment News",
         "project_report": "All the BE and ME degree project work reports"
       }
     },
