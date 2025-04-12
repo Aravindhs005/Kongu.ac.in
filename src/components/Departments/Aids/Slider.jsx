@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Slider.css';
-
+import img from "../../../assets/images/Achievements/Departments/Aids/"
 
 const importAll = (r) => r.keys().map(r);
 const images = importAll(require.context('../../../assets/images/Achievements/Departments/Aids', false, /\.(png|jpe?g|svg)$/));
