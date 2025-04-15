@@ -100,7 +100,6 @@ const Footer = () => {
                     <a
                       href={link.path}
                       className="footer-link"
-                      download
                       target="_blank"
                       rel="noopener noreferrer"
                     >

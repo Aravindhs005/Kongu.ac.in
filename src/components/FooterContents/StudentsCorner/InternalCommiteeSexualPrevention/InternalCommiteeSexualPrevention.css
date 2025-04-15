@@ -53,12 +53,23 @@
   }
   
   .icc-act {
-    margin-top: 3rem;
-    text-align: center;
-    font-size: 1.1rem;
+    font-size: 22px;
     font-weight: 600;
-    color: #8e44ad;
+    color: #333;
+    text-align: center;
+    margin: 30px 0;
+    display: block;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
   }
+  
+  .icc-act:hover {
+    color: #0066cc;
+    transform: scale(1.02);
+    text-decoration: underline;
+  }
+  
   
   @keyframes fadeIn {
     from {

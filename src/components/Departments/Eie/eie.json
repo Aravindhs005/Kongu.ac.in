@@ -38,95 +38,46 @@
   ],
   
     "highlights": {
-      "Conferences organized": ["International - 3", "1 International and 4 National Conferences"],
-      "Sponsored Seminars / Workshops / FDP organized": "4 (funded by CSIR)",
-      "Publications by faculty": [
-        "98 Publications in Journals",
-        "40 Publications in Conferences",
-        "255 Papers Published in peer-reviewed International Journals"
-      ],
-      "Consultancy / training activities carried out": "Rs.5.23Lakhs",
-      "Consistent improvement in Placement and Internship": true,
-      "Sponsored student’s projects": [
-        "06 (IIT Palakkad, SPARK fund and SEED grant)",
-        "08 projects funded by TNSCST"
-      ],
-      "MoU": [
-        "Brakes India", "Wheels India", "Roots Industries", "Niyata Infotech Pvt Ltd, Bangalore", 
-        "Sree Saradhambal Automobiles Pvt Ltd, Coimbatore", "Aadhi Cars Pvt Ltd, Coimbatore", "IMIK Technologies, Coimbatore",
-        "Trend Instrumentation & Automation Pvt. Ltd., Chennai", "Yokogawa India Limited, Bengaluru", "VI Microsystems Pvt. Ltd., Chennai",
-        "ABE Semiconductor Designs, Chennai", "Centre for Development of Advanced Computing, Thiruvananthapuram", "Micromax Technologies, Trichy",
-        "Pamtrons Healthcare Devices, Mumbai", "bitsCrunch, Germany", "Silicon Systems, Coimbatore", "Kalchi Controls, Trichy",
-        "ABB Global Industries and Services Ltd, Bangalore"
-      ],
-      "State of art laboratory facilities": true,
-      "Papers presented by students": "140 and won 20 prizes, 7 prizes from MITs, NITs & other premier institutions",
-      "Projects presented by students": "59 and won 25 prizes, 6 prizes from IITs.",
-      "Participation in National and International Events": [
-        "KPIT", "E-Kart", "Baja", "Go-kart", "E-Kart", "Aero Modelling", "Electric Two-Wheeler Design Challenge", "Bicycle Design Challenge"
-      ],
-      "University Ranks": "52 University Ranks including 04 Gold Medals",
-      "ISOI Students’ chapter": true,
-      "Seminars/Workshops": ["32 sponsored", "74 self-supporting seminar/workshops organized"],
-      "Books Published": 17,
-      "R&D Projects Completed": "05 R&D Projects (worth of 76.02 Lakh from DST, UGC & AICTE)",
-      "Faculty International Conferences": "03 faculty members attended conferences in Malaysia & Singapore with a Travel grant of Rs. 2,68,789/- from UGC",
-      "Awards": [
-        "Best Department Award: 2005, 2013",
-        "Best Performing Department: 2015, 2016, 2024"
-      ],
-      "Research": [
-        "Approved Supervisors: 4",
-        "Ph.D Scholars: 8",
-        "Ph.D Completed: 24",
-        "Thesis Submitted: 2"
-      ],
-      "Consultancy Activities": [
-        "Trend Instrumentation & Automation",
-        "Sakthi Auto Components Private Ltd.",
-        "BPL India Ltd.",
-        "Maharaja World Multiplex",
-        "Cordite Factory"
-      ],
-      "Certifications": [
-        "CLAD (Certified LabVIEW Associate Developer): 2",
-        "CLD (Certified LabVIEW Developer): 1"
-      ],
-      "Notable Student Achievements": [
-        "Highest Salary Package: Mr. R. Ramesharavind (2014-18) - Amazon - 27 LPA",
-        "Sports Representation: Mr. R. Elangeshwaran (2015-19) - Star Sports Pro Kabaddi 2017",
-        "Best Extracurricular Student: 2015, 2016",
-        "N.Yogaprasanth: Represented TNP&A NCC Directorate in All India Republic Day Camp 2020",
-        "S.Karthik Raj: Attended NASA Conference, USA",
-        "S.Karthikraja: Cleared Civil Service Examination, Assistant Commissioner (IRS), GOI"
-      ],
-      "Awards & Recognitions": [
-        "Best Agro Project in TAFE 2018",
-        "AICTE Chhatra Vishwakarma Award - South convention 2019",
-        "Best Innovator award for Agri Equipments - 2019",
-        "1st position in Idea Spark 2019 by IIT, Madras",
-        "Smart India Hackathon 2020 winner & 2023 winner & Runner-up in E-Summit 2020"
-      ],
-      "Grants Received": [
-        "EDII-IVP: Rs. 2,43,000/-",
-        "AICTE ATAL FDP: Rs. 93,000/-",
-        "AICTE MODROBS: Rs. 11.97 Lakhs"
-      ],
-      "Centre of Excellence": "Industrial IoT",
-      "Recent Achievements": [
-        "AICTE Inventor Challenge 2023: Winner, cash prize Rs. 50,000 at New Delhi",
-        "Smart India Hackathon Hardware Edition 2024: Winner, cash prize Rs. 50,000 at Galgotius University, Uttar Pradesh"
-      ],
-      "R&D Fund Sanctioned": "Rs.101.3 lakhs for the last three years",
-      "Patents Filed": 30,
-      "Energy Auditors & Managers": [
-        "Energy Auditors: 4",
-        "Energy Manager: 1"
-      ],
-      "Consultancy Revenue": "Rs.19 lakhs from 45 consultancy activities",
-      "Student Paper Presentations": 383,
-      "Student Funded Projects": "17 projects worth Rs. 1,39,000",
-      "Student Internships": ["ABB", "BOSCH", "Lucas TVS", "Solitron"]
+      "52 University Ranks including 04 Gold Medals": true,
+      "Department holds ISOI Students’ chapter": true,
+      "Organized one International and four National Conferences": true,
+      "32 sponsored and 74 self-supporting seminar/workshops organized": true,
+      "255 Papers Published in peer reviewed International Journals": true,
+      "17 Books Published": true,
+      "Completed 05 R&D Projects (worth of 76.02 Lakh from DST, UGC & AICTE)": true,
+      "Completed 08 Sponsored students projects funded by TNSCST": true,
+      "03 faculty members attended International Conferences at Malaysia & Singapore with a Travel grant of Rs. 2,68,789/- from UGC": true,
+      "Bagged Best Department Award twice- 2005 & 2013": true,
+      "Bagged Best Performing Department - ENTHUSIA 2015, 2016 and 2024": true,
+      "04 Approved Supervisors with 8 Ph.D Scholars": true,
+      "24 scholars completed Ph.D. and 2 submitted thesis in EIE Research Centre": true,
+      "Actively involved in consultancy activities with various industries like Trend Instrumentation & Automation, Sakthi Auto Components Private Ltd., BPL India Ltd,, Maharaja world multiplex and Cordite Factory": true,
+      "02 faculty received CLAD (Certified LabVIEW Associate Developer) certification": true,
+      "01 student received CLD (Certified LabVIEW Developer) certification": true,
+      "Mr.R.Ramesharavind (2014-18) got placement offer from Amazon with the highest salary package of the year – 27 LPA": true,
+      "Mr.R.Elangeshwaran (2015-19) represented Star Sports Pro Kabadi-2017": true,
+      "Overall best student in Extracurricular activities for the year 2015 and 2016": true,
+      "Bagged Best Agro Project in TAFE 2018": true,
+      "Bagged AICTE Chhatra Vishwakarma Award - South convention 2019": true,
+      "Best Innovator award for Agri Equipments - 2019, 1 st position in Idea Spark 2019 by IIT, Madras": true,
+      "Smart India Hackathon 2020 winner & 2023 winner & Runner-up in E-Summit 2020": true,
+      "Received a grant of Rs.2,43,000/- for EDII-IVP": true,
+      "Received a grant of Rs.93,000/- for AICTE ATAL FDP": true,
+      "AICTE grant of Rs. 11.97 Lakhs sanctioned under MODROBS": true,
+      "Centre of Excellence in Industrial IoT": true,
+      "AICTE Inventor Challenge 2023 winner and received cash prize of Rs.50,000 held at New Delhi": true,
+      "Smart India Hackathon Hardware Edition 2024 winner and received cash prize of Rs.50,000 held at Galgotius University, UttarPradesh": true,
+      "MoU signed with Trend Instrumentation & Automation Pvt. Ltd., Chennai": true,
+      "MoU signed with Yokogawa India Limited, Bengaluru": true,
+      "MoU signed with VI Microsystems Pvt. Ltd., Chennai": true,
+      "MoU signed with ABE Semiconductor Designs, Chennai": true,
+      "MoU signed with Centre for Development of Advanced Computing, Thiruvananthapuram": true,
+      "MoU signed with Micromax Technologies, Trichy": true,
+      "MoU signed with Pamtrons Healthcare Devices, Mumbai": true,
+      "MoU signed with bitsCrunch, Germany": true,
+      "MoU signed with Silicon Systems, Coimbatore": true,
+      "MoU signed with Kalchi Controls, Trichy": true,
+      "MoU signed with ABB Global Industries and Services Ltd, Bangalore": true
     },
   
     "milestones": [

@@ -4,6 +4,7 @@ import Section from '../../../HomePage/Section/Section';
 import Navbar from '../../../HomePage/navbar/Navbar';
 import Footer from '../../../HomePage/Footer/Footer';
 import ScrollToTopButton from '../../../ScrollToTopButton';
+import pdf from "../../../../assets/docs/Footer/InternalCompliantandAntiSexual/act_InternalComplaintsCommittee.pdf";
 
 const members = [
   {
@@ -138,11 +139,19 @@ const InternalCommiteeSexualPrevention = () => {
               ))}
             </tbody>
           </table>
+          
         </div>
 
-        <h3 className="icc-act">
-          THE SEXUAL HARASSMENT OF WOMEN AT WORKPLACE (PREVENTION, PROHIBITION AND REDRESSAL) ACT, 2013
-        </h3>
+        <h3>
+  <a 
+    href={pdf}  
+    className="icc-act"
+  >
+    THE SEXUAL HARASSMENT OF WOMEN AT WORKPLACE (PREVENTION, PROHIBITION AND REDRESSAL) ACT, 2013
+  </a>
+</h3>
+
+
       </div>
       <Footer />
       <ScrollToTopButton />

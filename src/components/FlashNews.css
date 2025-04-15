@@ -17,14 +17,14 @@
   
   .flash-news-close-btn {
     position: absolute;
-    top: -3px;
+    top: 0px;
     right: -1px;
     background: #ff4757;
     border: none;
     color: #fff;
     font-size: 1.1rem;
     cursor: pointer;
-    padding: 0.1rem 0.5rem;
+    padding: 0.8rem 0.7rem;
     border-radius: 0px 5px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     z-index: 10000;

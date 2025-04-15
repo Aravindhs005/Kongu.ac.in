@@ -313,6 +313,9 @@ const Navbar = () => {
                     <span onClick={() => window.open('https://alumni.kongu.edu/', '_blank')} >
                       Alumni
                     </span>
+                    <span onClick={() => window.open('https://kongu.irins.org/', '_blank')} >
+                      Faculty Profile
+                    </span>
                     <span onClick={() => navigate('/onlinepayment')} style={{ cursor: 'pointer' }}>
                       Online Payment
                     </span>
@@ -400,6 +403,7 @@ const Navbar = () => {
     <li className="mobile-menu-item" onClick={() => handleNavigation("/placement")}>Placement</li>
     <li className="mobile-menu-item" onClick={() => window.open('https://iipc.kongu.edu/')}>IIPC</li>
     <li className="mobile-menu-item" onClick={() => window.open('https://alumni.kongu.edu/')}>Alumni</li>
+    <li className="mobile-menu-item" onClick={() => window.open('https://kongu.irins.org/')}>Faculty Profile</li>
     <li className="mobile-menu-item" onClick={() => handleNavigation("/onlinepayment")}>Online Payment</li>
     <li className="mobile-menu-item" onClick={() => handleNavigation("/contact")}>Contact</li>
   </ul>
