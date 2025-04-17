@@ -81,9 +81,7 @@ const Ecosystem = () => {
     <div
       key={index}
       className="eco-slide-image"
-      style={{
-        backgroundImage: `url(${bgimg})`
-      }}
+    
     >
       <img src={img} alt={`Slide ${index + 1}`} />
     </div>
