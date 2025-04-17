@@ -29,7 +29,7 @@ const Ariia = () => {
         <div className="ariia-links">
           {ariiaFiles.map((pdf, index) => (
             <div key={index} className="ariia-link-item">
-              <a href={pdf.file} download target="_blank" rel="noopener noreferrer">
+              <a href={pdf.file}  target="_blank" rel="noopener noreferrer">
                 {pdf.name.slice(6)} {/* Remove first 6 characters like "ARI-20..." */}
               </a>
             </div>

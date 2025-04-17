@@ -61,11 +61,11 @@ const Contact = () => {
         <div className="contact-col">
             <form onSubmit={onSubmit}>
                 <label>
-                    Your name
+                    Your Name
                 </label>
                 <input type ='text' name='name' placeholder='Enter your name' required/>
                 <label>
-                    Phone number
+                    Phone Number
                 </label>
                 <input type ='tel' name='phone' placeholder='Enter your mobile number' required/>
                 <label>

@@ -44,7 +44,7 @@ const Awards = () => {
         ) : (
           <div className="awards-list">
            {pdfs.map((pdf, index) => (
-              <a key={index} href={pdf.url} download className="award-card">
+              <a key={index} href={pdf.url} target='_blank' className="award-card">
                 {pdf.name}
               </a>
             ))}

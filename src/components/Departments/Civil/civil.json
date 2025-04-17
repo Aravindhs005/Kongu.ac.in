@@ -179,7 +179,7 @@
           "Consultancy and testing activities like Compression test, Tension test, Hardness test, and Bend test are done for Government and Non-governmental organizations."
         ],
 
-          "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Civil/newmarkslab.jfif"
       },
       {
         "topic": "Adam Neville Concrete Laboratory",
@@ -207,7 +207,9 @@
           "- Flow Table – Electric Operated",
           "- SCC Workability Test Apparatus",
           "- RCPT Setup"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/adam.jfif"
+
       },      
       {
         "topic": "Mc Carty Environmental Engineering Laboratory",
@@ -258,7 +260,9 @@
           "- Digital Flame Photometer “Systronics” make – 130 – Setup",
           "- Electronic Top Loading Balance",
           "Testing and consultancy activities are carried out for various government agencies like the Public Works Department, TWAD Board, Highways Department, and also for various private agencies."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/mccartylab.jfif"
+
       },      
       {
         "topic": "Khosla Hydraulic Engineering Lab-I & Visvesvaraya Engineering Lab-II",
@@ -294,7 +298,9 @@
           "- Compressor Pump Test Rig",
           "- Reciprocating Pump",
           "The laboratory building is provided with adequate ventilation, lighting, and comfortable seating arrangements for students to work. Routine repair and maintenance of all equipment are done by the lab technician with support from a service engineer from outside, who also takes care of annual servicing."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/khosla.jfif"
+
       },
       
       {
@@ -311,7 +317,9 @@
           "- GPS",
           "* Survey Camp:",
           "The survey camp is conducted for the benefit of students as part of their academic curriculum for four days during their winter vacation."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/everest.jfif"
+
       },      
       {
         "topic": "V.T. Chow Computational Laboratory",
@@ -320,7 +328,9 @@
           "* Facilities:",
           "- Number of Computers: 42 Systems",
           "- Printer: 1"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/vtchow.jfif"
+
       },      
       {
         "topic": "John Pennycuick Computer Centre",
@@ -332,7 +342,9 @@
           "- Audio System",
           "- Wall-mounted LCD Projector",
           "Additionally, the laboratory has adequate printing facilities and remains open for students beyond working hours."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/jp_cc.jpg"
+
       },      
       {
         "topic": "Terzaghi Soil Mechanics Laboratory",
@@ -375,7 +387,9 @@
           "- Swell Pressure Test Apparatus",
           "- Hydrometer with Jar",
           "- California Bearing Ratio Apparatus"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/terzaghi.jpg"
+
       },
       {
         "topic": "John Macadam Highway Engineering Laboratory",
@@ -395,7 +409,9 @@
           "- Marshall Stability Machine",
           "- California Bearing Ratio Apparatus",
           "Consultancy and testing activities are carried out for government and non-governmental organizations."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/john.jpg"
+
       },
       {
         "topic": "Structural Engineering Laboratory",
@@ -423,7 +439,9 @@
           "- Vibrating Table",
           "- Electronic Weighing Machine",
           "Consultancy and testing activities on the behavior of beams, columns, beam-column joints, slabs, and RC frames can be investigated."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Civil/structural.jpg"
+
       },
       {
         "topic": "Project Laboratory",
@@ -438,7 +456,9 @@
           "- Rain Gauge",
           "- Relative Humidity Sensor",
           "- TDS Meter"
-        ]
+        ],
+        "image": null
+
       }
     ],
     

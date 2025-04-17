@@ -132,7 +132,7 @@
         "detail": [
           "Research laboratory was established using various funding agencies like DST, TNSCST, FIST, AICTE MODROB etc for the purpose of research and development."
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/research.jpg"
       },
       {
         "topic": "Foundation Lab 4 (Internet of Things)",
@@ -156,7 +156,7 @@
           "- Arduino IoT Cloud"
       
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/foundationlab.jpg"
       },
       {
         "topic": "Marconi Communication Laboratory",
@@ -175,7 +175,7 @@
           "- LAN Trainer kit",
           "- LVDT Trainer kit"      
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/morse_communication_lab.jpg"
       },
       {
         "topic": "Marconi Radio Frequency Lab",
@@ -187,14 +187,14 @@
           "- Digital Storage Oscilloscope",
           "- RF Transmitter/ Receiver"
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/marconi_rf_lab.jpg"
       },
       {
         "topic": "Thomson Electronics and Integrated Circuits Laboratory",
         "detail": [
           "Electronics Lab helps the students to acquire basic knowledge about the electronic devices like diode, transistor and thyristor families. It comprises basic electron devices lab, Electronic Circuits Lab and Linear IC Lab. In devices lab, all the device characteristics are studied. In Electronic Circuits Lab, the basic circuits for power supplies, regulators, amplifiers and oscillator are designed, constructed, tested and studied. In LIC lab, applications using op-amps are designed, constructed and verified."
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/thomsan.jpg"
       },
       {
         "topic": "Von Neumann Microprocessor and Controller Laboratory",
@@ -213,7 +213,7 @@
           "- PIC Microcontroller Interface",
           "- Programmer for various Microcontrollers"      
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/MPMC_lab.jpg"
       },
       {
         "topic": "Fourier Digital Signal Processing Laboratory",
@@ -236,7 +236,7 @@
           "- Thermal Camera"
 
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/fourier.jpg"
       },
       {
         "topic": "Maxwell Microwave and optical laboratory",
@@ -259,7 +259,7 @@
           "- Radar trainer kit",
           "- Light Runner setup"
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/maxwell.jpg"
       },
       {
         "topic": "Hollerith Hardware and Digital laboratory",
@@ -271,7 +271,7 @@
           "- 20-bit Digital IC Trainer kit",
           "- Digital IC Tester"
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/Hollerith_Hardware_Lab_II.jpg"
       },
       {
         "topic": "Vinton Networks Laboratory",
@@ -284,7 +284,7 @@
           "- Stratoshark"
       
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/nr_lab.jpg"
       },
       {
         "topic": "Kilby VLSI Laboratory",
@@ -305,7 +305,7 @@
           "- XILINX ISE Series with Modelsim",
           "- MICROWIND"
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/kilby.jpg"
       },
       {
         "topic": "Robert Norton Noyce ASIC laboratory",
@@ -318,7 +318,7 @@
           "- Cadence Software - Front end and Back end (15 users)",
           "- Mentor Graphics HEP Category Xilinx Vivado System Edition"
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/ASIC_Lab.jpg"
       },
       {
         "topic": "Charles Babbage Computer Centre",
@@ -327,7 +327,7 @@
           "The Open source operating system like Linux is installed in all the system. Also open source software’s like Mysql & Eclipse is installed so the students can explore database and IDE to work on programming languages. The centre is also used for e-learn like NPTEL, Coursera , Edx.",
           "The Computer Centre is fully equipped with uninterrupted power supply and central air-conditioning units."
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/Computer_Centre.jpg"
       },
       {
         "topic": "Bell Communication System Design Laboratory",
@@ -343,7 +343,7 @@
           "Matlab R2015b"
 
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/Communication_Systems_Lab.jpg"
       },
       {
         "topic": "KEC - Freescale embedded system laboratory",
@@ -375,14 +375,14 @@
           "- STM32CUBE IDE & Arduino IDE",
           "- STMicroelectronics NanoEdge AI Studio Edu Pack"
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/Freescale_Embedded_System_Lab.jpg"
       },
       {
         "topic": "Project Cubicle",
         "detail": [
           "The department has a unique project cubicle for the students to carry out their project work in an environment which facilitates creativity and innovation. Students and research scholars utilize this facility for design, analyze and implement various academic and mini projects."
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/project_cubicle.jpg"
       },
       {
         "topic": "Harvard Advanced Microcontroller Laboratory",
@@ -401,7 +401,7 @@
           "- CCS Compiler",
           "- PCM Command line C Compiler for microchip PIC 10/12/14/16 Devices"
         ],
-        "image": "https://ntpcentr.com/wp-content/uploads/automotive-lab-8.jpg"
+        "image": "/assets/images/Laboratories/Ece/AMC_lab.jpg"
       }
      
     ],

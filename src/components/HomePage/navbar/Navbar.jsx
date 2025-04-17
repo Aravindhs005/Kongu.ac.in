@@ -130,7 +130,7 @@ const Navbar = () => {
                       Vision Mission & Quality Policy
                     </span>
                     <span onClick={() => navigate('/officebearers')} style={{ cursor: 'pointer' }}>
-                      KVIT Office Bearers
+                    KVITT Office Bearers
                     </span>
                     <span onClick={() => navigate('/headoftheinstitution')} style={{ cursor: 'pointer' }}>
                       Head of the Institution
@@ -145,7 +145,7 @@ const Navbar = () => {
                       University Ranks
                     </span>
                     <span onClick={() => navigate('/endownments')} style={{ cursor: 'pointer' }}>
-                      Endownments
+                      Endowments
                     </span>
                     <span onClick={() => navigate('/collegerules')} style={{ cursor: 'pointer' }}>
                       College Rules
@@ -210,7 +210,7 @@ const Navbar = () => {
                   naviTimeoutId = setTimeout(() => setNaviActiveDropdown(null), 300);
                 }}
               >
-                <span className="navi-dropdown-title">Accrediation</span>
+                <span className="navi-dropdown-title">Accreditation</span>
                 {naviActiveDropdown === 3 && (
                   <div
                     className="navi-dropdown-content"
@@ -344,12 +344,12 @@ const Navbar = () => {
         <ul className="mobile-submenu-list">
           <li className="mobile-submenu-item" onClick={() => handleNavigation("/aboutkec")}>About KEC</li>
           <li className="mobile-submenu-item" onClick={() => handleNavigation("/vision")}>Vision Mission & Quality Policy</li>
-          <li className="mobile-submenu-item" onClick={() => handleNavigation("/officebearers")}>KVIT Office Bearers</li>
+          <li className="mobile-submenu-item" onClick={() => handleNavigation("/officebearers")}>KVITT Office Bearers</li>
           <li className="mobile-submenu-item" onClick={() => handleNavigation("/headoftheinstitution")}>Head of the Institution</li>
           <li className="mobile-submenu-item" onClick={() => handleNavigation("/governingcouncil")}>Governing Council</li>
           <li className="mobile-submenu-item" onClick={() => handleNavigation("/academiccouncil")}>Academic Council</li>
           <li className="mobile-submenu-item" onClick={() => handleNavigation("/universityranks")}>University Ranks</li>
-          <li className="mobile-submenu-item" onClick={() => handleNavigation("/endownments")}>Endownments</li>
+          <li className="mobile-submenu-item" onClick={() => handleNavigation("/endownments")}>Endowments</li>
           <li className="mobile-submenu-item" onClick={() => handleNavigation("/collegerules")}>College Rules</li>
         </ul>
       )}
@@ -370,7 +370,7 @@ const Navbar = () => {
     </li>
 
     <li className="mobile-menu-item" onClick={() => toggleDropdown(3)}>
-      Accreditation <FontAwesomeIcon icon={faChevronDown} />
+    Accreditation <FontAwesomeIcon icon={faChevronDown} />
       {activeDropdown === 3 && (
         <ul className="mobile-submenu-list">
           <li className="mobile-submenu-item" onClick={() => handleNavigation("/autonomous")}>Autonomous</li>

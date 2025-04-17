@@ -148,7 +148,7 @@ const Nba = () => {
             <ul>
               {item.letters.map((l, idx) => (
                 <li key={idx}>
-                  <a href={l.pdf} download target="_blank" rel="noopener noreferrer">
+                  <a href={l.pdf}  target="_blank" rel="noopener noreferrer">
                     <strong>{l.letter}</strong>
                   </a> — {l.period}
                 </li>

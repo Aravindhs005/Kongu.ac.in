@@ -210,11 +210,11 @@ const Ece = () => {
         <h3>{autoData.labs[selectedLab].topic}</h3>
 
         {/* Render Image */}
-        {/* <img 
+        <img 
           src={autoData.labs[selectedLab].image} 
           alt={autoData.labs[selectedLab].topic} 
           className="lab-image" 
-        /> */}
+        />
 
         {/* Render Lab Details */}
         {autoData.labs[selectedLab].detail.map((item, index) => {

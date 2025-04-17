@@ -143,7 +143,7 @@ const AicteMca = () => {
                     <td>{item.intake}</td>
                     <td>
                         {item.pdf ? (
-                        <a href={item.pdf} download target="_blank" rel="noopener noreferrer">
+                        <a href={item.pdf}  target="_blank" rel="noopener noreferrer">
                             {item.approvalNo}
                         </a>
                         ) : (

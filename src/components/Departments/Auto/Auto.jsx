@@ -204,7 +204,7 @@ const Auto = () => {
               {selectedLab !== null && (
                 <div className="lab-detail">
                   <h3>{autoData.labs[selectedLab].topic}</h3>
-                  {/* <img src={autoData.labs[selectedLab].image} alt={autoData.labs[selectedLab].topic} /> */}
+                  <img src={autoData.labs[selectedLab].image} alt={autoData.labs[selectedLab].topic} />
                   <p>{autoData.labs[selectedLab].detail}</p>
                 </div>
               )}

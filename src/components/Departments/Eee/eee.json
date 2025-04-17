@@ -278,7 +278,9 @@
           "This is the core lab for the Electrical Engineering branch and the ancillary for EIE, Chemical, Mechanical and Mechatronics branches.",
           "* SOFTWARE:",
           "- ANSYS software"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/michael_lab.jpg"
+
       },
       {
         "topic": "JACK KILBY INTEGRATED CIRCUITS AND CONTROL LABORATORY",
@@ -305,7 +307,9 @@
           "- Digital Lab Trainer Kit",
           "- 2/4 MHz Function Generator",
           "* TOTAL COST OF THE LABORATORY: 15,17,692.75"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/jack_lab.jpg"
+
       },
       {
         "topic": "SCHOTTKY POWER ELECTRONICS AND DRIVES LABORATORY",
@@ -324,14 +328,18 @@
           "- Power electronic converters",
           "- DSP and FPGA-based DC and AC Drives",
           "- Special Drives with Digital Integrated power modulators"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/scottky_lab.jpg"
+
       },
       {
         "topic": "Heinrich Rudolf Hertz Digital Signal Processing Laboratory",
         "detail": [
           "Digital Signal Processing Laboratory helps to gain knowledge on the DSP processors by implementing real-time applications using FIR and IIR filters.",
           "Equipped with 36 systems, advanced DSP kits like TMS320C5X series & associated software like MATLAB to perform digital signal processing and its applications."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/heinrich_lab.jpg"
+
       },
       {
         "topic": "William Shockley Devices and Circuits Laboratory",
@@ -347,7 +355,9 @@
           "- Mini-projects involving BJTs, FETs, amplifiers, oscillators, timers, and digital devices.",
           "* Simulation Software:",
           "- Integration of SPICE software for circuit modeling before physical implementation."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/william_lab.jpg"
+
       },
       {
         "topic": "Shiva Ayyadurai Modeling and Simulation Laboratory",
@@ -357,7 +367,9 @@
           "- MATLAB for mathematical modeling and simulation in electrical engineering.",
           "- Mi Power and Au Power software for power system analysis and design.",
           "- Xilinx Vivado software and FPGA processors (Basys 3, Zynq, and Pynq boards) for digital system design and real-time simulation."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/shiva_lab.jpg"
+
       },
       {
         "topic": "Thomas Alva Edison Power System Laboratory",
@@ -367,7 +379,9 @@
           "- 100 KV Transformer Oil Breakdown Test Kit for testing breakdown voltage of various oils.",
           "- Scaled-down model of a transmission line (300KM, 400V, 5 KVA per phase) for performance analysis.",
           "- Relays including Differential relay, Overcurrent relay, Overvoltage relay, and Negative sequence relay for testing relay characteristics."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/thomas_lab.jpg"
+
       },
       {
         "topic": "G D Naidu Research Laboratory",
@@ -386,7 +400,9 @@
           "- TEKTRONIX-KEITHLEY 2380 - Programmable DC Electronic Load",
           "- Current Probe - AC/DC Current Sensor BNC Type",
           "- No of computers: 10"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/naidu_lab.jpg"
+
       },
       {
         "topic": "Schneider Smart Electrical Laboratory",
@@ -400,7 +416,9 @@
           "- Carry out commissioning and maintenance operations on LV switchboards.",
           "- Configure parameters for communication networks and install PLCs.",
           "- Operation and maintenance on LV Panels."
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Eee/schneider_lab.jpg"
+
       }
     ],
     

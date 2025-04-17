@@ -185,7 +185,7 @@ const Chemistry = () => {
                        {selectedLab !== null && (
                          <div className="lab-detail">
                            <h3>{autoData.labs[selectedLab].topic}</h3>
-                           {/* <img src={autoData.labs[selectedLab].image} alt={autoData.labs[selectedLab].topic} /> */}
+                           <img src={autoData.labs[selectedLab].image} alt={autoData.labs[selectedLab].topic} />
                            {autoData.labs[selectedLab].detail.map((item, index) => {
                              if (item.startsWith("* ")) {
                                return <h2 key={index}>{item.substring(2)}</h2>;

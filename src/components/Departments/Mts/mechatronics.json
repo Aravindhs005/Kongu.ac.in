@@ -186,7 +186,9 @@
           "- Fanuc CNC system Package –NC guide",
           "- Fanuc CNC system Package –MT link",
           "No of computers: 38"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/coe_robotics_lab.jpg"
+
       },      
       {
         "topic": "PATRICK J. HANRETTY CAM CENTRE",
@@ -207,7 +209,9 @@
           "- Mastercam X5 and X9 (Add on Multi-Axis)",
           "- Mastercam X9",
           "No of computers: 40"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/patrick_lab.jpg"
+
       },
       {
         "topic": "THOMAS ALVA EDISON INDUSTRIAL AUTOMATION CONTROLLER LABORATORY",
@@ -229,7 +233,8 @@
           "- TWIN CAT 3.0",
           "- SIEMENS Softwares: TIA PORTAL V15, TIA PORTAL V16",
           "No of computers: 40"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/thomasAlva_lab.jpg"
       },
       {
         "topic": "KAREL CHEPAK CNC LABORATORY",
@@ -243,7 +248,9 @@
           "- HMT - T70 CNC Trainmaster Lathe",
           "- HMT - VMC 200 CNC Trainmaster Machine Center",
           "- System with Mastercam software - 2 nos for interfacing with CNC machines"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/karel_lab.jpg"
+
       },
       {
         "topic": "ROBERT E NEWNHAM SENSORS AND INTERNET OF THINGS LABORATORY",
@@ -261,7 +268,9 @@
           "- M2M Gateway device (Viola, Finland)",
           "- TREK 668 Embedded IoT computer (Sponsored by Advantech Co Ltd, India)",
           "No of computers: 3"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/newman_lab.jpg"
+
       },
       {
         "topic": "BLAISE PASCAL FLUID POWER LABORATORY",
@@ -276,7 +285,9 @@
           "- Electro Pneumatic Trainer Kit with Profile Plate – FESTO & JANATICS",
           "- Basic Hydraulic Trainer kit with linear and rotary actuators - MANSCO",
           "No. of Computers: 7"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/blaise_lab.jpg"
+
       },
       {
         "topic": "Jeff Kodosky Virtual Instrumentation Laboratory",
@@ -295,7 +306,9 @@
           "- Crazy file 2.0- Minidrone",
           "- UAV multi-rotor drone kit",
           "- No of computers: 40"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/virtual_lab.jpg"
+
       },
       {
         "topic": "Research Laboratory",
@@ -315,7 +328,9 @@
           "- Air Quality Monitoring Solution",
           "- CNC wire cut EDM machine",
           "- Emotiv EPOCX IN CHANNEL Mobile brain wear"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/research_lab.jpg"
+
       },
       {
         "topic": "Control Engineering Laboratory",
@@ -331,7 +346,9 @@
           "- Magnetic levitation system",
           "- Servo Hydraulic System with Feedback Amplifier",
           "- No. of Computers: 08"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/control_lab.jpg"
+
       },
       {
         "topic": "Electron Devices and Digital Circuits Laboratory",
@@ -349,7 +366,9 @@
           "- PCB Prototype Modeling Machine",
           "- Digital Storage Oscilloscope",
           "- No. of Computers: 02"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/electronDevices_lab.jpg"
+
       },
       {
         "topic": "Project Laboratory",
@@ -370,7 +389,9 @@
           "- Sensors (ultrasonic, IR, etc.)",
           "- Electrical Work Bench with RPS",
           "- Interfacing Facilities"
-        ]
+        ],
+        "image": "/assets/images/Laboratories/Mts/project_lab.jpg"
+
       }
     ],
     

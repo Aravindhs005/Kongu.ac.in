@@ -72,7 +72,7 @@ const Ecosystem = () => {
           <FontAwesomeIcon icon={faDiagramProject} /> &ensp;TBI
         </button>
         <button className="know-more-button" onClick={() => navigate('/hackathons')}>
-          <FontAwesomeIcon icon={faMicrochip} /> &ensp;Hackathons
+          <FontAwesomeIcon icon={faMicrochip} /> &ensp;Events
         </button>
       </div>
 
